@@ -18,6 +18,8 @@ https://superstate.co/<br>
 https://mountainprotocol.com/<br>
 https://ondo.finance/<br>
 https://globaldollar.com/<br>
+https://dinari.com/<br>
+
 
 
 https://backed.fi/<br>
