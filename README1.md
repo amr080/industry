@@ -18,13 +18,15 @@ https://dinari.com/<br>
 https://securitize.io/<br>
 
 
-
+https://www.tradable.xyz/<br>
 https://receiptsdepo.com/<br>
 https://iron.xyz/<br>
 https://www.denode.io/<br>
 https://www.zoniqx.com/<br>
 https://www.0xequity.com/<br>
 https://www.owny.com/<br>
+https://www.maecenas.co/<br>
+https://makersplace.com/<br>
 
 
 https://www.finleycms.com/<br>
@@ -37,7 +39,7 @@ https://www.yieldteq.io/<br>
 https://zerohash.com/<br>
 
 
-
+https://www.heightslabs.com/<br>
 
 ## CIK
 0002004367
