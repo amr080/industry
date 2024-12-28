@@ -1,0 +1,2 @@
+import{b as i,d as s}from"/build/_shared/chunk-5XTMU6GV.js";var u=i((n,t)=>{"use strict";var p=/[A-Z\u00C0-\u00D6\u00D8-\u00DE]/g,f=/-[a-z\u00E0-\u00F6\u00F8-\u00FE]/g;t.exports=n=function(r){return r.replace(p,function(o){return"-"+o.toLowerCase()})};n.reverse=function(e){return e.replace(f,function(r){return r.slice(1).toUpperCase()})}});var a=s(u(),1);function E({seoRef:e}){return`https://app.brale.xyz/signup?ref=${(0,a.default)(e)}`}export{E as a};
+//# sourceMappingURL=/build/_shared/chunk-NV7CEA7H.js.map

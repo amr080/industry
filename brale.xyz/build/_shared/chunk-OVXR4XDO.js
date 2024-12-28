@@ -1,0 +1,2 @@
+function o(n){return r({...n,url:n.urls.envDependent})}function r({desc:n,title:t,url:e}){return[{name:"description",content:n},{property:"og:description",content:n},{property:"og:title",content:t},{property:"og:url",content:e},{title:t},{name:"twitter:description",content:n},{name:"twitter:title",content:t},{tagName:"link",rel:"canonical",href:e}]}export{o as a,r as b};
+//# sourceMappingURL=/build/_shared/chunk-OVXR4XDO.js.map

@@ -1,0 +1,33 @@
+<svg id="eawT7NWxyI01"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1618 850" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <style><![CDATA[
+#eawT7NWxyI02 {animation: eawT7NWxyI02__fl 5000ms linear infinite normal forwards}@keyframes eawT7NWxyI02__fl { 0% {filter: drop-shadow(0px 0px 141.421356px #6938ef);animation-timing-function: cubic-bezier(0.42,0,1,1)} 50% {filter: drop-shadow(0px 0px 353.553391px #6938ef);animation-timing-function: cubic-bezier(0,0,0.58,1)} 100% {filter: drop-shadow(0px 0px 141.421356px #6938ef)}} #eawT7NWxyI010_ts {animation: eawT7NWxyI010_ts__ts 5000ms linear infinite normal forwards}@keyframes eawT7NWxyI010_ts__ts { 0% {transform: translate(714px,724.5px) scale(1,1);animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 12% {transform: translate(714px,724.5px) scale(2.5,2.5)} 12.2% {transform: translate(714px,724.5px) scale(1,1)} 20% {transform: translate(714px,724.5px) scale(1,1);animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 32% {transform: translate(714px,724.5px) scale(2.5,2.5)} 32.2% {transform: translate(714px,724.5px) scale(1,1)} 40% {transform: translate(714px,724.5px) scale(1,1);animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 52% {transform: translate(714px,724.5px) scale(2.5,2.5)} 52.2% {transform: translate(714px,724.5px) scale(1,1)} 60% {transform: translate(714px,724.5px) scale(1,1);animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 72% {transform: translate(714px,724.5px) scale(2.5,2.5)} 72.2% {transform: translate(714px,724.5px) scale(1,1)} 80% {transform: translate(714px,724.5px) scale(1,1);animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 92% {transform: translate(714px,724.5px) scale(2.5,2.5)} 92.2% {transform: translate(714px,724.5px) scale(1,1)} 100% {transform: translate(714px,724.5px) scale(1,1)}} #eawT7NWxyI010 {animation: eawT7NWxyI010_c_o 5000ms linear infinite normal forwards}@keyframes eawT7NWxyI010_c_o { 0% {opacity: 1;animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 12% {opacity: 0} 19.8% {opacity: 0} 20% {opacity: 1;animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 32% {opacity: 0} 39.8% {opacity: 0} 40% {opacity: 1;animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 52% {opacity: 0} 59.8% {opacity: 0} 60% {opacity: 1;animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 72% {opacity: 0} 79.8% {opacity: 0} 80% {opacity: 1;animation-timing-function: cubic-bezier(0.39,0.575,0.565,1)} 92% {opacity: 0} 99.8% {opacity: 0} 100% {opacity: 1}}
+]]>  </style>
+  <defs>
+    <linearGradient id="eawT7NWxyI09-fill" x1="312" y1="-97.778" x2="38.594" y2="238.374" spreadMethod="pad" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+      <stop id="eawT7NWxyI09-fill-0" offset="0%" stop-color="#7a5af8"/>
+      <stop id="eawT7NWxyI09-fill-1" offset="72.3958%" stop-color="rgba(122,90,248,0)"/>
+    </linearGradient>
+    <linearGradient id="eawT7NWxyI013-stroke" x1="311" y1="-58.059" x2="48.153" y2="213.114" spreadMethod="pad" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0)">
+      <stop id="eawT7NWxyI013-stroke-0" offset="0%" stop-color="#7a5af8"/>
+      <stop id="eawT7NWxyI013-stroke-1" offset="100%" stop-color="rgba(122,90,248,0)"/>
+    </linearGradient>
+  </defs>
+  <path id="eawT7NWxyI02" style="filter:drop-shadow(0px 0px 141.421356px #6938ef)" d="M1109,425c0,165.685-134.315,300-300,300s-300-134.315-300-300c0-165.686,134.315-300,300-300s300,134.314,300,300Z" fill="#6938ef"/>
+  <g transform="translate(0-.9545)">
+    <path d="M1109,425c0,165.685-134.315,300-300,300s-300-134.315-300-300s134.315-300,300-300s300,134.315,300,300Z" fill="#6938ef"/>
+    <path d="M809,650v-450c-124.264,0-225,100.736-225,225s100.736,225,225,225Z" fill="#a588f5"/>
+    <path d="M809,200v450c124.264,0,225-100.736,225-225s-100.736-225-225-225Z" fill="#e1d7fc"/>
+    <path d="M921.5,425c0,62.132-50.368,112.5-112.5,112.5s-112.5-50.368-112.5-112.5s50.368-112.5,112.5-112.5s112.5,50.368,112.5,112.5Z" fill="#fff"/>
+  </g>
+  <g>
+    <rect width="312" height="80" rx="40" ry="40" transform="translate(653 684.5)" fill="url(#eawT7NWxyI09-fill)"/>
+    <g id="eawT7NWxyI010_ts" transform="translate(714,724.5) scale(1,1)">
+      <circle id="eawT7NWxyI010" r="13" transform="translate(0,0)" fill="#a18afb"/>
+    </g>
+    <circle r="13" transform="translate(714 724.5)" fill="#7a5af8"/>
+    <path d="M764.659,741.5h-4.432l12.818-34.909h4.364L790.227,741.5h-4.432l-10.431-29.386h-.273L764.659,741.5Zm1.636-13.636h17.864v3.75h-17.864v-3.75Zm29.37,13.636v-34.909h4.227v31.159h16.227v3.75h-20.454Zm27,0v-34.909h11.795c2.739,0,4.978.494,6.716,1.483c1.75.977,3.046,2.301,3.886,3.971.841,1.671,1.262,3.535,1.262,5.591c0,2.057-.421,3.926-1.262,5.608-.829,1.682-2.113,3.023-3.852,4.023-1.738.989-3.966,1.483-6.682,1.483h-8.454v-3.75h8.318c1.875,0,3.381-.324,4.517-.972c1.136-.647,1.96-1.522,2.472-2.625.522-1.113.784-2.369.784-3.767c0-1.397-.262-2.647-.784-3.75-.512-1.102-1.341-1.966-2.489-2.591-1.148-.636-2.67-.954-4.568-.954h-7.432v31.159h-4.227Zm30.469,0v-34.909h4.227v15.545h18.613v-15.545h4.228v34.909h-4.228v-15.614h-18.613v15.614h-4.227Zm36.963,0h-4.432l12.818-34.909h4.364L915.665,741.5h-4.432l-10.432-29.386h-.273L890.097,741.5Zm1.636-13.636h17.864v3.75h-17.864v-3.75Z" fill="#fff"/>
+    <rect width="310" height="78" rx="39" ry="39" transform="translate(654 685.5)" fill="none" stroke="url(#eawT7NWxyI013-stroke)" stroke-width="2"/>
+  </g>
+</svg>

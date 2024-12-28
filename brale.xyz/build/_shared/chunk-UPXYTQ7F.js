@@ -1,0 +1,2 @@
+import{a as n,b as o}from"/build/_shared/chunk-CFWMKCAW.js";import{c as r}from"/build/_shared/chunk-MFCNT7EO.js";import{d as e}from"/build/_shared/chunk-5XTMU6GV.js";function d(t,l=265){let p=t.trim().split(/\s+/).length;return{text:Math.ceil(p/l)+" min read"}}var i=e(r(),1);function y({dateString:t}){return(0,i.jsx)("time",{dateTime:t,children:n(o(t),"yyyy.MM.dd")})}var a=e(r(),1);function g(){return(0,a.jsx)("div",{className:"rounded-full h-[6px] w-[6px] bg-gray-400 inline-block"})}export{y as a,g as b,d as c};
+//# sourceMappingURL=/build/_shared/chunk-UPXYTQ7F.js.map

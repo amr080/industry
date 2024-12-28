@@ -1,0 +1,388 @@
+<rss xmlns:blogChannel="https://brale.xyz/blog" version="2.0">
+      <channel>
+        <title>Brale Blog</title>
+        <link>https://brale.xyz/blog</link>
+        <description>Create a stablecoin today and generate revenue for your community. Launch a regulated stablecoin supported by Brale’s ecosystem of on ramps, custodians, and payments.</description>
+        <language>en-us</language>
+        <generator>Brale Bot</generator>
+        <ttl>60</ttl>
+        <item>
+              <title><![CDATA[Costs to send $1,000 on leading blockchains]]></title>
+              <description><![CDATA[Explore updated costs of stablecoin payments in December 2024. Discover how Brale Business Accounts enable affordable payments on leading blockchains.]]></description>
+              <pubDate>2024-12-18</pubDate>
+              <link>https://brale.xyz/blog/costs-to-send-1k-on-leading-blockchains</link>
+              <guid>https://brale.xyz/blog/costs-to-send-1k-on-leading-blockchains</guid>
+            </item>
+<item>
+              <title><![CDATA[Rolling out SBC as an independent entity]]></title>
+              <description><![CDATA[SBC stablecoin is now an independent venture from Brale, offering cross-chain functionality as well as payments focused developer tooling for stablecoins.]]></description>
+              <pubDate>2024-12-10</pubDate>
+              <link>https://brale.xyz/blog/rolling-out-sbc-as-an-independent-entity</link>
+              <guid>https://brale.xyz/blog/rolling-out-sbc-as-an-independent-entity</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Coreum]]></title>
+              <description><![CDATA[Learn how Brale's integration with Coreum streamlines stablecoin issuance using Coreum Smart Tokens.]]></description>
+              <pubDate>2024-11-7</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-coreum</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-coreum</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Hedera]]></title>
+              <description><![CDATA[Brale partners with the HBAR Foundation to bring regulated stablecoin issuance to Hedera, empowering businesses with secure issuance, on and offramps, and cross-chain compatibility.]]></description>
+              <pubDate>2024-10-29</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-hedera</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-hedera</guid>
+            </item>
+<item>
+              <title><![CDATA[Launching stablecoins on Alchemy Rollups]]></title>
+              <description><![CDATA[Launch native stablecoins on Alchemy Rollups with Brale. Monetize deposits, enable $0 fee onramps, and create custom digital dollars in under a week.]]></description>
+              <pubDate>2024-10-24</pubDate>
+              <link>https://brale.xyz/blog/launching-stablecoins-on-alchemy-rollups</link>
+              <guid>https://brale.xyz/blog/launching-stablecoins-on-alchemy-rollups</guid>
+            </item>
+<item>
+              <title><![CDATA[October conferences for Brale]]></title>
+              <description><![CDATA[Join Brale at key October conferences to explore stablecoins. Meet our team, attend sessions, and learn how to integrate stablecoins into your product or ecosystem.]]></description>
+              <pubDate>2024-10-8</pubDate>
+              <link>https://brale.xyz/blog/october-conferences-for-brale</link>
+              <guid>https://brale.xyz/blog/october-conferences-for-brale</guid>
+            </item>
+<item>
+              <title><![CDATA[Stablecoin token standards on leading blockchains]]></title>
+              <description><![CDATA[Brale enables projects to issue stablecoins on 12+ blockchains. Learn more about stablecoin token standards on Ethereum, Solana, and emerging blockchains.]]></description>
+              <pubDate>2024-08-20</pubDate>
+              <link>https://brale.xyz/blog/stablecoin-token-standards-on-leading-blockchains</link>
+              <guid>https://brale.xyz/blog/stablecoin-token-standards-on-leading-blockchains</guid>
+            </item>
+<item>
+              <title><![CDATA[Stablecoin micropayments: when $1 is still $1]]></title>
+              <description><![CDATA[Stablecoins are solving micropayments with up to 97% cost savings over traditional payments. Learn more about supporting micropayments with Brale Business accounts]]></description>
+              <pubDate>2024-08-8</pubDate>
+              <link>https://brale.xyz/blog/stablecoin-micropayments</link>
+              <guid>https://brale.xyz/blog/stablecoin-micropayments</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for USDC on Base, Arbitrum, and Celo]]></title>
+              <description><![CDATA[Brale Business accounts support onramping, offramping, and swapping native USDC on Base, Arbitrum, and Celo. Learn more about Brale Business accounts.]]></description>
+              <pubDate>2024-08-1</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-usdc-on-base-arbitrum-celo</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-usdc-on-base-arbitrum-celo</guid>
+            </item>
+<item>
+              <title><![CDATA[Introducing Brale Business Accounts]]></title>
+              <description><![CDATA[Brale gives businesses access to popular stablecoins through a unified platform. Onramp, offramp, and swap stablecoins without any fees.]]></description>
+              <pubDate>2024-07-25</pubDate>
+              <link>https://brale.xyz/blog/introducing-brale-business-accounts</link>
+              <guid>https://brale.xyz/blog/introducing-brale-business-accounts</guid>
+            </item>
+<item>
+              <title><![CDATA[Costs to send $1M on leading blockchains]]></title>
+              <description><![CDATA[Stablecoin payments on leading blockchains are now 10X to 1000X cheaper than traditional payment methods. Learn how to support stablecoin payments by creating your own stablecoin.]]></description>
+              <pubDate>2024-07-18</pubDate>
+              <link>https://brale.xyz/blog/costs-to-send-1m-on-leading-blockchains</link>
+              <guid>https://brale.xyz/blog/costs-to-send-1m-on-leading-blockchains</guid>
+            </item>
+<item>
+              <title><![CDATA[Our Q3 hiring cohort]]></title>
+              <description><![CDATA[Learn more about our Q3 hiring cohort. Apply to join the Brale team.]]></description>
+              <pubDate>2024-07-8</pubDate>
+              <link>https://brale.xyz/blog/our-q3-hiring-cohort</link>
+              <guid>https://brale.xyz/blog/our-q3-hiring-cohort</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Canton Network]]></title>
+              <description><![CDATA[Brale supports native, regulated stablecoins on Canton Network. Stablecoin issuance on Canton support payments, interoperability, and regulated financial transactions.]]></description>
+              <pubDate>2024-07-1</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-canton-network</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-canton-network</guid>
+            </item>
+<item>
+              <title><![CDATA[Mint and redeem stablecoins with ACH via Plaid]]></title>
+              <description><![CDATA[Mint and redeem stablecoins with ACH without any fees. Link your bank account with Plaid to get started.]]></description>
+              <pubDate>2024-06-6</pubDate>
+              <link>https://brale.xyz/blog/mint-and-redeem-stablecoins-with-ach-via-plaid</link>
+              <guid>https://brale.xyz/blog/mint-and-redeem-stablecoins-with-ach-via-plaid</guid>
+            </item>
+<item>
+              <title><![CDATA[Introducing MXNe]]></title>
+              <description><![CDATA[Real MXN (MXNe) is a stablecoin issued by Brale to support on-chain payments, remittances, and payroll in the local Mexican economy.]]></description>
+              <pubDate>2024-05-22</pubDate>
+              <link>https://brale.xyz/blog/introducing-mxne</link>
+              <guid>https://brale.xyz/blog/introducing-mxne</guid>
+            </item>
+<item>
+              <title><![CDATA[Introducing Classic USD (USC)]]></title>
+              <description><![CDATA[Classic USD is the first native fiat-backed stablecoin on Ethereum Classic. Learn more about USC's role in supporting DeFi and global payments on Ethereum Classic.]]></description>
+              <pubDate>2024-05-9</pubDate>
+              <link>https://brale.xyz/blog/introducing-classic-usd</link>
+              <guid>https://brale.xyz/blog/introducing-classic-usd</guid>
+            </item>
+<item>
+              <title><![CDATA[Demystifying onramps and offramps]]></title>
+              <description><![CDATA[Learn more about stablecoin onramps and common strategies to support onramps for new stablecoins.]]></description>
+              <pubDate>2024-05-2</pubDate>
+              <link>https://brale.xyz/blog/demystifying-onramps-and-offramps</link>
+              <guid>https://brale.xyz/blog/demystifying-onramps-and-offramps</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for USDP]]></title>
+              <description><![CDATA[Brale has added support for the Pax Dollar (USDP) stablecoin. Swap Brale-issued stablecoins with USDP at par.]]></description>
+              <pubDate>2024-04-24</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-usdp</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-usdp</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Ethereum Classic]]></title>
+              <description><![CDATA[Create a native stablecoin on Ethereum Classic to power DeFI, payments, lending, and other applications.]]></description>
+              <pubDate>2024-04-16</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-ethereum-classic</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-ethereum-classic</guid>
+            </item>
+<item>
+              <title><![CDATA[The stablecoin on-ramp]]></title>
+              <description><![CDATA[The stablecoin on-ramp allows users to acquire stablecoins with no fees mirroring leading fintech applications.]]></description>
+              <pubDate>2024-04-3</pubDate>
+              <link>https://brale.xyz/blog/the-stablecoin-on-ramp</link>
+              <guid>https://brale.xyz/blog/the-stablecoin-on-ramp</guid>
+            </item>
+<item>
+              <title><![CDATA[How to launch a stablecoin]]></title>
+              <description><![CDATA[Learn about best practices for liquidity, on and off-ramps, and token registries when launching a new stablecoin.]]></description>
+              <pubDate>2024-03-7</pubDate>
+              <link>https://brale.xyz/blog/how-to-launch-a-stablecoin</link>
+              <guid>https://brale.xyz/blog/how-to-launch-a-stablecoin</guid>
+            </item>
+<item>
+              <title><![CDATA[USDGLO and SBC are now supported at BitGo]]></title>
+              <description><![CDATA[Glo Dollar and Stable Coin are now supported by BitGo Custody and available for settlement on the Go Network.]]></description>
+              <pubDate>2024-02-29</pubDate>
+              <link>https://brale.xyz/blog/bitgo-stablecoin-support</link>
+              <guid>https://brale.xyz/blog/bitgo-stablecoin-support</guid>
+            </item>
+<item>
+              <title><![CDATA[Stablecoin Issuance CLI]]></title>
+              <description><![CDATA[Use the Stablecoin Issuance CLI to streamline common actions in the Stablecoin Issuance API directly from the command line.]]></description>
+              <pubDate>2024-02-7</pubDate>
+              <link>https://brale.xyz/blog/stablecoin-issuance-cli</link>
+              <guid>https://brale.xyz/blog/stablecoin-issuance-cli</guid>
+            </item>
+<item>
+              <title><![CDATA[Send stablecoins by email]]></title>
+              <description><![CDATA[Brale makes it easy to send stablecoin payments to your users through an email link. Learn how to send stablecoins to educate and engage your community.]]></description>
+              <pubDate>2024-01-31</pubDate>
+              <link>https://brale.xyz/blog/send-stablecoins-by-email</link>
+              <guid>https://brale.xyz/blog/send-stablecoins-by-email</guid>
+            </item>
+<item>
+              <title><![CDATA[Getting started with the Stablecoin Issuance API]]></title>
+              <description><![CDATA[Demo of issuing a USDGLO stablecoin on Stellar using the Brale stablecoin issuance API. Onramp, offramp, mint, and redeem custom stablecoins programmatically.]]></description>
+              <pubDate>2024-01-24</pubDate>
+              <link>https://brale.xyz/blog/stablecoin-issuance-api</link>
+              <guid>https://brale.xyz/blog/stablecoin-issuance-api</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Arbitrum]]></title>
+              <description><![CDATA[Create regulated stablecoins on Arbitrum to power payments, gaming, rewards programs, and other applications."]]></description>
+              <pubDate>2024-01-17</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-arbitrum</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-arbitrum</guid>
+            </item>
+<item>
+              <title><![CDATA[Costs to transfer $1M on-chain]]></title>
+              <description><![CDATA[Brale compares the cost to complete a $1M stablecoin payment on different blockchains.]]></description>
+              <pubDate>2024-01-9</pubDate>
+              <link>https://brale.xyz/blog/costs-to-transfer-1m-on-chain</link>
+              <guid>https://brale.xyz/blog/costs-to-transfer-1m-on-chain</guid>
+            </item>
+<item>
+              <title><![CDATA[Coinflow realtime stablecoin payouts]]></title>
+              <description><![CDATA[Coinflow makes it easy to support payouts for branded stablecoin programs. Learn how to enable real-time offramps for your stablecoin via ACH, Push-to-Card, or RTP.]]></description>
+              <pubDate>2023-12-20</pubDate>
+              <link>https://brale.xyz/blog/coinflow-realtime-stablecoin-payouts</link>
+              <guid>https://brale.xyz/blog/coinflow-realtime-stablecoin-payouts</guid>
+            </item>
+<item>
+              <title><![CDATA[Stablecoin attestations]]></title>
+              <description><![CDATA[Brale now publishes monthly Stablecoin attestations issued by Abdo, an independent accounting firm. View stablecoin reserves reports on our website.]]></description>
+              <pubDate>2023-12-5</pubDate>
+              <link>https://brale.xyz/blog/attestations</link>
+              <guid>https://brale.xyz/blog/attestations</guid>
+            </item>
+<item>
+              <title><![CDATA[Introducing Stablecoin Issuance API]]></title>
+              <description><![CDATA[Brale's Stablecoin Issuance API allows businesses to programmatically mint and redeem stablecoins to support bill pay, payouts, and many integrations. Sign up and follow the API docs to start testing.]]></description>
+              <pubDate>2023-11-29</pubDate>
+              <link>https://brale.xyz/blog/introducing-stablecoin-issuance-api</link>
+              <guid>https://brale.xyz/blog/introducing-stablecoin-issuance-api</guid>
+            </item>
+<item>
+              <title><![CDATA[MPCVault]]></title>
+              <description><![CDATA[MPCVault is a shared stablecoin wallet for teams. Custody stablecoins and other assets by signing up.]]></description>
+              <pubDate>2023-11-15</pubDate>
+              <link>https://brale.xyz/blog/mpc-stablecoin-vault</link>
+              <guid>https://brale.xyz/blog/mpc-stablecoin-vault</guid>
+            </item>
+<item>
+              <title><![CDATA[Rain Cards]]></title>
+              <description><![CDATA[Rain makes it easy to spend stablecoins anywhere Visa is accepted. Learn how to use SBC for everyday payments with Rain.]]></description>
+              <pubDate>2023-11-7</pubDate>
+              <link>https://brale.xyz/blog/rain-cards</link>
+              <guid>https://brale.xyz/blog/rain-cards</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Solana]]></title>
+              <description><![CDATA[Create regulated stablecoins on Solana to power payments, FX, rewards programs, and other applications.]]></description>
+              <pubDate>2023-10-30</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-solana</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-solana</guid>
+            </item>
+<item>
+              <title><![CDATA[Citizen Wallet]]></title>
+              <description><![CDATA[Use SBC on Citizen Wallet. Citizen Wallet makes it easy for communities to adopt stablecoins without the complexity of gas fees.]]></description>
+              <pubDate>2023-10-24</pubDate>
+              <link>https://brale.xyz/blog/citizen-wallet</link>
+              <guid>https://brale.xyz/blog/citizen-wallet</guid>
+            </item>
+<item>
+              <title><![CDATA[Brale Ecosystem]]></title>
+              <description><![CDATA[Brale supports a growing ecosystem of blockchains, wallets, exchanges, and payments providers to help new stablecoins be successful.]]></description>
+              <pubDate>2023-10-17</pubDate>
+              <link>https://brale.xyz/blog/brale-ecosystem</link>
+              <guid>https://brale.xyz/blog/brale-ecosystem</guid>
+            </item>
+<item>
+              <title><![CDATA[Treasury Beta]]></title>
+              <description><![CDATA[Brale Treasury - create regulated stablecoins to benefit your business.]]></description>
+              <pubDate>2023-10-5</pubDate>
+              <link>https://brale.xyz/blog/treasury-beta</link>
+              <guid>https://brale.xyz/blog/treasury-beta</guid>
+            </item>
+<item>
+              <title><![CDATA[Blockchain speed and cost comparisons]]></title>
+              <description><![CDATA[Brale's framework compares leading blockchains in transaction speed and fees for stablecoin payments.]]></description>
+              <pubDate>2023-09-27</pubDate>
+              <link>https://brale.xyz/blog/blockchain-speed-cost-comparisons</link>
+              <guid>https://brale.xyz/blog/blockchain-speed-cost-comparisons</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Optimism]]></title>
+              <description><![CDATA[Create stablecoins and digital assets on Optimism in minutes]]></description>
+              <pubDate>2023-09-20</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-optimism</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-optimism</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Base]]></title>
+              <description><![CDATA[Create stablecoins and digital assets on Base in minutes]]></description>
+              <pubDate>2023-09-7</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-base</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-base</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Stellar]]></title>
+              <description><![CDATA[Create stablecoins and digital assets on Stellar in minutes]]></description>
+              <pubDate>2023-08-28</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-stellar</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-stellar</guid>
+            </item>
+<item>
+              <title><![CDATA[Our approach to attestations]]></title>
+              <description><![CDATA[Brale publishes monthly attestations of bespoke stablecoin reserves based on daily reporting following fintech best practices.]]></description>
+              <pubDate>2023-08-9</pubDate>
+              <link>https://brale.xyz/blog/our-approach-to-attestations</link>
+              <guid>https://brale.xyz/blog/our-approach-to-attestations</guid>
+            </item>
+<item>
+              <title><![CDATA[Introducing Treasury]]></title>
+              <description><![CDATA[Create stablecoins backed by Brale's treasury infrastructure. Automate reporting, treasury management, and attestations behind your stablecoin.]]></description>
+              <pubDate>2023-07-26</pubDate>
+              <link>https://brale.xyz/blog/introducing-treasury</link>
+              <guid>https://brale.xyz/blog/introducing-treasury</guid>
+            </item>
+<item>
+              <title><![CDATA[Announcing support for Celo]]></title>
+              <description><![CDATA[Create stablecoins and digital assets on Celo in minutes.]]></description>
+              <pubDate>2023-07-19</pubDate>
+              <link>https://brale.xyz/blog/announcing-support-for-celo</link>
+              <guid>https://brale.xyz/blog/announcing-support-for-celo</guid>
+            </item>
+<item>
+              <title><![CDATA[Tools for testing bespoke stablecoins or digital assets]]></title>
+              <description><![CDATA[Brale helps you create bespoke digital assets compatible with self-custody wallets and custodians]]></description>
+              <pubDate>2023-07-13</pubDate>
+              <link>https://brale.xyz/blog/tools-for-testing-bespoke-stablecoins-or-digital-assets</link>
+              <guid>https://brale.xyz/blog/tools-for-testing-bespoke-stablecoins-or-digital-assets</guid>
+            </item>
+<item>
+              <title><![CDATA[Base Beta]]></title>
+              <description><![CDATA[Base - enabling businesses to create bespoke digital assets in under an hour.]]></description>
+              <pubDate>2023-06-28</pubDate>
+              <link>https://brale.xyz/blog/base-beta</link>
+              <guid>https://brale.xyz/blog/base-beta</guid>
+            </item>
+<item>
+              <title><![CDATA[Brale Stable Coin (SBC) white paper]]></title>
+              <description><![CDATA[SBC (Stable Coin) is a fiat-backed stablecoin issued by Brale Inc.]]></description>
+              <pubDate>2023-05-4</pubDate>
+              <link>https://brale.xyz/blog/stable-coin-sbc-white-paper</link>
+              <guid>https://brale.xyz/blog/stable-coin-sbc-white-paper</guid>
+            </item>
+<item>
+              <title><![CDATA[Introducing Stable Coin (SBC)]]></title>
+              <description><![CDATA[Introducing Stable Coin (SBC) | Brale's fiat-backed digital dollar stablecoin. Following best-in-class practices in custody, transferability, and regulatory oversight.]]></description>
+              <pubDate>2023-03-8</pubDate>
+              <link>https://brale.xyz/blog/introducing-stable-coin-sbc</link>
+              <guid>https://brale.xyz/blog/introducing-stable-coin-sbc</guid>
+            </item>
+<item>
+              <title><![CDATA[New capital]]></title>
+              <description><![CDATA[Brale has raised $11.1M in new capital, led by Scott Sandell at NEA.]]></description>
+              <pubDate>2023-02-22</pubDate>
+              <link>https://brale.xyz/blog/brale-fundraising</link>
+              <guid>https://brale.xyz/blog/brale-fundraising</guid>
+            </item>
+<item>
+              <title><![CDATA[Understanding private blockchains]]></title>
+              <description><![CDATA[Private blockchains enable institutions to deploy assets on-chain in a private environment.]]></description>
+              <pubDate>2023-01-25</pubDate>
+              <link>https://brale.xyz/blog/understanding-private-blockchains</link>
+              <guid>https://brale.xyz/blog/understanding-private-blockchains</guid>
+            </item>
+<item>
+              <title><![CDATA[Abstracting blockchain gas fees]]></title>
+              <description><![CDATA[Brale enables institutions to manage assets on-chain without managing complexity of gas fees]]></description>
+              <pubDate>2023-01-12</pubDate>
+              <link>https://brale.xyz/blog/abstracting-blockchain-gas-fees</link>
+              <guid>https://brale.xyz/blog/abstracting-blockchain-gas-fees</guid>
+            </item>
+<item>
+              <title><![CDATA[Brale Base]]></title>
+              <description><![CDATA[Base - enabling institutions to create stablecoins without engineering effort backed by your treasury.]]></description>
+              <pubDate>2022-11-16</pubDate>
+              <link>https://brale.xyz/blog/brale-base</link>
+              <guid>https://brale.xyz/blog/brale-base</guid>
+            </item>
+<item>
+              <title><![CDATA[Blockchain comparisons in a payments context]]></title>
+              <description><![CDATA[Brale's framework compares blockchains for payment use cases. Blockchain comparisons show speed and cost relative to ACH and traditional systems.]]></description>
+              <pubDate>2022-10-26</pubDate>
+              <link>https://brale.xyz/blog/blockchain-speed-and-cost-comparisons</link>
+              <guid>https://brale.xyz/blog/blockchain-speed-and-cost-comparisons</guid>
+            </item>
+<item>
+              <title><![CDATA[Context]]></title>
+              <description><![CDATA[Brale believes there is a tremendous opportunity to bring the remaining 99% of capital on-chain.]]></description>
+              <pubDate>2022-10-12</pubDate>
+              <link>https://brale.xyz/blog/context</link>
+              <guid>https://brale.xyz/blog/context</guid>
+            </item>
+<item>
+              <title><![CDATA[We are Brale]]></title>
+              <description><![CDATA[Brale brings the best of centralized and decentralized technology together.]]></description>
+              <pubDate>2022-09-30</pubDate>
+              <link>https://brale.xyz/blog/we-are-brale</link>
+              <guid>https://brale.xyz/blog/we-are-brale</guid>
+            </item>
+      </channel>
+    </rss>
