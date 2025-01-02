@@ -25,7 +25,7 @@ https://www.0xequity.com/<br>
 https://anotherblock.com/<br>
 
 
-
+www.rosneft.ru
 
 
 
