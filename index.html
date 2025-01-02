@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XFT-INDUSTRY :: SCANNER</title>
+    <style>
+        :root {
+            --neon-green: #0f0;
+            --dark-bg: #000;
+            --cyber-blue: #00ffff;
+        }
+
+        body {
+            background: var(--dark-bg);
+            color: var(--neon-green);
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            border: 1px solid var(--neon-green);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .directory-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .directory-item {
+            background: rgba(0, 20, 0, 0.8);
+            margin: 8px 0;
+            padding: 15px;
+            border: 1px solid var(--neon-green);
+            cursor: pointer;
+        }
+
+        .directory-item:hover {
+            background: rgba(0, 40, 0, 0.9);
+            border-color: var(--cyber-blue);
+        }
+
+        #status-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 20, 0, 0.9);
+            padding: 5px;
+            border-top: 1px solid var(--neon-green);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>XFT Industry Scanner</h1>
+        </div>
+        <div id="breadcrumb-nav"></div>
+        <ul class="directory-list" id="directory-list"></ul>
+    </div>
+    <div id="status-bar"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const directoryList = document.getElementById('directory-list');
+            const statusBar = document.getElementById('status-bar');
+            
+            // Using fetch to get directory listing
+            async function scanDirectory() {
+                try {
+                    const response = await fetch('.');
+                    const text = await response.text();
+                    
+                    // Parse directory listing from response
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(text, 'text/html');
+                    const links = Array.from(doc.getElementsByTagName('a'));
+                    
+                    // Filter for directories
+                    const directories = links
+                        .map(link => link.getAttribute('href'))
+                        .filter(href => href.endsWith('/'))
+                        .map(href => href.slice(0, -1));
+                    
+                    displayDirectories(directories);
+                    updateStatus('Directory scan complete');
+                } catch (e) {
+                    updateStatus('Error scanning directory');
+                    console.error(e);
+                }
+            }
+
+            function displayDirectories(dirs) {
+                directoryList.innerHTML = '';
+                dirs.forEach(dir => {
+                    const li = document.createElement('li');
+                    li.className = 'directory-item';
+                    li.textContent = dir;
+                    li.onclick = () => navigateToDirectory(dir);
+                    directoryList.appendChild(li);
+                });
+            }
+
+            function navigateToDirectory(dir) {
+                window.location.href = `./${dir}`;
+            }
+
+            function updateStatus(message) {
+                statusBar.innerHTML = `[SYSTEM]: ${message} | ${new Date().toLocaleTimeString()}`;
+            }
+
+            // Initial scan
+            scanDirectory();
+            
+            // Update status bar periodically
+            setInterval(() => {
+                updateStatus('System active');
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
