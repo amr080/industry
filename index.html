@@ -25,6 +25,9 @@
             background: rgba(0, 40, 0, 0.9);
             border-color: #00ffff;
         }
+        .nested {
+            margin-left: 20px;
+        }
         h1 {
             border-bottom: 1px solid #00ff00;
             padding-bottom: 10px;
@@ -36,18 +39,43 @@
     <div id="directory-list"></div>
 
     <script>
-        fetch('directory-list.json')
-            .then(response => response.json())
-            .then(directories => {
-                const directoryList = document.getElementById('directory-list');
-                directories.forEach(dir => {
-                    const link = document.createElement('a');
-                    link.href = dir;
-                    link.className = 'directory-link';
-                    link.textContent = dir;
-                    directoryList.appendChild(link);
-                });
+        async function loadDirectories() {
+            try {
+                // Use flat list for initial view
+                const response = await fetch('directory-flat.json');
+                if (!response.ok) throw new Error('Failed to load directory list');
+                
+                const directories = await response.json();
+                renderDirectories(directories);
+            } catch (error) {
+                showError(error);
+            }
+        }
+
+        function renderDirectories(directories) {
+            const directoryList = document.getElementById('directory-list');
+            directories.forEach(dir => {
+                const link = document.createElement('a');
+                link.href = dir;
+                link.className = 'directory-link';
+                link.textContent = dir;
+                directoryList.appendChild(link);
             });
+        }
+
+        function showError(error) {
+            const directoryList = document.getElementById('directory-list');
+            const errorDiv = document.createElement('div');
+            errorDiv.style.color = '#ff0000';
+            errorDiv.style.padding = '10px';
+            errorDiv.style.border = '1px solid #ff0000';
+            errorDiv.textContent = 'Error loading directory list. Please refresh.';
+            directoryList.appendChild(errorDiv);
+            console.error('Error:', error);
+        }
+
+        // Load directories when page loads
+        loadDirectories();
     </script>
 </body>
 </html>

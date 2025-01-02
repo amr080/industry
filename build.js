@@ -1,35 +1,47 @@
 const fs = require('fs');
 const path = require('path');
 
-// Get all directories in the current folder
-function getDirectories() {
-    return fs.readdirSync('.')
-        .filter(file => {
-            try {
-                return fs.statSync(file).isDirectory() &&
-                    !file.startsWith('.') && // Exclude hidden directories
-                    !['node_modules'].includes(file); // Exclude specific directories
-            } catch (err) {
-                return false;
-            }
-        })
-        .map(dir => `/${dir}/`);
+function scanDirectory(dir, basePath = '') {
+    let structure = [];
+    
+    const items = fs.readdirSync(dir);
+    
+    items.forEach(item => {
+        const fullPath = path.join(dir, item);
+        const relativePath = path.join(basePath, item);
+        
+        if (fs.statSync(fullPath).isDirectory() && 
+            !item.startsWith('.') && 
+            !['node_modules'].includes(item)) {
+            
+            // Add directory
+            structure.push({
+                path: '/' + relativePath.replace(/\\/g, '/') + '/',
+                type: 'directory',
+                children: scanDirectory(fullPath, relativePath)
+            });
+        }
+    });
+    
+    return structure;
 }
 
-// Write directories to JSON file
-function writeDirectoryList(directories) {
-    const jsonContent = JSON.stringify(directories, null, 2);
-    fs.writeFileSync('directory-list.json', jsonContent);
-    console.log('Directory list updated:', directories);
+function writeOutput(structure) {
+    // Write full structure
+    fs.writeFileSync('directory-list.json', JSON.stringify(structure, null, 2));
+    
+    // Write flattened version for top-level navigation
+    const flatList = structure.map(item => item.path);
+    fs.writeFileSync('directory-flat.json', JSON.stringify(flatList, null, 2));
+    
+    console.log('Directory structure updated');
 }
 
-// Main build process
 function build() {
     console.log('Starting build process...');
-    const directories = getDirectories();
-    writeDirectoryList(directories);
+    const structure = scanDirectory('.');
+    writeOutput(structure);
     console.log('Build completed successfully!');
 }
 
-// Run build
 build();
