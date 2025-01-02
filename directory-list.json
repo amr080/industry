@@ -1,13 +1,1432 @@
 [
-  "/agora.finance/",
-  "/apidocs.bridge.xyz/",
-  "/bastion/",
-  "/brale.xyz/",
-  "/bvnk/",
-  "/fern/",
-  "/frec/",
-  "/globalsettlement.com/",
-  "/noble/",
-  "/offramps.utopialabs.com/",
-  "/www.denode.io/"
+  {
+    "path": "/agora.finance/",
+    "type": "directory",
+    "children": []
+  },
+  {
+    "path": "/apidocs.bridge.xyz/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/apidocs.bridge.xyz/cdn-cgi/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/apidocs.bridge.xyz/cdn-cgi/images/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/cdn-cgi/l/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/cdn-cgi/scripts/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/apidocs.bridge.xyz/cdn-cgi/scripts/5c5dd728/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/apidocs.bridge.xyz/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
+                    "type": "directory",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/apidocs.bridge.xyz/cdn-cgi/styles/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/apidocs.bridge.xyz/docs/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/apidocs.bridge.xyz/docs/3rd-party-payments-1/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/adding-your-fees/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/authentication/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/available-routes/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/blockchains/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/business-accounts/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/business-entity-types/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/business-formation-documents/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/business-ownership-documents/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/core-api-concepts/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/countries/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/customers/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/customers-1/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/customers-api/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/daos/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/deleting-transfers/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/developer-dashboard/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/developer-fees/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/endorsements/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/event-structure/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/external-accounts/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/fees/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/fetching-transfers/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/fiat-deposits/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/fiat-to-stablecoin-crypto-on-ramp/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/fitat-to-stablecoin-crypto-on-ramp/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/handling-deposit-errors/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/holidays/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/idempotence/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/individuals/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/kyc-links/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/kyc-links-for-existing-customers/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/liquidation-address/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/liquidation-drains/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/off-ramp/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/on-ramp/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/payment-methods/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/precision-and-rounding/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/prefunded-accounts-1/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/products/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/proof-of-address-requirements/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/quick-start/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/receipts/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/rejection-reasons/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/restricted-businesses/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/sandbox/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/sepa-euro-transactions/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/settlement-times/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/stablecoin-issuance/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/stablecoin-to-fiat-crypto-off-ramp/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/stablecoin-to-stablecoin/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/stablecoin-to-stablecoin-transfers/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/static-memos/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/support/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/swift-transactions/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/terms-of-service/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/transaction-costs/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/transfers-1/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/user-faqs/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/virtual-accounts/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/virtual-accounts-faqs/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/webhook-event-signature-verification/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/apidocs.bridge.xyz/docs/webhooks/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/apidocs.bridge.xyz/edit/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/apidocs.bridge.xyz/page/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/apidocs.bridge.xyz/reference/",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/archive/",
+    "type": "directory",
+    "children": []
+  },
+  {
+    "path": "/bastion/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/bastion/_next/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/bastion/_next/static/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/bastion/_next/static/chunks/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/bastion/_next/static/chunks/app/",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "path": "/bastion/_next/static/chunks/app/(full-layout)/",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "path": "/bastion/_next/static/chunks/app/(full-layout)/blog/",
+                            "type": "directory",
+                            "children": [
+                              {
+                                "path": "/bastion/_next/static/chunks/app/(full-layout)/blog/[slug]/",
+                                "type": "directory",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "path": "/bastion/_next/static/chunks/app/(full-layout)/careers/",
+                            "type": "directory",
+                            "children": []
+                          },
+                          {
+                            "path": "/bastion/_next/static/chunks/app/(full-layout)/subscribe/",
+                            "type": "directory",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/bastion/_next/static/chunks/app/schedule-demo/",
+                        "type": "directory",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/bastion/_next/static/css/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/bastion/_next/static/media/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/bastion/assets/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bastion/blog/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bastion/cdn-cgi/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/bastion/cdn-cgi/images/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/bastion/cdn-cgi/l/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/bastion/cdn-cgi/scripts/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/bastion/cdn-cgi/scripts/5c5dd728/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/bastion/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
+                    "type": "directory",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/bastion/cdn-cgi/styles/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/bastion/images/",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/brale.xyz/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/brale.xyz/assets/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/brale.xyz/assets/blog/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/brale.xyz/assets/blog/abstracting-blockchain-gas-fees/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-arbitrum/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-base/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-canton-network/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-celo/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-coreum/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-ethereum-classic/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-hedera/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-optimism/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-solana/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-stellar/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-usdc-on-base-arbitrum-celo/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/announcing-support-for-usdp/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/attestations/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/authors/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/base-beta/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/bitgo/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/blockchain-speed-and-cost-comparisons/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/blockchain-speed-cost-comparisons/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/brale-base/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/brale-ecosystem/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/citizen-wallet/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/coinflow/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/costs-to-send-1k-on-leading-blockchains/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/costs-to-transfer-1m-on-chain/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/demystifying-onramps-and-offramps/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/how-to-launch-a-stablecoin/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/introducing-brale-business-accounts/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/introducing-classic-usd/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/introducing-mxne/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/introducing-stable-coin-sbc/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/introducing-stablecoin-issuance-api/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/introducing-treasury/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/issuance-api/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/launching-stablecoins-on-alchemy-rollups/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/mint-and-redeem-stablecoins-with-ach-via-plaid/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/mpc-stablecoin-vault/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/october-conferences-for-brale/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/our-approach-to-attestations/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/our-q3-hiring-cohort/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/rain-cards/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/rolling-out-sbc-as-an-independent-entity/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/send-stablecoins-by-email/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/stable-coin-sbc-white-paper/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/stablecoin-issuance-cli/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/stablecoin-micropayments/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/stablecoin-token-standards-on-leading-blockchains/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/the-stablecoin-on-ramp/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/tools-for-testing/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/treasury-beta/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/understanding-private-blockchains/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/blog/we-are-brale/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/brale.xyz/assets/case-studies/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/brale.xyz/assets/case-studies/canton-network/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/case-studies/ethereum-classic/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/case-studies/etherfuse/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/assets/case-studies/glo-dollar/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/brale.xyz/assets/ecosystem/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/assets/photos/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/assets/reports/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/assets/site/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/assets/stablecoins/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/brale.xyz/blog/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/brale.xyz/build/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/brale.xyz/build/_assets/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/build/_shared/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/build/routes/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/brale.xyz/build/routes/blog/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/build/routes/case-studies/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/build/routes/chains/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/build/routes/legal/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/brale.xyz/build/routes/stablecoins/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/brale.xyz/case-studies/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/brale.xyz/cdn-cgi/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/brale.xyz/cdn-cgi/images/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/cdn-cgi/l/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/brale.xyz/cdn-cgi/scripts/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/brale.xyz/cdn-cgi/scripts/5c5dd728/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/brale.xyz/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
+                    "type": "directory",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/brale.xyz/cdn-cgi/styles/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/brale.xyz/data/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/brale.xyz/favicon/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/brale.xyz/legal/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/brale.xyz/scripts/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/brale.xyz/stablecoins/",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/bvnk/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/bvnk/blog/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bvnk/case-studies/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bvnk/guides/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bvnk/on-demand/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bvnk/report/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/bvnk/resources/",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/fern/",
+    "type": "directory",
+    "children": []
+  },
+  {
+    "path": "/frec/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/frec/_next/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/frec/_next/static/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/frec/_next/static/1WNvhoF53FGxWyzKMDpTG/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/frec/_next/static/chunks/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/frec/_next/static/chunks/pages/",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "path": "/frec/_next/static/chunks/pages/resources/",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "path": "/frec/_next/static/chunks/pages/resources/blog/",
+                            "type": "directory",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/frec/_next/static/css/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/frec/app/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/frec/assets/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/frec/fonts/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/frec/fonts/abcWhyte/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/frec/gtm/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/frec/images/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/frec/resources/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/frec/resources/blog/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/frec/webstatic/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/frec/webstatic/fonts/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/frec/webstatic/fonts/abcWhyte/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/frec/webstatic/fonts/abcWhyteSemiMono/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/frec/webstatic/images/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/frec/webstatic/logo/",
+            "type": "directory",
+            "children": []
+          },
+          {
+            "path": "/frec/webstatic/svg/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/globalsettlement.com/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/globalsettlement.com/_next/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/globalsettlement.com/_next/static/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/globalsettlement.com/_next/static/_9lxHosmjDkgcLOGYA1i1/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/globalsettlement.com/_next/static/chunks/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/globalsettlement.com/_next/static/chunks/pages/",
+                    "type": "directory",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/globalsettlement.com/_next/static/css/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/globalsettlement.com/_next/static/media/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/globalsettlement.com/drivingLiquidity/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/globalsettlement.com/members/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/globalsettlement.com/partners/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/globalsettlement.com/solution/",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/noble/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/noble/blog/",
+        "type": "directory",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/offramps.utopialabs.com/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/offramps.utopialabs.com/_next/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/offramps.utopialabs.com/_next/static/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/offramps.utopialabs.com/_next/static/_GfCZtlOIQuSkAqf8V68G/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/offramps.utopialabs.com/_next/static/chunks/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/offramps.utopialabs.com/_next/static/chunks/pages/",
+                    "type": "directory",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/offramps.utopialabs.com/_next/static/css/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/offramps.utopialabs.com/_next/static/media/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/www.denode.io/",
+    "type": "directory",
+    "children": [
+      {
+        "path": "/www.denode.io/_next/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/www.denode.io/_next/static/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/www.denode.io/_next/static/chunks/",
+                "type": "directory",
+                "children": [
+                  {
+                    "path": "/www.denode.io/_next/static/chunks/app/",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "path": "/www.denode.io/_next/static/chunks/app/[lang]/",
+                        "type": "directory",
+                        "children": [
+                          {
+                            "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/",
+                            "type": "directory",
+                            "children": [
+                              {
+                                "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(auth)/",
+                                "type": "directory",
+                                "children": [
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(auth)/login/",
+                                    "type": "directory",
+                                    "children": []
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(auth)/register/",
+                                    "type": "directory",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/",
+                                "type": "directory",
+                                "children": [
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/about-denode/",
+                                    "type": "directory",
+                                    "children": []
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/asset-tokenization-launchpad/",
+                                    "type": "directory",
+                                    "children": []
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/blog/",
+                                    "type": "directory",
+                                    "children": [
+                                      {
+                                        "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/blog/[slug]/",
+                                        "type": "directory",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/faq/",
+                                    "type": "directory",
+                                    "children": [
+                                      {
+                                        "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/faq/[slug]/",
+                                        "type": "directory",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/privacy-policy/",
+                                    "type": "directory",
+                                    "children": []
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/security-policy/",
+                                    "type": "directory",
+                                    "children": []
+                                  },
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/terms-of-service/",
+                                    "type": "directory",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/",
+                            "type": "directory",
+                            "children": [
+                              {
+                                "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/(exchanges)/",
+                                "type": "directory",
+                                "children": [
+                                  {
+                                    "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/(exchanges)/global-stocks/",
+                                    "type": "directory",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/dashboard/",
+                                "type": "directory",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/www.denode.io/_next/static/css/",
+                "type": "directory",
+                "children": []
+              },
+              {
+                "path": "/www.denode.io/_next/static/media/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/www.denode.io/assets/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/www.denode.io/assets/home/",
+            "type": "directory",
+            "children": [
+              {
+                "path": "/www.denode.io/assets/home/about-us/",
+                "type": "directory",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/www.denode.io/blog/",
+        "type": "directory",
+        "children": []
+      },
+      {
+        "path": "/www.denode.io/en/",
+        "type": "directory",
+        "children": [
+          {
+            "path": "/www.denode.io/en/faq/",
+            "type": "directory",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
 ]

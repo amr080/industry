@@ -2,46 +2,56 @@ const fs = require('fs');
 const path = require('path');
 
 function scanDirectory(dir, basePath = '') {
-    let structure = [];
-    
-    const items = fs.readdirSync(dir);
-    
-    items.forEach(item => {
-        const fullPath = path.join(dir, item);
-        const relativePath = path.join(basePath, item);
+    try {
+        const items = fs.readdirSync(dir);
+        const structure = [];
         
-        if (fs.statSync(fullPath).isDirectory() && 
-            !item.startsWith('.') && 
-            !['node_modules'].includes(item)) {
+        for (const item of items) {
+            const fullPath = path.join(dir, item);
+            const relativePath = path.join(basePath, item);
             
-            // Add directory
-            structure.push({
-                path: '/' + relativePath.replace(/\\/g, '/') + '/',
-                type: 'directory',
-                children: scanDirectory(fullPath, relativePath)
-            });
+            if (fs.statSync(fullPath).isDirectory() && 
+                !item.startsWith('.') && 
+                !['node_modules', 'dist'].includes(item)) {
+                
+                structure.push({
+                    path: '/' + relativePath.replace(/\\/g, '/') + '/',
+                    type: 'directory',
+                    name: item,
+                    children: scanDirectory(fullPath, relativePath)
+                });
+            }
         }
-    });
-    
-    return structure;
+        return structure;
+        
+    } catch (error) {
+        console.error(`Error scanning ${dir}:`, error);
+        return [];
+    }
 }
 
 function writeOutput(structure) {
-    // Write full structure
-    fs.writeFileSync('directory-list.json', JSON.stringify(structure, null, 2));
-    
-    // Write flattened version for top-level navigation
-    const flatList = structure.map(item => item.path);
-    fs.writeFileSync('directory-flat.json', JSON.stringify(flatList, null, 2));
-    
-    console.log('Directory structure updated');
+    try {
+        fs.writeFileSync('directory-list.json', JSON.stringify(structure, null, 2));
+        fs.writeFileSync('directory-flat.json', 
+            JSON.stringify(structure.map(item => item.path), null, 2));
+        return true;
+    } catch (error) {
+        console.error('Error writing output:', error);
+        return false;
+    }
 }
 
 function build() {
-    console.log('Starting build process...');
+    console.log('Starting build...');
     const structure = scanDirectory('.');
-    writeOutput(structure);
-    console.log('Build completed successfully!');
+    if (writeOutput(structure)) {
+        console.log('Build successful');
+        process.exit(0);
+    } else {
+        console.log('Build failed');
+        process.exit(1);
+    }
 }
 
 build();
