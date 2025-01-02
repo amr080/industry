@@ -1,0 +1,1 @@
+import{_ as n,o,c as t,r as c}from"./C3C76hVJ.js";const r={},s={class:"inline-code text-zinc-700 relative rounded bg-zinc-100 px-[0.3rem] py-[0.2rem] font-mono"};function _(e,a){return o(),t("code",s,[c(e.$slots,"default",{},void 0,!0)])}const f=n(r,[["render",_],["__scopeId","data-v-8f901971"]]);export{f as default};

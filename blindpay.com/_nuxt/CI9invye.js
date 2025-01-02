@@ -1,0 +1,1 @@
+import{_ as s,o as t,c as o,r as c}from"./C3C76hVJ.js";const r={},n={class:"text-zinc-500"};function a(e,_){return t(),o("li",n,[c(e.$slots,"default")])}const f=s(r,[["render",a]]);export{f as default};

@@ -1,0 +1,1 @@
+import{_ as t,c,r as s,o}from"./C3C76hVJ.js";const r={},n={class:"relative flex min-h-screen flex-col text-zinc-950"};function a(e,l){return o(),c("div",n,[s(e.$slots,"default")])}const f=t(r,[["render",a]]);export{f as default};

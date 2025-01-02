@@ -4153,6 +4153,239 @@
     ]
   },
   {
+    "path": "/blindpay.com/",
+    "type": "directory",
+    "name": "blindpay.com",
+    "children": [
+      {
+        "path": "/blindpay.com/_nuxt/",
+        "type": "directory",
+        "name": "_nuxt",
+        "children": []
+      },
+      {
+        "path": "/blindpay.com/cdn-cgi/",
+        "type": "directory",
+        "name": "cdn-cgi",
+        "children": [
+          {
+            "path": "/blindpay.com/cdn-cgi/images/",
+            "type": "directory",
+            "name": "images",
+            "children": []
+          },
+          {
+            "path": "/blindpay.com/cdn-cgi/l/",
+            "type": "directory",
+            "name": "l",
+            "children": []
+          },
+          {
+            "path": "/blindpay.com/cdn-cgi/scripts/",
+            "type": "directory",
+            "name": "scripts",
+            "children": [
+              {
+                "path": "/blindpay.com/cdn-cgi/scripts/5c5dd728/",
+                "type": "directory",
+                "name": "5c5dd728",
+                "children": [
+                  {
+                    "path": "/blindpay.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
+                    "type": "directory",
+                    "name": "cloudflare-static",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/blindpay.com/cdn-cgi/styles/",
+            "type": "directory",
+            "name": "styles",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/blindpay.com/devex/",
+        "type": "directory",
+        "name": "devex",
+        "children": [
+          {
+            "path": "/blindpay.com/devex/kyc/",
+            "type": "directory",
+            "name": "kyc",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/blindpay.com/docs/",
+        "type": "directory",
+        "name": "docs",
+        "children": [
+          {
+            "path": "/blindpay.com/docs/essentials/",
+            "type": "directory",
+            "name": "essentials",
+            "children": [
+              {
+                "path": "/blindpay.com/docs/essentials/api-keys/",
+                "type": "directory",
+                "name": "api-keys",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/bank-accounts/",
+                "type": "directory",
+                "name": "bank-accounts",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/blockchain-wallets/",
+                "type": "directory",
+                "name": "blockchain-wallets",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/instances/",
+                "type": "directory",
+                "name": "instances",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/payin-quotes/",
+                "type": "directory",
+                "name": "payin-quotes",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/payins/",
+                "type": "directory",
+                "name": "payins",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/payouts/",
+                "type": "directory",
+                "name": "payouts",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/quotes/",
+                "type": "directory",
+                "name": "quotes",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/receivers/",
+                "type": "directory",
+                "name": "receivers",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/essentials/webhooks/",
+                "type": "directory",
+                "name": "webhooks",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/blindpay.com/docs/getting-started/",
+            "type": "directory",
+            "name": "getting-started",
+            "children": [
+              {
+                "path": "/blindpay.com/docs/getting-started/overview/",
+                "type": "directory",
+                "name": "overview",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/getting-started/quick-start/",
+                "type": "directory",
+                "name": "quick-start",
+                "children": []
+              },
+              {
+                "path": "/blindpay.com/docs/getting-started/quick-start-payin/",
+                "type": "directory",
+                "name": "quick-start-payin",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/blindpay.com/documents/",
+        "type": "directory",
+        "name": "documents",
+        "children": [
+          {
+            "path": "/blindpay.com/documents/privacy-policy/",
+            "type": "directory",
+            "name": "privacy-policy",
+            "children": []
+          },
+          {
+            "path": "/blindpay.com/documents/terms-of-service-cashout/",
+            "type": "directory",
+            "name": "terms-of-service-cashout",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/blindpay.com/home/",
+        "type": "directory",
+        "name": "home",
+        "children": []
+      },
+      {
+        "path": "/blindpay.com/knowledge-base/",
+        "type": "directory",
+        "name": "knowledge-base",
+        "children": [
+          {
+            "path": "/blindpay.com/knowledge-base/guides/",
+            "type": "directory",
+            "name": "guides",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/blindpay.com/privacy-policy/",
+        "type": "directory",
+        "name": "privacy-policy",
+        "children": []
+      },
+      {
+        "path": "/blindpay.com/sdks/",
+        "type": "directory",
+        "name": "sdks",
+        "children": [
+          {
+            "path": "/blindpay.com/sdks/next/",
+            "type": "directory",
+            "name": "next",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/blindpay.com/terms-of-service/",
+        "type": "directory",
+        "name": "terms-of-service",
+        "children": []
+      }
+    ]
+  },
+  {
     "path": "/brale.xyz/",
     "type": "directory",
     "name": "brale.xyz",
@@ -5197,6 +5430,563 @@
                 "path": "/offramps.utopialabs.com/_next/static/media/",
                 "type": "directory",
                 "name": "media",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/public.com/",
+    "type": "directory",
+    "name": "public.com",
+    "children": [
+      {
+        "path": "/public.com/bonds/",
+        "type": "directory",
+        "name": "bonds",
+        "children": [
+          {
+            "path": "/public.com/bonds/corporate/",
+            "type": "directory",
+            "name": "corporate",
+            "children": [
+              {
+                "path": "/public.com/bonds/corporate/advanced-micro-devices-inc/",
+                "type": "directory",
+                "name": "advanced-micro-devices-inc",
+                "children": []
+              },
+              {
+                "path": "/public.com/bonds/corporate/alphabet-inc/",
+                "type": "directory",
+                "name": "alphabet-inc",
+                "children": []
+              },
+              {
+                "path": "/public.com/bonds/corporate/amazoncom-inc/",
+                "type": "directory",
+                "name": "amazoncom-inc",
+                "children": []
+              },
+              {
+                "path": "/public.com/bonds/corporate/apple-inc/",
+                "type": "directory",
+                "name": "apple-inc",
+                "children": []
+              },
+              {
+                "path": "/public.com/bonds/corporate/meta-platforms-inc/",
+                "type": "directory",
+                "name": "meta-platforms-inc",
+                "children": []
+              },
+              {
+                "path": "/public.com/bonds/corporate/microsoft-corp/",
+                "type": "directory",
+                "name": "microsoft-corp",
+                "children": []
+              },
+              {
+                "path": "/public.com/bonds/corporate/nvidia-corp/",
+                "type": "directory",
+                "name": "nvidia-corp",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/public.com/disclosures/",
+        "type": "directory",
+        "name": "disclosures",
+        "children": []
+      },
+      {
+        "path": "/public.com/documents/",
+        "type": "directory",
+        "name": "documents",
+        "children": []
+      },
+      {
+        "path": "/public.com/fonts/",
+        "type": "directory",
+        "name": "fonts",
+        "children": []
+      },
+      {
+        "path": "/public.com/glossary/",
+        "type": "directory",
+        "name": "glossary",
+        "children": []
+      },
+      {
+        "path": "/public.com/how-to-buy/",
+        "type": "directory",
+        "name": "how-to-buy",
+        "children": []
+      },
+      {
+        "path": "/public.com/images/",
+        "type": "directory",
+        "name": "images",
+        "children": []
+      },
+      {
+        "path": "/public.com/invest/",
+        "type": "directory",
+        "name": "invest",
+        "children": []
+      },
+      {
+        "path": "/public.com/learn/",
+        "type": "directory",
+        "name": "learn",
+        "children": []
+      },
+      {
+        "path": "/public.com/markets/",
+        "type": "directory",
+        "name": "markets",
+        "children": []
+      },
+      {
+        "path": "/public.com/tools/",
+        "type": "directory",
+        "name": "tools",
+        "children": []
+      },
+      {
+        "path": "/public.com/trade-options/",
+        "type": "directory",
+        "name": "trade-options",
+        "children": [
+          {
+            "path": "/public.com/trade-options/resources/",
+            "type": "directory",
+            "name": "resources",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/public.com/treasuries/",
+        "type": "directory",
+        "name": "treasuries",
+        "children": []
+      },
+      {
+        "path": "/public.com/wp-content/",
+        "type": "directory",
+        "name": "wp-content",
+        "children": [
+          {
+            "path": "/public.com/wp-content/plugins/",
+            "type": "directory",
+            "name": "plugins",
+            "children": [
+              {
+                "path": "/public.com/wp-content/plugins/link-whisper-premium/",
+                "type": "directory",
+                "name": "link-whisper-premium",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/plugins/link-whisper-premium/js/",
+                    "type": "directory",
+                    "name": "js",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/plugins/ninja-tables/",
+                "type": "directory",
+                "name": "ninja-tables",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/plugins/ninja-tables/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/public.com/wp-content/plugins/ninja-tables/assets/css/",
+                        "type": "directory",
+                        "name": "css",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/plugins/stock-charts-by-public-com/",
+                "type": "directory",
+                "name": "stock-charts-by-public-com",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/public.com/wp-content/themes/",
+            "type": "directory",
+            "name": "themes",
+            "children": [
+              {
+                "path": "/public.com/wp-content/themes/public/",
+                "type": "directory",
+                "name": "public",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/themes/public/templates/",
+                    "type": "directory",
+                    "name": "templates",
+                    "children": [
+                      {
+                        "path": "/public.com/wp-content/themes/public/templates/post-type/",
+                        "type": "directory",
+                        "name": "post-type",
+                        "children": [
+                          {
+                            "path": "/public.com/wp-content/themes/public/templates/post-type/page/",
+                            "type": "directory",
+                            "name": "page",
+                            "children": [
+                              {
+                                "path": "/public.com/wp-content/themes/public/templates/post-type/page/homepage-refresh/",
+                                "type": "directory",
+                                "name": "homepage-refresh",
+                                "children": [
+                                  {
+                                    "path": "/public.com/wp-content/themes/public/templates/post-type/page/homepage-refresh/assets/",
+                                    "type": "directory",
+                                    "name": "assets",
+                                    "children": [
+                                      {
+                                        "path": "/public.com/wp-content/themes/public/templates/post-type/page/homepage-refresh/assets/icons/",
+                                        "type": "directory",
+                                        "name": "icons",
+                                        "children": []
+                                      },
+                                      {
+                                        "path": "/public.com/wp-content/themes/public/templates/post-type/page/homepage-refresh/assets/images/",
+                                        "type": "directory",
+                                        "name": "images",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "path": "/public.com/wp-content/themes/public/templates/post-type/page/margin/",
+                                "type": "directory",
+                                "name": "margin",
+                                "children": [
+                                  {
+                                    "path": "/public.com/wp-content/themes/public/templates/post-type/page/margin/assets/",
+                                    "type": "directory",
+                                    "name": "assets",
+                                    "children": [
+                                      {
+                                        "path": "/public.com/wp-content/themes/public/templates/post-type/page/margin/assets/images/",
+                                        "type": "directory",
+                                        "name": "images",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "path": "/public.com/wp-content/themes/public/templates/post-type/page/options/",
+                                "type": "directory",
+                                "name": "options",
+                                "children": [
+                                  {
+                                    "path": "/public.com/wp-content/themes/public/templates/post-type/page/options/assets/",
+                                    "type": "directory",
+                                    "name": "assets",
+                                    "children": [
+                                      {
+                                        "path": "/public.com/wp-content/themes/public/templates/post-type/page/options/assets/images/",
+                                        "type": "directory",
+                                        "name": "images",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/public.com/wp-content/uploads/",
+            "type": "directory",
+            "name": "uploads",
+            "children": [
+              {
+                "path": "/public.com/wp-content/uploads/2019/",
+                "type": "directory",
+                "name": "2019",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/uploads/2019/12/",
+                    "type": "directory",
+                    "name": "12",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/uploads/2020/",
+                "type": "directory",
+                "name": "2020",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/uploads/2020/08/",
+                    "type": "directory",
+                    "name": "08",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2020/09/",
+                    "type": "directory",
+                    "name": "09",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/uploads/2021/",
+                "type": "directory",
+                "name": "2021",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/uploads/2021/08/",
+                    "type": "directory",
+                    "name": "08",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2021/09/",
+                    "type": "directory",
+                    "name": "09",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2021/10/",
+                    "type": "directory",
+                    "name": "10",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2021/12/",
+                    "type": "directory",
+                    "name": "12",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/uploads/2022/",
+                "type": "directory",
+                "name": "2022",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/uploads/2022/01/",
+                    "type": "directory",
+                    "name": "01",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2022/02/",
+                    "type": "directory",
+                    "name": "02",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2022/05/",
+                    "type": "directory",
+                    "name": "05",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2022/09/",
+                    "type": "directory",
+                    "name": "09",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2022/11/",
+                    "type": "directory",
+                    "name": "11",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2022/12/",
+                    "type": "directory",
+                    "name": "12",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/uploads/2023/",
+                "type": "directory",
+                "name": "2023",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/01/",
+                    "type": "directory",
+                    "name": "01",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/02/",
+                    "type": "directory",
+                    "name": "02",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/04/",
+                    "type": "directory",
+                    "name": "04",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/05/",
+                    "type": "directory",
+                    "name": "05",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/06/",
+                    "type": "directory",
+                    "name": "06",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/08/",
+                    "type": "directory",
+                    "name": "08",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/09/",
+                    "type": "directory",
+                    "name": "09",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/10/",
+                    "type": "directory",
+                    "name": "10",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/11/",
+                    "type": "directory",
+                    "name": "11",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2023/12/",
+                    "type": "directory",
+                    "name": "12",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/public.com/wp-content/uploads/2024/",
+                "type": "directory",
+                "name": "2024",
+                "children": [
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/01/",
+                    "type": "directory",
+                    "name": "01",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/02/",
+                    "type": "directory",
+                    "name": "02",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/03/",
+                    "type": "directory",
+                    "name": "03",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/04/",
+                    "type": "directory",
+                    "name": "04",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/06/",
+                    "type": "directory",
+                    "name": "06",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/08/",
+                    "type": "directory",
+                    "name": "08",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/09/",
+                    "type": "directory",
+                    "name": "09",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/11/",
+                    "type": "directory",
+                    "name": "11",
+                    "children": []
+                  },
+                  {
+                    "path": "/public.com/wp-content/uploads/2024/12/",
+                    "type": "directory",
+                    "name": "12",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/public.com/wp-includes/",
+        "type": "directory",
+        "name": "wp-includes",
+        "children": [
+          {
+            "path": "/public.com/wp-includes/js/",
+            "type": "directory",
+            "name": "js",
+            "children": [
+              {
+                "path": "/public.com/wp-includes/js/jquery/",
+                "type": "directory",
+                "name": "jquery",
                 "children": []
               }
             ]

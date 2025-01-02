@@ -1,0 +1,1 @@
+import{_ as t,o,c as s,r}from"./C3C76hVJ.js";const n={},c={class:"font-medium text-zinc-950"};function a(e,_){return o(),s("strong",c,[r(e.$slots,"default")])}const l=t(n,[["render",a]]);export{l as default};
