@@ -1,0 +1,2 @@
+https://chatgpt.com/public-api/conversation_limit
+https://chatgpt.com/backend-api/system_hints
