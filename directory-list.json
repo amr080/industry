@@ -5258,6 +5258,1342 @@
     ]
   },
   {
+    "path": "/edxmarkets.com/",
+    "type": "directory",
+    "name": "edxmarkets.com",
+    "children": [
+      {
+        "path": "/edxmarkets.com/about-us/",
+        "type": "directory",
+        "name": "about-us",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/adaptive-partnered-with-edx-markets-to-deliver-proprietary-institutional-cloud-native-clearing-and-settlement-platform/",
+        "type": "directory",
+        "name": "adaptive-partnered-with-edx-markets-to-deliver-proprietary-institutional-cloud-native-clearing-and-settlement-platform",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/authorpublication/",
+        "type": "directory",
+        "name": "authorpublication",
+        "children": [
+          {
+            "path": "/edxmarkets.com/authorpublication/coindesk/",
+            "type": "directory",
+            "name": "coindesk",
+            "children": []
+          },
+          {
+            "path": "/edxmarkets.com/authorpublication/edxm-global/",
+            "type": "directory",
+            "name": "edxm-global",
+            "children": [
+              {
+                "path": "/edxmarkets.com/authorpublication/edxm-global/feed/",
+                "type": "directory",
+                "name": "feed",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/authorpublication/markets-media/",
+            "type": "directory",
+            "name": "markets-media",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/beyond-security-how-our-central-clearinghouse-drives-hyper-efficient-trading-experiences/",
+        "type": "directory",
+        "name": "beyond-security-how-our-central-clearinghouse-drives-hyper-efficient-trading-experiences",
+        "children": [
+          {
+            "path": "/edxmarkets.com/beyond-security-how-our-central-clearinghouse-drives-hyper-efficient-trading-experiences/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/building-for-the-future-why-singapore-is-the-ideal-home-for-edxs-international-business/",
+        "type": "directory",
+        "name": "building-for-the-future-why-singapore-is-the-ideal-home-for-edxs-international-business",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/can-bank-backed-exchanges-solve-crypto-tradings-trust-problem/",
+        "type": "directory",
+        "name": "can-bank-backed-exchanges-solve-crypto-tradings-trust-problem",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/career-opportunities/",
+        "type": "directory",
+        "name": "career-opportunities",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/category/",
+        "type": "directory",
+        "name": "category",
+        "children": [
+          {
+            "path": "/edxmarkets.com/category/events/",
+            "type": "directory",
+            "name": "events",
+            "children": [
+              {
+                "path": "/edxmarkets.com/category/events/feed/",
+                "type": "directory",
+                "name": "feed",
+                "children": []
+              },
+              {
+                "path": "/edxmarkets.com/category/events/page/",
+                "type": "directory",
+                "name": "page",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/category/events/page/2/",
+                    "type": "directory",
+                    "name": "2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/category/insights/",
+            "type": "directory",
+            "name": "insights",
+            "children": [
+              {
+                "path": "/edxmarkets.com/category/insights/feed/",
+                "type": "directory",
+                "name": "feed",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/category/media-coverage/",
+            "type": "directory",
+            "name": "media-coverage",
+            "children": [
+              {
+                "path": "/edxmarkets.com/category/media-coverage/feed/",
+                "type": "directory",
+                "name": "feed",
+                "children": []
+              },
+              {
+                "path": "/edxmarkets.com/category/media-coverage/page/",
+                "type": "directory",
+                "name": "page",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/category/media-coverage/page/2/",
+                    "type": "directory",
+                    "name": "2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/category/press-releases/",
+            "type": "directory",
+            "name": "press-releases",
+            "children": [
+              {
+                "path": "/edxmarkets.com/category/press-releases/feed/",
+                "type": "directory",
+                "name": "feed",
+                "children": []
+              },
+              {
+                "path": "/edxmarkets.com/category/press-releases/page/",
+                "type": "directory",
+                "name": "page",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/category/press-releases/page/2/",
+                    "type": "directory",
+                    "name": "2",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/cdn-cgi/",
+        "type": "directory",
+        "name": "cdn-cgi",
+        "children": [
+          {
+            "path": "/edxmarkets.com/cdn-cgi/l/",
+            "type": "directory",
+            "name": "l",
+            "children": []
+          },
+          {
+            "path": "/edxmarkets.com/cdn-cgi/scripts/",
+            "type": "directory",
+            "name": "scripts",
+            "children": [
+              {
+                "path": "/edxmarkets.com/cdn-cgi/scripts/5c5dd728/",
+                "type": "directory",
+                "name": "5c5dd728",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
+                    "type": "directory",
+                    "name": "cloudflare-static",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/cdn-cgi/styles/",
+            "type": "directory",
+            "name": "styles",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/client-onboarding-success-lead-edxm-global/",
+        "type": "directory",
+        "name": "client-onboarding-success-lead-edxm-global",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/comments/",
+        "type": "directory",
+        "name": "comments",
+        "children": [
+          {
+            "path": "/edxmarkets.com/comments/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/contact/",
+        "type": "directory",
+        "name": "contact",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-appoints-jamil-nazarali-executive-chair-tony-acuna-rohter-to-serve-as-ceo/",
+        "type": "directory",
+        "name": "edx-appoints-jamil-nazarali-executive-chair-tony-acuna-rohter-to-serve-as-ceo",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edx-appoints-jamil-nazarali-executive-chair-tony-acuna-rohter-to-serve-as-ceo/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edx-ceo-discussed-liquidity-and-capital-efficiency-in-the-crypto-markets-at-ltps-2024-liquidity-summit-in-hong-kong/",
+        "type": "directory",
+        "name": "edx-ceo-discussed-liquidity-and-capital-efficiency-in-the-crypto-markets-at-ltps-2024-liquidity-summit-in-hong-kong",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-chief-commercial-and-strategy-officer-jeanine-hightower-sellitto-speaks-at-the-boston-institutional-digital-assets-forum/",
+        "type": "directory",
+        "name": "edx-chief-commercial-and-strategy-officer-jeanine-hightower-sellitto-speaks-at-the-boston-institutional-digital-assets-forum",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edx-chief-commercial-and-strategy-officer-jeanine-hightower-sellitto-speaks-at-the-boston-institutional-digital-assets-forum/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edx-chief-says-opportunity-outside-the-us-is-much-larger-as-crypto-exchange-expands-to-singapore/",
+        "type": "directory",
+        "name": "edx-chief-says-opportunity-outside-the-us-is-much-larger-as-crypto-exchange-expands-to-singapore",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-has-record-spot-crypto-volumes/",
+        "type": "directory",
+        "name": "edx-has-record-spot-crypto-volumes",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edx-has-record-spot-crypto-volumes/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edx-jeanine-hightower-sellitto-at-the-dstas-2024/",
+        "type": "directory",
+        "name": "edx-jeanine-hightower-sellitto-at-the-dstas-2024",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets/",
+        "type": "directory",
+        "name": "edx-markets",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-boss-bear-market-is-the-best-time-to-hire-crypto-talent/",
+        "type": "directory",
+        "name": "edx-markets-boss-bear-market-is-the-best-time-to-hire-crypto-talent",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-ceo-approval-of-spot-bitcoin-etfs-would-energize-the-market/",
+        "type": "directory",
+        "name": "edx-markets-ceo-approval-of-spot-bitcoin-etfs-would-energize-the-market",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-ceo-jamil-nazarali-spoke-about-innovations-in-digital-assets-at-the-2023-greenwich-economic-forum/",
+        "type": "directory",
+        "name": "edx-markets-ceo-jamil-nazarali-spoke-about-innovations-in-digital-assets-at-the-2023-greenwich-economic-forum",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-deploys-eventus-validus-platform-for-trade-surveillance-on-its-institutional-digital-assets-marketplace/",
+        "type": "directory",
+        "name": "edx-markets-deploys-eventus-validus-platform-for-trade-surveillance-on-its-institutional-digital-assets-marketplace",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edx-markets-deploys-eventus-validus-platform-for-trade-surveillance-on-its-institutional-digital-assets-marketplace/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-launches-clearinghouse-for-crypto-trading-and-announces-completion-of-series-b-funding-round/",
+        "type": "directory",
+        "name": "edx-markets-launches-clearinghouse-for-crypto-trading-and-announces-completion-of-series-b-funding-round",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-launches-singapore-based-edxm-global/",
+        "type": "directory",
+        "name": "edx-markets-launches-singapore-based-edxm-global",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-partners-with-solidus-labs-to-support-best-in-class-comprehensive-transaction-monitoring/",
+        "type": "directory",
+        "name": "edx-markets-partners-with-solidus-labs-to-support-best-in-class-comprehensive-transaction-monitoring",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-reports-record-volumes-unveils-new-matching-engine-and-launches-shib-and-doge/",
+        "type": "directory",
+        "name": "edx-markets-reports-record-volumes-unveils-new-matching-engine-and-launches-shib-and-doge",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edx-markets-reports-record-volumes-unveils-new-matching-engine-and-launches-shib-and-doge/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edx-markets-selects-anchorage-digital-as-custody-provider-for-new-clearinghouse-business/",
+        "type": "directory",
+        "name": "edx-markets-selects-anchorage-digital-as-custody-provider-for-new-clearinghouse-business",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edx-plans-asia-crypto-exchange-with-funding-from-sequoia-and-pantera-capital/",
+        "type": "directory",
+        "name": "edx-plans-asia-crypto-exchange-with-funding-from-sequoia-and-pantera-capital",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxm-global/",
+        "type": "directory",
+        "name": "edxm-global",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxm-global-announces-forthcoming-launch-of-its-singapore-based-perpetual-futures-trading-venue/",
+        "type": "directory",
+        "name": "edxm-global-announces-forthcoming-launch-of-its-singapore-based-perpetual-futures-trading-venue",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edxm-global-announces-forthcoming-launch-of-its-singapore-based-perpetual-futures-trading-venue/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edxm-global-attends-the-hedgeweek-apac-digital-assets-summit-2024/",
+        "type": "directory",
+        "name": "edxm-global-attends-the-hedgeweek-apac-digital-assets-summit-2024",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edxm-global-attends-the-hedgeweek-apac-digital-assets-summit-2024/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edxm-global-privacy-policy/",
+        "type": "directory",
+        "name": "edxm-global-privacy-policy",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxmg/",
+        "type": "directory",
+        "name": "edxmg",
+        "children": [
+          {
+            "path": "/edxmarkets.com/edxmg/blocked/",
+            "type": "directory",
+            "name": "blocked",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/edxs-chief-commercial-officer-spoke-at-the-stanys-annual-conference-on-developments-in-digital-asset-trading/",
+        "type": "directory",
+        "name": "edxs-chief-commercial-officer-spoke-at-the-stanys-annual-conference-on-developments-in-digital-asset-trading",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxs-chief-commercial-strategy-officer-jeanine-hightower-sellitto-spoke-on-a-panel-about-building-institutional-grade-trading-infrastructure-at-the-bridges-the-tie-inaugural-conference/",
+        "type": "directory",
+        "name": "edxs-chief-commercial-strategy-officer-jeanine-hightower-sellitto-spoke-on-a-panel-about-building-institutional-grade-trading-infrastructure-at-the-bridges-the-tie-inaugural-conference",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxs-chief-commercial-strategy-officer-spoke-at-canaccord-genuitys-43rd-annual-growth-conference-in-boston/",
+        "type": "directory",
+        "name": "edxs-chief-commercial-strategy-officer-spoke-at-canaccord-genuitys-43rd-annual-growth-conference-in-boston",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxs-general-counsel-david-forman-spoke-at-coindesks-the-state-of-crypto-policy-and-regulation/",
+        "type": "directory",
+        "name": "edxs-general-counsel-david-forman-spoke-at-coindesks-the-state-of-crypto-policy-and-regulation",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxs-jeanine-hightower-sellitto-at-benzingas-future-of-digital-assets-conference/",
+        "type": "directory",
+        "name": "edxs-jeanine-hightower-sellitto-at-benzingas-future-of-digital-assets-conference",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxs-jeanine-hightower-sellitto-discussed-evolution-or-revolution-in-todays-markets-at-the-2023-dallas-stas-texas-traders-convention/",
+        "type": "directory",
+        "name": "edxs-jeanine-hightower-sellitto-discussed-evolution-or-revolution-in-todays-markets-at-the-2023-dallas-stas-texas-traders-convention",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/edxs-jeanine-hightower-sellitto-spoke-about-the-big-picture-view-allocating-to-digital-assets-in-2024-at-hedgeweeks-us-digital-asset-summit/",
+        "type": "directory",
+        "name": "edxs-jeanine-hightower-sellitto-spoke-about-the-big-picture-view-allocating-to-digital-assets-in-2024-at-hedgeweeks-us-digital-asset-summit",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/elwood-connects-to-edx-markets-to-provide-clients-with-access-to-additional-digital-asset-liquidity/",
+        "type": "directory",
+        "name": "elwood-connects-to-edx-markets-to-provide-clients-with-access-to-additional-digital-asset-liquidity",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/feed/",
+        "type": "directory",
+        "name": "feed",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/fidelity-and-charles-schwab-among-backers-of-this-new-digital-asset-market/",
+        "type": "directory",
+        "name": "fidelity-and-charles-schwab-among-backers-of-this-new-digital-asset-market",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/fidelity-schwab-citadel-backed-crypto-exchange-edx-markets-appoints-new-ceo/",
+        "type": "directory",
+        "name": "fidelity-schwab-citadel-backed-crypto-exchange-edx-markets-appoints-new-ceo",
+        "children": [
+          {
+            "path": "/edxmarkets.com/fidelity-schwab-citadel-backed-crypto-exchange-edx-markets-appoints-new-ceo/feed/",
+            "type": "directory",
+            "name": "feed",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/investing-in-edx-markets/",
+        "type": "directory",
+        "name": "investing-in-edx-markets",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/join-edx-markets/",
+        "type": "directory",
+        "name": "join-edx-markets",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/join-edxm-global/",
+        "type": "directory",
+        "name": "join-edxm-global",
+        "children": [
+          {
+            "path": "/edxmarkets.com/join-edxm-global/https/",
+            "type": "directory",
+            "name": "https",
+            "children": [
+              {
+                "path": "/edxmarkets.com/join-edxm-global/https//",
+                "type": "directory",
+                "name": "",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/join-edxm-global/https//edxmarkets.com/",
+                    "type": "directory",
+                    "name": "edxmarkets.com",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/join-edxm-global/https//edxmarkets.com/wp-content/",
+                        "type": "directory",
+                        "name": "wp-content",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/join-edxm-global/https//edxmarkets.com/wp-content/uploads/",
+                            "type": "directory",
+                            "name": "uploads",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/news-insights/",
+        "type": "directory",
+        "name": "news-insights",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/privacy-policy/",
+        "type": "directory",
+        "name": "privacy-policy",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/redefining-institutional-crypto-trading-meet-edxs-new-brand/",
+        "type": "directory",
+        "name": "redefining-institutional-crypto-trading-meet-edxs-new-brand",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/sales-operations-intern/",
+        "type": "directory",
+        "name": "sales-operations-intern",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/tabbforum-at-sta-edx-markets-jeanine-hightower-sellitto-on-crypto/",
+        "type": "directory",
+        "name": "tabbforum-at-sta-edx-markets-jeanine-hightower-sellitto-on-crypto",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/terms-of-use/",
+        "type": "directory",
+        "name": "terms-of-use",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/the-convergence-of-tradfi-and-digital-assets-and-regulatory-landscape/",
+        "type": "directory",
+        "name": "the-convergence-of-tradfi-and-digital-assets-and-regulatory-landscape",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/the-new-rules-of-fintech/",
+        "type": "directory",
+        "name": "the-new-rules-of-fintech",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/vr-edx-markets/",
+        "type": "directory",
+        "name": "vr-edx-markets",
+        "children": []
+      },
+      {
+        "path": "/edxmarkets.com/vr-edxm-global/",
+        "type": "directory",
+        "name": "vr-edxm-global",
+        "children": [
+          {
+            "path": "/edxmarkets.com/vr-edxm-global/https/",
+            "type": "directory",
+            "name": "https",
+            "children": [
+              {
+                "path": "/edxmarkets.com/vr-edxm-global/https//",
+                "type": "directory",
+                "name": "",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/vr-edxm-global/https//edxmarkets.com/",
+                    "type": "directory",
+                    "name": "edxmarkets.com",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/vr-edxm-global/https//edxmarkets.com/wp-content/",
+                        "type": "directory",
+                        "name": "wp-content",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/vr-edxm-global/https//edxmarkets.com/wp-content/uploads/",
+                            "type": "directory",
+                            "name": "uploads",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/wp-content/",
+        "type": "directory",
+        "name": "wp-content",
+        "children": [
+          {
+            "path": "/edxmarkets.com/wp-content/plugins/",
+            "type": "directory",
+            "name": "plugins",
+            "children": [
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/ele-custom-skin/",
+                "type": "directory",
+                "name": "ele-custom-skin",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/ele-custom-skin/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/ele-custom-skin/assets/css/",
+                        "type": "directory",
+                        "name": "css",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/ele-custom-skin/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/elementor/",
+                "type": "directory",
+                "name": "elementor",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/css/",
+                        "type": "directory",
+                        "name": "css",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/css/conditionals/",
+                            "type": "directory",
+                            "name": "conditionals",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/",
+                        "type": "directory",
+                        "name": "lib",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/animations/",
+                            "type": "directory",
+                            "name": "animations",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/animations/styles/",
+                                "type": "directory",
+                                "name": "styles",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/",
+                            "type": "directory",
+                            "name": "font-awesome",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/",
+                                "type": "directory",
+                                "name": "css",
+                                "children": []
+                              },
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/",
+                                "type": "directory",
+                                "name": "fonts",
+                                "children": []
+                              },
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/",
+                                "type": "directory",
+                                "name": "js",
+                                "children": []
+                              },
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/",
+                                "type": "directory",
+                                "name": "webfonts",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/elementor-pro/",
+                "type": "directory",
+                "name": "elementor-pro",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/elementor-pro/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementor-pro/assets/css/",
+                        "type": "directory",
+                        "name": "css",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementor-pro/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementor-pro/assets/lib/",
+                        "type": "directory",
+                        "name": "lib",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/",
+                            "type": "directory",
+                            "name": "smartmenus",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/",
+                "type": "directory",
+                "name": "elementskit-lite",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/libs/",
+                    "type": "directory",
+                    "name": "libs",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/libs/framework/",
+                        "type": "directory",
+                        "name": "framework",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/libs/framework/assets/",
+                            "type": "directory",
+                            "name": "assets",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/libs/framework/assets/js/",
+                                "type": "directory",
+                                "name": "js",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/modules/",
+                    "type": "directory",
+                    "name": "modules",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/",
+                        "type": "directory",
+                        "name": "elementskit-icon-pack",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/",
+                            "type": "directory",
+                            "name": "assets",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/",
+                                "type": "directory",
+                                "name": "css",
+                                "children": []
+                              },
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/fonts/",
+                                "type": "directory",
+                                "name": "fonts",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/widgets/",
+                    "type": "directory",
+                    "name": "widgets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/widgets/init/",
+                        "type": "directory",
+                        "name": "init",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/widgets/init/assets/",
+                            "type": "directory",
+                            "name": "assets",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/widgets/init/assets/css/",
+                                "type": "directory",
+                                "name": "css",
+                                "children": []
+                              },
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/widgets/init/assets/img/",
+                                "type": "directory",
+                                "name": "img",
+                                "children": []
+                              },
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/elementskit-lite/widgets/init/assets/js/",
+                                "type": "directory",
+                                "name": "js",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/happy-elementor-addons/",
+                "type": "directory",
+                "name": "happy-elementor-addons",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/happy-elementor-addons/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/happy-elementor-addons/assets/fonts/",
+                        "type": "directory",
+                        "name": "fonts",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/happy-elementor-addons/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/happy-elementor-addons/assets/vendor/",
+                        "type": "directory",
+                        "name": "vendor",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/",
+                            "type": "directory",
+                            "name": "dom-purify",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/jet-smart-filters/",
+                "type": "directory",
+                "name": "jet-smart-filters",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/jet-smart-filters/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/jet-smart-filters/assets/css/",
+                        "type": "directory",
+                        "name": "css",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/jet-smart-filters/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/jet-smart-filters/assets/lib/",
+                        "type": "directory",
+                        "name": "lib",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/jet-smart-filters/assets/lib/jet-plugins/",
+                            "type": "directory",
+                            "name": "jet-plugins",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/leadin/",
+                "type": "directory",
+                "name": "leadin",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/leadin/build/",
+                    "type": "directory",
+                    "name": "build",
+                    "children": []
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/leadin/public/",
+                    "type": "directory",
+                    "name": "public",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/leadin/public/assets/",
+                        "type": "directory",
+                        "name": "assets",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/leadin/public/assets/images/",
+                            "type": "directory",
+                            "name": "images",
+                            "children": []
+                          },
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/leadin/public/assets/style/",
+                            "type": "directory",
+                            "name": "style",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/leadin/public/assets/style/fonts/",
+                                "type": "directory",
+                                "name": "fonts",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/",
+                "type": "directory",
+                "name": "qi-addons-for-elementor",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/assets/css/",
+                        "type": "directory",
+                        "name": "css",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      },
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/",
+                        "type": "directory",
+                        "name": "plugins",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/",
+                            "type": "directory",
+                            "name": "swiper",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/",
+                                "type": "directory",
+                                "name": "8.4.5",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/inc/",
+                    "type": "directory",
+                    "name": "inc",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/",
+                        "type": "directory",
+                        "name": "plugins",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/",
+                            "type": "directory",
+                            "name": "elementor",
+                            "children": [
+                              {
+                                "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/",
+                                "type": "directory",
+                                "name": "assets",
+                                "children": [
+                                  {
+                                    "path": "/edxmarkets.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/",
+                                    "type": "directory",
+                                    "name": "js",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/wp-smushit/",
+                "type": "directory",
+                "name": "wp-smushit",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/wp-smushit/app/",
+                    "type": "directory",
+                    "name": "app",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/plugins/wp-smushit/app/assets/",
+                        "type": "directory",
+                        "name": "assets",
+                        "children": [
+                          {
+                            "path": "/edxmarkets.com/wp-content/plugins/wp-smushit/app/assets/js/",
+                            "type": "directory",
+                            "name": "js",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/plugins/wpfront-scroll-top/",
+                "type": "directory",
+                "name": "wpfront-scroll-top",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/plugins/wpfront-scroll-top/js/",
+                    "type": "directory",
+                    "name": "js",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/wp-content/themes/",
+            "type": "directory",
+            "name": "themes",
+            "children": [
+              {
+                "path": "/edxmarkets.com/wp-content/themes/hello-elementor/",
+                "type": "directory",
+                "name": "hello-elementor",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/themes/hello-elementor/assets/",
+                    "type": "directory",
+                    "name": "assets",
+                    "children": [
+                      {
+                        "path": "/edxmarkets.com/wp-content/themes/hello-elementor/assets/js/",
+                        "type": "directory",
+                        "name": "js",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/wp-content/uploads/",
+            "type": "directory",
+            "name": "uploads",
+            "children": [
+              {
+                "path": "/edxmarkets.com/wp-content/uploads/2024/",
+                "type": "directory",
+                "name": "2024",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/uploads/2024/08/",
+                    "type": "directory",
+                    "name": "08",
+                    "children": []
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-content/uploads/2024/09/",
+                    "type": "directory",
+                    "name": "09",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/uploads/elementor/",
+                "type": "directory",
+                "name": "elementor",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/uploads/elementor/css/",
+                    "type": "directory",
+                    "name": "css",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/edxmarkets.com/wp-content/uploads/happyaddons/",
+                "type": "directory",
+                "name": "happyaddons",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-content/uploads/happyaddons/css/",
+                    "type": "directory",
+                    "name": "css",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/wp-includes/",
+        "type": "directory",
+        "name": "wp-includes",
+        "children": [
+          {
+            "path": "/edxmarkets.com/wp-includes/css/",
+            "type": "directory",
+            "name": "css",
+            "children": []
+          },
+          {
+            "path": "/edxmarkets.com/wp-includes/js/",
+            "type": "directory",
+            "name": "js",
+            "children": [
+              {
+                "path": "/edxmarkets.com/wp-includes/js/jquery/",
+                "type": "directory",
+                "name": "jquery",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-includes/js/jquery/ui/",
+                    "type": "directory",
+                    "name": "ui",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/edxmarkets.com/wp-json/",
+        "type": "directory",
+        "name": "wp-json",
+        "children": [
+          {
+            "path": "/edxmarkets.com/wp-json/oembed/",
+            "type": "directory",
+            "name": "oembed",
+            "children": [
+              {
+                "path": "/edxmarkets.com/wp-json/oembed/1.0/",
+                "type": "directory",
+                "name": "1.0",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/edxmarkets.com/wp-json/wp/",
+            "type": "directory",
+            "name": "wp",
+            "children": [
+              {
+                "path": "/edxmarkets.com/wp-json/wp/v2/",
+                "type": "directory",
+                "name": "v2",
+                "children": [
+                  {
+                    "path": "/edxmarkets.com/wp-json/wp/v2/authorpublication/",
+                    "type": "directory",
+                    "name": "authorpublication",
+                    "children": []
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-json/wp/v2/categories/",
+                    "type": "directory",
+                    "name": "categories",
+                    "children": []
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-json/wp/v2/pages/",
+                    "type": "directory",
+                    "name": "pages",
+                    "children": []
+                  },
+                  {
+                    "path": "/edxmarkets.com/wp-json/wp/v2/posts/",
+                    "type": "directory",
+                    "name": "posts",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "path": "/fern/",
     "type": "directory",
     "name": "fern",

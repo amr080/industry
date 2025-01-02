@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XFT CYBER</title>
+    <style>
+        body {
+            background:#000;
+            color:#0f0;
+            font:13px arial;
+            margin:0;
+            padding:12px;
+        }
+        .directory-link {
+            display:block;
+            padding:6px 8px;
+            margin:2px 0;
+            color:#0f0;
+            text-decoration:none;
+            border:1px solid #0f0;
+            background:#001200;
+        }
+        .directory-link:hover {
+            background:#002800;
+            border-color:#0ff;
+        }
+        .nested {margin-left:12px}
+        h1 {
+            font:15px arial;
+            border-bottom:1px solid #0f0;
+            padding:0 0 6px;
+            margin:0 0 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ARCHIVE FOLDER</h1>
+    <div id="directory-list"></div>
+
+    <script>
+        async function loadDirectories() {
+            try {
+                // Use flat list for initial view
+                const response = await fetch('directory-list.json');
+                if (!response.ok) throw new Error('Failed to load directory list');
+                
+                const directories = await response.json();
+                renderDirectories(directories);
+            } catch (error) {
+                showError(error);
+            }
+        }
+
+        function renderDirectories(directories) {
+            const directoryList = document.getElementById('directory-list');
+            directories.forEach(dir => {
+                const link = document.createElement('a');
+                link.href = dir;
+                link.className = 'directory-link';
+                link.textContent = dir;
+                directoryList.appendChild(link);
+            });
+        }
+
+        function showError(error) {
+            const directoryList = document.getElementById('directory-list');
+            const errorDiv = document.createElement('div');
+            errorDiv.style.color = '#ff0000';
+            errorDiv.style.padding = '10px';
+            errorDiv.style.border = '1px solid #ff0000';
+            errorDiv.textContent = 'Error loading directory list. Please refresh.';
+            directoryList.appendChild(errorDiv);
+            console.error('Error:', error);
+        }
+
+        // Load directories when page loads
+        loadDirectories();
+    </script>
+</body>
+</html>
