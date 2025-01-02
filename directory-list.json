@@ -2,37 +2,45 @@
   {
     "path": "/agora.finance/",
     "type": "directory",
+    "name": "agora.finance",
     "children": []
   },
   {
     "path": "/apidocs.bridge.xyz/",
     "type": "directory",
+    "name": "apidocs.bridge.xyz",
     "children": [
       {
         "path": "/apidocs.bridge.xyz/cdn-cgi/",
         "type": "directory",
+        "name": "cdn-cgi",
         "children": [
           {
             "path": "/apidocs.bridge.xyz/cdn-cgi/images/",
             "type": "directory",
+            "name": "images",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/cdn-cgi/l/",
             "type": "directory",
+            "name": "l",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/cdn-cgi/scripts/",
             "type": "directory",
+            "name": "scripts",
             "children": [
               {
                 "path": "/apidocs.bridge.xyz/cdn-cgi/scripts/5c5dd728/",
                 "type": "directory",
+                "name": "5c5dd728",
                 "children": [
                   {
                     "path": "/apidocs.bridge.xyz/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
                     "type": "directory",
+                    "name": "cloudflare-static",
                     "children": []
                   }
                 ]
@@ -42,6 +50,7 @@
           {
             "path": "/apidocs.bridge.xyz/cdn-cgi/styles/",
             "type": "directory",
+            "name": "styles",
             "children": []
           }
         ]
@@ -49,320 +58,384 @@
       {
         "path": "/apidocs.bridge.xyz/docs/",
         "type": "directory",
+        "name": "docs",
         "children": [
           {
             "path": "/apidocs.bridge.xyz/docs/3rd-party-payments-1/",
             "type": "directory",
+            "name": "3rd-party-payments-1",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/adding-your-fees/",
             "type": "directory",
+            "name": "adding-your-fees",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/authentication/",
             "type": "directory",
+            "name": "authentication",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/available-routes/",
             "type": "directory",
+            "name": "available-routes",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/blockchains/",
             "type": "directory",
+            "name": "blockchains",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/business-accounts/",
             "type": "directory",
+            "name": "business-accounts",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/business-entity-types/",
             "type": "directory",
+            "name": "business-entity-types",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/business-formation-documents/",
             "type": "directory",
+            "name": "business-formation-documents",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/business-ownership-documents/",
             "type": "directory",
+            "name": "business-ownership-documents",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/core-api-concepts/",
             "type": "directory",
+            "name": "core-api-concepts",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/countries/",
             "type": "directory",
+            "name": "countries",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/customers/",
             "type": "directory",
+            "name": "customers",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/customers-1/",
             "type": "directory",
+            "name": "customers-1",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/customers-api/",
             "type": "directory",
+            "name": "customers-api",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/daos/",
             "type": "directory",
+            "name": "daos",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/deleting-transfers/",
             "type": "directory",
+            "name": "deleting-transfers",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/developer-dashboard/",
             "type": "directory",
+            "name": "developer-dashboard",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/developer-fees/",
             "type": "directory",
+            "name": "developer-fees",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/endorsements/",
             "type": "directory",
+            "name": "endorsements",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/event-structure/",
             "type": "directory",
+            "name": "event-structure",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/external-accounts/",
             "type": "directory",
+            "name": "external-accounts",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/fees/",
             "type": "directory",
+            "name": "fees",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/fetching-transfers/",
             "type": "directory",
+            "name": "fetching-transfers",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/fiat-deposits/",
             "type": "directory",
+            "name": "fiat-deposits",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/fiat-to-stablecoin-crypto-on-ramp/",
             "type": "directory",
+            "name": "fiat-to-stablecoin-crypto-on-ramp",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/fitat-to-stablecoin-crypto-on-ramp/",
             "type": "directory",
+            "name": "fitat-to-stablecoin-crypto-on-ramp",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/handling-deposit-errors/",
             "type": "directory",
+            "name": "handling-deposit-errors",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/holidays/",
             "type": "directory",
+            "name": "holidays",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/idempotence/",
             "type": "directory",
+            "name": "idempotence",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/individuals/",
             "type": "directory",
+            "name": "individuals",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/kyc-links/",
             "type": "directory",
+            "name": "kyc-links",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/kyc-links-for-existing-customers/",
             "type": "directory",
+            "name": "kyc-links-for-existing-customers",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/liquidation-address/",
             "type": "directory",
+            "name": "liquidation-address",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/liquidation-drains/",
             "type": "directory",
+            "name": "liquidation-drains",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/off-ramp/",
             "type": "directory",
+            "name": "off-ramp",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/on-ramp/",
             "type": "directory",
+            "name": "on-ramp",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/payment-methods/",
             "type": "directory",
+            "name": "payment-methods",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/precision-and-rounding/",
             "type": "directory",
+            "name": "precision-and-rounding",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/prefunded-accounts-1/",
             "type": "directory",
+            "name": "prefunded-accounts-1",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/products/",
             "type": "directory",
+            "name": "products",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/proof-of-address-requirements/",
             "type": "directory",
+            "name": "proof-of-address-requirements",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/quick-start/",
             "type": "directory",
+            "name": "quick-start",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/receipts/",
             "type": "directory",
+            "name": "receipts",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/rejection-reasons/",
             "type": "directory",
+            "name": "rejection-reasons",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/restricted-businesses/",
             "type": "directory",
+            "name": "restricted-businesses",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/sandbox/",
             "type": "directory",
+            "name": "sandbox",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/sepa-euro-transactions/",
             "type": "directory",
+            "name": "sepa-euro-transactions",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/settlement-times/",
             "type": "directory",
+            "name": "settlement-times",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/stablecoin-issuance/",
             "type": "directory",
+            "name": "stablecoin-issuance",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/stablecoin-to-fiat-crypto-off-ramp/",
             "type": "directory",
+            "name": "stablecoin-to-fiat-crypto-off-ramp",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/stablecoin-to-stablecoin/",
             "type": "directory",
+            "name": "stablecoin-to-stablecoin",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/stablecoin-to-stablecoin-transfers/",
             "type": "directory",
+            "name": "stablecoin-to-stablecoin-transfers",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/static-memos/",
             "type": "directory",
+            "name": "static-memos",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/support/",
             "type": "directory",
+            "name": "support",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/swift-transactions/",
             "type": "directory",
+            "name": "swift-transactions",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/terms-of-service/",
             "type": "directory",
+            "name": "terms-of-service",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/transaction-costs/",
             "type": "directory",
+            "name": "transaction-costs",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/transfers-1/",
             "type": "directory",
+            "name": "transfers-1",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/user-faqs/",
             "type": "directory",
+            "name": "user-faqs",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/virtual-accounts/",
             "type": "directory",
+            "name": "virtual-accounts",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/virtual-accounts-faqs/",
             "type": "directory",
+            "name": "virtual-accounts-faqs",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/webhook-event-signature-verification/",
             "type": "directory",
+            "name": "webhook-event-signature-verification",
             "children": []
           },
           {
             "path": "/apidocs.bridge.xyz/docs/webhooks/",
             "type": "directory",
+            "name": "webhooks",
             "children": []
           }
         ]
@@ -370,16 +443,19 @@
       {
         "path": "/apidocs.bridge.xyz/edit/",
         "type": "directory",
+        "name": "edit",
         "children": []
       },
       {
         "path": "/apidocs.bridge.xyz/page/",
         "type": "directory",
+        "name": "page",
         "children": []
       },
       {
         "path": "/apidocs.bridge.xyz/reference/",
         "type": "directory",
+        "name": "reference",
         "children": []
       }
     ]
@@ -387,39 +463,48 @@
   {
     "path": "/archive/",
     "type": "directory",
+    "name": "archive",
     "children": []
   },
   {
     "path": "/bastion/",
     "type": "directory",
+    "name": "bastion",
     "children": [
       {
         "path": "/bastion/_next/",
         "type": "directory",
+        "name": "_next",
         "children": [
           {
             "path": "/bastion/_next/static/",
             "type": "directory",
+            "name": "static",
             "children": [
               {
                 "path": "/bastion/_next/static/chunks/",
                 "type": "directory",
+                "name": "chunks",
                 "children": [
                   {
                     "path": "/bastion/_next/static/chunks/app/",
                     "type": "directory",
+                    "name": "app",
                     "children": [
                       {
                         "path": "/bastion/_next/static/chunks/app/(full-layout)/",
                         "type": "directory",
+                        "name": "(full-layout)",
                         "children": [
                           {
                             "path": "/bastion/_next/static/chunks/app/(full-layout)/blog/",
                             "type": "directory",
+                            "name": "blog",
                             "children": [
                               {
                                 "path": "/bastion/_next/static/chunks/app/(full-layout)/blog/[slug]/",
                                 "type": "directory",
+                                "name": "[slug]",
                                 "children": []
                               }
                             ]
@@ -427,11 +512,13 @@
                           {
                             "path": "/bastion/_next/static/chunks/app/(full-layout)/careers/",
                             "type": "directory",
+                            "name": "careers",
                             "children": []
                           },
                           {
                             "path": "/bastion/_next/static/chunks/app/(full-layout)/subscribe/",
                             "type": "directory",
+                            "name": "subscribe",
                             "children": []
                           }
                         ]
@@ -439,6 +526,7 @@
                       {
                         "path": "/bastion/_next/static/chunks/app/schedule-demo/",
                         "type": "directory",
+                        "name": "schedule-demo",
                         "children": []
                       }
                     ]
@@ -448,11 +536,13 @@
               {
                 "path": "/bastion/_next/static/css/",
                 "type": "directory",
+                "name": "css",
                 "children": []
               },
               {
                 "path": "/bastion/_next/static/media/",
                 "type": "directory",
+                "name": "media",
                 "children": []
               }
             ]
@@ -462,38 +552,46 @@
       {
         "path": "/bastion/assets/",
         "type": "directory",
+        "name": "assets",
         "children": []
       },
       {
         "path": "/bastion/blog/",
         "type": "directory",
+        "name": "blog",
         "children": []
       },
       {
         "path": "/bastion/cdn-cgi/",
         "type": "directory",
+        "name": "cdn-cgi",
         "children": [
           {
             "path": "/bastion/cdn-cgi/images/",
             "type": "directory",
+            "name": "images",
             "children": []
           },
           {
             "path": "/bastion/cdn-cgi/l/",
             "type": "directory",
+            "name": "l",
             "children": []
           },
           {
             "path": "/bastion/cdn-cgi/scripts/",
             "type": "directory",
+            "name": "scripts",
             "children": [
               {
                 "path": "/bastion/cdn-cgi/scripts/5c5dd728/",
                 "type": "directory",
+                "name": "5c5dd728",
                 "children": [
                   {
                     "path": "/bastion/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
                     "type": "directory",
+                    "name": "cloudflare-static",
                     "children": []
                   }
                 ]
@@ -503,6 +601,7 @@
           {
             "path": "/bastion/cdn-cgi/styles/",
             "type": "directory",
+            "name": "styles",
             "children": []
           }
         ]
@@ -510,6 +609,7 @@
       {
         "path": "/bastion/images/",
         "type": "directory",
+        "name": "images",
         "children": []
       }
     ]
@@ -517,273 +617,328 @@
   {
     "path": "/brale.xyz/",
     "type": "directory",
+    "name": "brale.xyz",
     "children": [
       {
         "path": "/brale.xyz/assets/",
         "type": "directory",
+        "name": "assets",
         "children": [
           {
             "path": "/brale.xyz/assets/blog/",
             "type": "directory",
+            "name": "blog",
             "children": [
               {
                 "path": "/brale.xyz/assets/blog/abstracting-blockchain-gas-fees/",
                 "type": "directory",
+                "name": "abstracting-blockchain-gas-fees",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-arbitrum/",
                 "type": "directory",
+                "name": "announcing-support-for-arbitrum",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-base/",
                 "type": "directory",
+                "name": "announcing-support-for-base",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-canton-network/",
                 "type": "directory",
+                "name": "announcing-support-for-canton-network",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-celo/",
                 "type": "directory",
+                "name": "announcing-support-for-celo",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-coreum/",
                 "type": "directory",
+                "name": "announcing-support-for-coreum",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-ethereum-classic/",
                 "type": "directory",
+                "name": "announcing-support-for-ethereum-classic",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-hedera/",
                 "type": "directory",
+                "name": "announcing-support-for-hedera",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-optimism/",
                 "type": "directory",
+                "name": "announcing-support-for-optimism",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-solana/",
                 "type": "directory",
+                "name": "announcing-support-for-solana",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-stellar/",
                 "type": "directory",
+                "name": "announcing-support-for-stellar",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-usdc-on-base-arbitrum-celo/",
                 "type": "directory",
+                "name": "announcing-support-for-usdc-on-base-arbitrum-celo",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/announcing-support-for-usdp/",
                 "type": "directory",
+                "name": "announcing-support-for-usdp",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/attestations/",
                 "type": "directory",
+                "name": "attestations",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/authors/",
                 "type": "directory",
+                "name": "authors",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/base-beta/",
                 "type": "directory",
+                "name": "base-beta",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/bitgo/",
                 "type": "directory",
+                "name": "bitgo",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/blockchain-speed-and-cost-comparisons/",
                 "type": "directory",
+                "name": "blockchain-speed-and-cost-comparisons",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/blockchain-speed-cost-comparisons/",
                 "type": "directory",
+                "name": "blockchain-speed-cost-comparisons",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/brale-base/",
                 "type": "directory",
+                "name": "brale-base",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/brale-ecosystem/",
                 "type": "directory",
+                "name": "brale-ecosystem",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/citizen-wallet/",
                 "type": "directory",
+                "name": "citizen-wallet",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/coinflow/",
                 "type": "directory",
+                "name": "coinflow",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/costs-to-send-1k-on-leading-blockchains/",
                 "type": "directory",
+                "name": "costs-to-send-1k-on-leading-blockchains",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/costs-to-transfer-1m-on-chain/",
                 "type": "directory",
+                "name": "costs-to-transfer-1m-on-chain",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/demystifying-onramps-and-offramps/",
                 "type": "directory",
+                "name": "demystifying-onramps-and-offramps",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/how-to-launch-a-stablecoin/",
                 "type": "directory",
+                "name": "how-to-launch-a-stablecoin",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/introducing-brale-business-accounts/",
                 "type": "directory",
+                "name": "introducing-brale-business-accounts",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/introducing-classic-usd/",
                 "type": "directory",
+                "name": "introducing-classic-usd",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/introducing-mxne/",
                 "type": "directory",
+                "name": "introducing-mxne",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/introducing-stable-coin-sbc/",
                 "type": "directory",
+                "name": "introducing-stable-coin-sbc",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/introducing-stablecoin-issuance-api/",
                 "type": "directory",
+                "name": "introducing-stablecoin-issuance-api",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/introducing-treasury/",
                 "type": "directory",
+                "name": "introducing-treasury",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/issuance-api/",
                 "type": "directory",
+                "name": "issuance-api",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/launching-stablecoins-on-alchemy-rollups/",
                 "type": "directory",
+                "name": "launching-stablecoins-on-alchemy-rollups",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/mint-and-redeem-stablecoins-with-ach-via-plaid/",
                 "type": "directory",
+                "name": "mint-and-redeem-stablecoins-with-ach-via-plaid",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/mpc-stablecoin-vault/",
                 "type": "directory",
+                "name": "mpc-stablecoin-vault",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/october-conferences-for-brale/",
                 "type": "directory",
+                "name": "october-conferences-for-brale",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/our-approach-to-attestations/",
                 "type": "directory",
+                "name": "our-approach-to-attestations",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/our-q3-hiring-cohort/",
                 "type": "directory",
+                "name": "our-q3-hiring-cohort",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/rain-cards/",
                 "type": "directory",
+                "name": "rain-cards",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/rolling-out-sbc-as-an-independent-entity/",
                 "type": "directory",
+                "name": "rolling-out-sbc-as-an-independent-entity",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/send-stablecoins-by-email/",
                 "type": "directory",
+                "name": "send-stablecoins-by-email",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/stable-coin-sbc-white-paper/",
                 "type": "directory",
+                "name": "stable-coin-sbc-white-paper",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/stablecoin-issuance-cli/",
                 "type": "directory",
+                "name": "stablecoin-issuance-cli",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/stablecoin-micropayments/",
                 "type": "directory",
+                "name": "stablecoin-micropayments",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/stablecoin-token-standards-on-leading-blockchains/",
                 "type": "directory",
+                "name": "stablecoin-token-standards-on-leading-blockchains",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/the-stablecoin-on-ramp/",
                 "type": "directory",
+                "name": "the-stablecoin-on-ramp",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/tools-for-testing/",
                 "type": "directory",
+                "name": "tools-for-testing",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/treasury-beta/",
                 "type": "directory",
+                "name": "treasury-beta",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/understanding-private-blockchains/",
                 "type": "directory",
+                "name": "understanding-private-blockchains",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/blog/we-are-brale/",
                 "type": "directory",
+                "name": "we-are-brale",
                 "children": []
               }
             ]
@@ -791,25 +946,30 @@
           {
             "path": "/brale.xyz/assets/case-studies/",
             "type": "directory",
+            "name": "case-studies",
             "children": [
               {
                 "path": "/brale.xyz/assets/case-studies/canton-network/",
                 "type": "directory",
+                "name": "canton-network",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/case-studies/ethereum-classic/",
                 "type": "directory",
+                "name": "ethereum-classic",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/case-studies/etherfuse/",
                 "type": "directory",
+                "name": "etherfuse",
                 "children": []
               },
               {
                 "path": "/brale.xyz/assets/case-studies/glo-dollar/",
                 "type": "directory",
+                "name": "glo-dollar",
                 "children": []
               }
             ]
@@ -817,26 +977,31 @@
           {
             "path": "/brale.xyz/assets/ecosystem/",
             "type": "directory",
+            "name": "ecosystem",
             "children": []
           },
           {
             "path": "/brale.xyz/assets/photos/",
             "type": "directory",
+            "name": "photos",
             "children": []
           },
           {
             "path": "/brale.xyz/assets/reports/",
             "type": "directory",
+            "name": "reports",
             "children": []
           },
           {
             "path": "/brale.xyz/assets/site/",
             "type": "directory",
+            "name": "site",
             "children": []
           },
           {
             "path": "/brale.xyz/assets/stablecoins/",
             "type": "directory",
+            "name": "stablecoins",
             "children": []
           }
         ]
@@ -844,49 +1009,59 @@
       {
         "path": "/brale.xyz/blog/",
         "type": "directory",
+        "name": "blog",
         "children": []
       },
       {
         "path": "/brale.xyz/build/",
         "type": "directory",
+        "name": "build",
         "children": [
           {
             "path": "/brale.xyz/build/_assets/",
             "type": "directory",
+            "name": "_assets",
             "children": []
           },
           {
             "path": "/brale.xyz/build/_shared/",
             "type": "directory",
+            "name": "_shared",
             "children": []
           },
           {
             "path": "/brale.xyz/build/routes/",
             "type": "directory",
+            "name": "routes",
             "children": [
               {
                 "path": "/brale.xyz/build/routes/blog/",
                 "type": "directory",
+                "name": "blog",
                 "children": []
               },
               {
                 "path": "/brale.xyz/build/routes/case-studies/",
                 "type": "directory",
+                "name": "case-studies",
                 "children": []
               },
               {
                 "path": "/brale.xyz/build/routes/chains/",
                 "type": "directory",
+                "name": "chains",
                 "children": []
               },
               {
                 "path": "/brale.xyz/build/routes/legal/",
                 "type": "directory",
+                "name": "legal",
                 "children": []
               },
               {
                 "path": "/brale.xyz/build/routes/stablecoins/",
                 "type": "directory",
+                "name": "stablecoins",
                 "children": []
               }
             ]
@@ -896,33 +1071,40 @@
       {
         "path": "/brale.xyz/case-studies/",
         "type": "directory",
+        "name": "case-studies",
         "children": []
       },
       {
         "path": "/brale.xyz/cdn-cgi/",
         "type": "directory",
+        "name": "cdn-cgi",
         "children": [
           {
             "path": "/brale.xyz/cdn-cgi/images/",
             "type": "directory",
+            "name": "images",
             "children": []
           },
           {
             "path": "/brale.xyz/cdn-cgi/l/",
             "type": "directory",
+            "name": "l",
             "children": []
           },
           {
             "path": "/brale.xyz/cdn-cgi/scripts/",
             "type": "directory",
+            "name": "scripts",
             "children": [
               {
                 "path": "/brale.xyz/cdn-cgi/scripts/5c5dd728/",
                 "type": "directory",
+                "name": "5c5dd728",
                 "children": [
                   {
                     "path": "/brale.xyz/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
                     "type": "directory",
+                    "name": "cloudflare-static",
                     "children": []
                   }
                 ]
@@ -932,6 +1114,7 @@
           {
             "path": "/brale.xyz/cdn-cgi/styles/",
             "type": "directory",
+            "name": "styles",
             "children": []
           }
         ]
@@ -939,26 +1122,31 @@
       {
         "path": "/brale.xyz/data/",
         "type": "directory",
+        "name": "data",
         "children": []
       },
       {
         "path": "/brale.xyz/favicon/",
         "type": "directory",
+        "name": "favicon",
         "children": []
       },
       {
         "path": "/brale.xyz/legal/",
         "type": "directory",
+        "name": "legal",
         "children": []
       },
       {
         "path": "/brale.xyz/scripts/",
         "type": "directory",
+        "name": "scripts",
         "children": []
       },
       {
         "path": "/brale.xyz/stablecoins/",
         "type": "directory",
+        "name": "stablecoins",
         "children": []
       }
     ]
@@ -966,35 +1154,1557 @@
   {
     "path": "/bvnk/",
     "type": "directory",
+    "name": "bvnk",
     "children": [
       {
         "path": "/bvnk/blog/",
         "type": "directory",
+        "name": "blog",
         "children": []
       },
       {
         "path": "/bvnk/case-studies/",
         "type": "directory",
+        "name": "case-studies",
         "children": []
       },
       {
         "path": "/bvnk/guides/",
         "type": "directory",
+        "name": "guides",
         "children": []
       },
       {
         "path": "/bvnk/on-demand/",
         "type": "directory",
+        "name": "on-demand",
         "children": []
       },
       {
         "path": "/bvnk/report/",
         "type": "directory",
+        "name": "report",
         "children": []
       },
       {
         "path": "/bvnk/resources/",
         "type": "directory",
+        "name": "resources",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/chatgpt/",
+    "type": "directory",
+    "name": "chatgpt",
+    "children": []
+  },
+  {
+    "path": "/crawls/",
+    "type": "directory",
+    "name": "crawls",
+    "children": [
+      {
+        "path": "/crawls/brale.xyz_20241228_023257/",
+        "type": "directory",
+        "name": "brale.xyz_20241228_023257",
+        "children": [
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/1inch.dev/",
+            "type": "directory",
+            "name": "1inch.dev",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/academy.avax.com/",
+            "type": "directory",
+            "name": "academy.avax.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/acurast.com/",
+            "type": "directory",
+            "name": "acurast.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/addons.mozilla.org/",
+            "type": "directory",
+            "name": "addons.mozilla.org",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/addons.mozilla.org/en-US/",
+                "type": "directory",
+                "name": "en-US",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/addons.mozilla.org/en-US/firefox/",
+                    "type": "directory",
+                    "name": "firefox",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/addons.mozilla.org/en-US/firefox/addon/",
+                        "type": "directory",
+                        "name": "addon",
+                        "children": [
+                          {
+                            "path": "/crawls/brale.xyz_20241228_023257/addons.mozilla.org/en-US/firefox/addon/glow-solana-wallet/",
+                            "type": "directory",
+                            "name": "glow-solana-wallet",
+                            "children": []
+                          },
+                          {
+                            "path": "/crawls/brale.xyz_20241228_023257/addons.mozilla.org/en-US/firefox/addon/rainbow-extension/",
+                            "type": "directory",
+                            "name": "rainbow-extension",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/alerts.allo.info/",
+            "type": "directory",
+            "name": "alerts.allo.info",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/app.fun.xyz/",
+            "type": "directory",
+            "name": "app.fun.xyz",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/",
+            "type": "directory",
+            "name": "apps.apple.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/be/",
+                "type": "directory",
+                "name": "be",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/be/app/",
+                    "type": "directory",
+                    "name": "app",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/be/app/citizen-wallet/",
+                        "type": "directory",
+                        "name": "citizen-wallet",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/us/",
+                "type": "directory",
+                "name": "us",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/us/app/",
+                    "type": "directory",
+                    "name": "app",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/us/app/1inch-defi-wallet/",
+                        "type": "directory",
+                        "name": "1inch-defi-wallet",
+                        "children": []
+                      },
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/apps.apple.com/us/app/solflare/",
+                        "type": "directory",
+                        "name": "solflare",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/arbitrum.foundation/",
+            "type": "directory",
+            "name": "arbitrum.foundation",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/base.org/",
+            "type": "directory",
+            "name": "base.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/boost.xyz/",
+            "type": "directory",
+            "name": "boost.xyz",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/brand.coingecko.com/",
+            "type": "directory",
+            "name": "brand.coingecko.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/bugcrowd.com/",
+            "type": "directory",
+            "name": "bugcrowd.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/bugcrowd.com/engagements/",
+                "type": "directory",
+                "name": "engagements",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/cantina.xyz/",
+            "type": "directory",
+            "name": "cantina.xyz",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/cantina.xyz/bounties/",
+                "type": "directory",
+                "name": "bounties",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/cast.google.com/",
+            "type": "directory",
+            "name": "cast.google.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/citizenwallet.notion.site/",
+            "type": "directory",
+            "name": "citizenwallet.notion.site",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/clusterprotocol.ai/",
+            "type": "directory",
+            "name": "clusterprotocol.ai",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/cms-static.bnbchain.org/",
+            "type": "directory",
+            "name": "cms-static.bnbchain.org",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/cms-static.bnbchain.org/dcms/",
+                "type": "directory",
+                "name": "dcms",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/cms-static.bnbchain.org/dcms/static/",
+                    "type": "directory",
+                    "name": "static",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/code4rena.com/",
+            "type": "directory",
+            "name": "code4rena.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/coingecko.app.link/",
+            "type": "directory",
+            "name": "coingecko.app.link",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/conduit.xyz/",
+            "type": "directory",
+            "name": "conduit.xyz",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/conduitxyz.notion.site/",
+            "type": "directory",
+            "name": "conduitxyz.notion.site",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/curve.fi/",
+            "type": "directory",
+            "name": "curve.fi",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/defillama.com/",
+            "type": "directory",
+            "name": "defillama.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/developer.chrome.com/",
+            "type": "directory",
+            "name": "developer.chrome.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/devs.polygonid.com/",
+            "type": "directory",
+            "name": "devs.polygonid.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/docs.solana.com/",
+            "type": "directory",
+            "name": "docs.solana.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/docs.stripe.com/",
+            "type": "directory",
+            "name": "docs.stripe.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/docs.ton.org/",
+            "type": "directory",
+            "name": "docs.ton.org",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/docs.ton.org/develop/",
+                "type": "directory",
+                "name": "develop",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/docs.ton.org/develop/dapps/",
+                    "type": "directory",
+                    "name": "dapps",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/docs.ton.org/develop/dapps/defi/",
+                        "type": "directory",
+                        "name": "defi",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/docs.vechain.org/",
+            "type": "directory",
+            "name": "docs.vechain.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/etherfuse.link/",
+            "type": "directory",
+            "name": "etherfuse.link",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/explorer.mainnet.aurora.dev/",
+            "type": "directory",
+            "name": "explorer.mainnet.aurora.dev",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/explorer.mainnet.aurora.dev/token/",
+                "type": "directory",
+                "name": "token",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/explorer.mainnet.aurora.dev/token/0xb12bfca5a55806aaf64e99521918a4bf0fc40802/",
+                    "type": "directory",
+                    "name": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/explorer.solana.com/",
+            "type": "directory",
+            "name": "explorer.solana.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/explorer.solana.com/address/",
+                "type": "directory",
+                "name": "address",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/explorer.solana.com/tx/",
+                "type": "directory",
+                "name": "tx",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/explorer.zora.energy/",
+            "type": "directory",
+            "name": "explorer.zora.energy",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/faucet.circle.com/",
+            "type": "directory",
+            "name": "faucet.circle.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/ico.org.uk/",
+            "type": "directory",
+            "name": "ico.org.uk",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/ico.org.uk/for-the-public/",
+                "type": "directory",
+                "name": "for-the-public",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/ico.org.uk/for-the-public/online/",
+                    "type": "directory",
+                    "name": "online",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/ico.org.uk/for-the-public/online/cookies/",
+                        "type": "directory",
+                        "name": "cookies",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/immunefi.com/",
+            "type": "directory",
+            "name": "immunefi.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/immunefi.com/bounty/",
+                "type": "directory",
+                "name": "bounty",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/immunefi.com/bounty/arbitrum/",
+                    "type": "directory",
+                    "name": "arbitrum",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/immunefi.com/bounty/avalanche/",
+                    "type": "directory",
+                    "name": "avalanche",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/immunefi.com/bounty/optimism/",
+                    "type": "directory",
+                    "name": "optimism",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/jobs.avax.network/",
+            "type": "directory",
+            "name": "jobs.avax.network",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/jobs.solana.com/",
+            "type": "directory",
+            "name": "jobs.solana.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/kusama.polkassembly.io/",
+            "type": "directory",
+            "name": "kusama.polkassembly.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/lunarspace.io/",
+            "type": "directory",
+            "name": "lunarspace.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/near.org/",
+            "type": "directory",
+            "name": "near.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/ocelotlabs.xyz/",
+            "type": "directory",
+            "name": "ocelotlabs.xyz",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/pacific.manta.network/",
+            "type": "directory",
+            "name": "pacific.manta.network",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/parity.io/",
+            "type": "directory",
+            "name": "parity.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/platform.arkhamintelligence.com/",
+            "type": "directory",
+            "name": "platform.arkhamintelligence.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/platform.arkhamintelligence.com/explorer/",
+                "type": "directory",
+                "name": "explorer",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/platform.arkhamintelligence.com/explorer/token/",
+                    "type": "directory",
+                    "name": "token",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/polynomial.fi/",
+            "type": "directory",
+            "name": "polynomial.fi",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/portal.usepylon.com/",
+            "type": "directory",
+            "name": "portal.usepylon.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/portal.usepylon.com/conduit-xyz/",
+                "type": "directory",
+                "name": "conduit-xyz",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/portal.usepylon.com/conduit-xyz/forms/",
+                    "type": "directory",
+                    "name": "forms",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/r.xyz/",
+            "type": "directory",
+            "name": "r.xyz",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/r.xyz/program/",
+                "type": "directory",
+                "name": "program",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/rarichain.org/",
+            "type": "directory",
+            "name": "rarichain.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/reserve.mento.org/",
+            "type": "directory",
+            "name": "reserve.mento.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/retro9000.avax.network/",
+            "type": "directory",
+            "name": "retro9000.avax.network",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/scan.ancient8.gg/",
+            "type": "directory",
+            "name": "scan.ancient8.gg",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/shop.ledger.com/",
+            "type": "directory",
+            "name": "shop.ledger.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/shop.ledger.com/pages/",
+                "type": "directory",
+                "name": "pages",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/shop.ledger.com/products/",
+                "type": "directory",
+                "name": "products",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/soroban.stellar.org/",
+            "type": "directory",
+            "name": "soroban.stellar.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/space.id/",
+            "type": "directory",
+            "name": "space.id",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/staking.synthetix.io/",
+            "type": "directory",
+            "name": "staking.synthetix.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/status.alchemy.com/",
+            "type": "directory",
+            "name": "status.alchemy.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/stellar.org/",
+            "type": "directory",
+            "name": "stellar.org",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/blog/",
+                "type": "directory",
+                "name": "blog",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/stellar.org/blog/developers/",
+                    "type": "directory",
+                    "name": "developers",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/stellar.org/blog/thought-leadership/",
+                    "type": "directory",
+                    "name": "thought-leadership",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/case-studies/",
+                "type": "directory",
+                "name": "case-studies",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/community/",
+                "type": "directory",
+                "name": "community",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/stellar.org/community/events/",
+                    "type": "directory",
+                    "name": "events",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/developers/",
+                "type": "directory",
+                "name": "developers",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/foundation/",
+                "type": "directory",
+                "name": "foundation",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/grants-and-funding/",
+                "type": "directory",
+                "name": "grants-and-funding",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/images/",
+                "type": "directory",
+                "name": "images",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/learn/",
+                "type": "directory",
+                "name": "learn",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/products-and-tools/",
+                "type": "directory",
+                "name": "products-and-tools",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/stellar.org/soroban/",
+                "type": "directory",
+                "name": "soroban",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/superbridge.app/",
+            "type": "directory",
+            "name": "superbridge.app",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/support-chat.coinmarketcap.com/",
+            "type": "directory",
+            "name": "support-chat.coinmarketcap.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/support.metamask.io/",
+            "type": "directory",
+            "name": "support.metamask.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/support.polkadot.network/",
+            "type": "directory",
+            "name": "support.polkadot.network",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/sync.global/",
+            "type": "directory",
+            "name": "sync.global",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/thirdweb.com/",
+            "type": "directory",
+            "name": "thirdweb.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/tools.google.com/",
+            "type": "directory",
+            "name": "tools.google.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/tools.google.com/dlpage/",
+                "type": "directory",
+                "name": "dlpage",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/tools.google.com/dlpage/gaoptout/",
+                    "type": "directory",
+                    "name": "gaoptout",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/wbtc.network/",
+            "type": "directory",
+            "name": "wbtc.network",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/web3.foundation/",
+            "type": "directory",
+            "name": "web3.foundation",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/wrapped.jumper.exchange/",
+            "type": "directory",
+            "name": "wrapped.jumper.exchange",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.anchorage.com/",
+            "type": "directory",
+            "name": "www.anchorage.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.base.org/",
+            "type": "directory",
+            "name": "www.base.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/",
+            "type": "directory",
+            "name": "www.bitgo.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/Entities/",
+                "type": "directory",
+                "name": "Entities",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/about-us/",
+                "type": "directory",
+                "name": "about-us",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/case-studies/",
+                "type": "directory",
+                "name": "case-studies",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/company/",
+                "type": "directory",
+                "name": "company",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/company/careers/",
+                    "type": "directory",
+                    "name": "careers",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/company/licenses/",
+                    "type": "directory",
+                    "name": "licenses",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/company/partnerships/",
+                    "type": "directory",
+                    "name": "partnerships",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/company/security/",
+                    "type": "directory",
+                    "name": "security",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/connect-with-us/",
+                "type": "directory",
+                "name": "connect-with-us",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/eth-wallet-management/",
+                "type": "directory",
+                "name": "eth-wallet-management",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/fork-policy/",
+                "type": "directory",
+                "name": "fork-policy",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/legal/",
+                "type": "directory",
+                "name": "legal",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/legal/disclosures/",
+                    "type": "directory",
+                    "name": "disclosures",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/listing-services/",
+                "type": "directory",
+                "name": "listing-services",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/",
+                "type": "directory",
+                "name": "products",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/collateral-management/",
+                    "type": "directory",
+                    "name": "collateral-management",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/custody-wallets/",
+                    "type": "directory",
+                    "name": "custody-wallets",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/financing/",
+                    "type": "directory",
+                    "name": "financing",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/go-network/",
+                    "type": "directory",
+                    "name": "go-network",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/real-world-assets/",
+                    "type": "directory",
+                    "name": "real-world-assets",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/restaking/",
+                    "type": "directory",
+                    "name": "restaking",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/self-custody-cold-wallets/",
+                    "type": "directory",
+                    "name": "self-custody-cold-wallets",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/self-custody-hot-wallets/",
+                    "type": "directory",
+                    "name": "self-custody-hot-wallets",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/staking/",
+                    "type": "directory",
+                    "name": "staking",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/token-management/",
+                    "type": "directory",
+                    "name": "token-management",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/trading/",
+                    "type": "directory",
+                    "name": "trading",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/wallet-as-a-service/",
+                    "type": "directory",
+                    "name": "wallet-as-a-service",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/products/wealth-management/",
+                    "type": "directory",
+                    "name": "wealth-management",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/release/",
+                "type": "directory",
+                "name": "release",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/",
+                "type": "directory",
+                "name": "resources",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/billing-methodology/",
+                    "type": "directory",
+                    "name": "billing-methodology",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/blog/",
+                    "type": "directory",
+                    "name": "blog",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/blog/2024-bitgo-year-in-review/",
+                        "type": "directory",
+                        "name": "2024-bitgo-year-in-review",
+                        "children": []
+                      },
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/blog/bitgo-selected-by-ftx-to-support-asset-distribution/",
+                        "type": "directory",
+                        "name": "bitgo-selected-by-ftx-to-support-asset-distribution",
+                        "children": []
+                      },
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/blog/bitgo-will-serve-as-a-custodian-for-21shares-us-spot-etfs/",
+                        "type": "directory",
+                        "name": "bitgo-will-serve-as-a-custodian-for-21shares-us-spot-etfs",
+                        "children": []
+                      },
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/blog/introducing-multi-recipient-transactions-for-utxo-wallets/",
+                        "type": "directory",
+                        "name": "introducing-multi-recipient-transactions-for-utxo-wallets",
+                        "children": []
+                      },
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/blog/transition-to-bitcoin-testnet4/",
+                        "type": "directory",
+                        "name": "transition-to-bitcoin-testnet4",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/insurance/",
+                    "type": "directory",
+                    "name": "insurance",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/resources/white-papers/",
+                    "type": "directory",
+                    "name": "white-papers",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/singapore/",
+                "type": "directory",
+                "name": "singapore",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/",
+                "type": "directory",
+                "name": "solutions",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/bitcoin-solutions/",
+                    "type": "directory",
+                    "name": "bitcoin-solutions",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/coin-foundations/",
+                    "type": "directory",
+                    "name": "coin-foundations",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/developers/",
+                    "type": "directory",
+                    "name": "developers",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/exchanges/",
+                    "type": "directory",
+                    "name": "exchanges",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/investors/",
+                    "type": "directory",
+                    "name": "investors",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/retail-platforms/",
+                    "type": "directory",
+                    "name": "retail-platforms",
+                    "children": []
+                  },
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/solutions/trading-firms/",
+                    "type": "directory",
+                    "name": "trading-firms",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/ventures/",
+                "type": "directory",
+                "name": "ventures",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/wallet-and-custody-guide/",
+                "type": "directory",
+                "name": "wallet-and-custody-guide",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/web/",
+                "type": "directory",
+                "name": "web",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.bitgo.com/web/auth/",
+                    "type": "directory",
+                    "name": "auth",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.buildnbuild.dev/",
+            "type": "directory",
+            "name": "www.buildnbuild.dev",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.caldera.xyz/",
+            "type": "directory",
+            "name": "www.caldera.xyz",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.caldera.xyz/blog/",
+                "type": "directory",
+                "name": "blog",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.canton.network/",
+            "type": "directory",
+            "name": "www.canton.network",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.canton.network/_hcms/",
+                "type": "directory",
+                "name": "_hcms",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.canton.network/_hcms/googlefonts/",
+                    "type": "directory",
+                    "name": "googlefonts",
+                    "children": [
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.canton.network/_hcms/googlefonts/DM_Serif_Display/",
+                        "type": "directory",
+                        "name": "DM_Serif_Display",
+                        "children": []
+                      },
+                      {
+                        "path": "/crawls/brale.xyz_20241228_023257/www.canton.network/_hcms/googlefonts/Inter/",
+                        "type": "directory",
+                        "name": "Inter",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.canton.network/blog/",
+                "type": "directory",
+                "name": "blog",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.coinbase.com/",
+            "type": "directory",
+            "name": "www.coinbase.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.coinbase.com/learn/",
+                "type": "directory",
+                "name": "learn",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.coinbase.com/legal/",
+                "type": "directory",
+                "name": "legal",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.coinbase.com/vendors/",
+                "type": "directory",
+                "name": "vendors",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.coinbase.com/wallet/",
+                "type": "directory",
+                "name": "wallet",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.conduit.xyz/",
+            "type": "directory",
+            "name": "www.conduit.xyz",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.conduit.xyz/cdn-cgi/",
+                "type": "directory",
+                "name": "cdn-cgi",
+                "children": [
+                  {
+                    "path": "/crawls/brale.xyz_20241228_023257/www.conduit.xyz/cdn-cgi/l/",
+                    "type": "directory",
+                    "name": "l",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.conduit.xyz/pricing/",
+                "type": "directory",
+                "name": "pricing",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.cookbook.dev/",
+            "type": "directory",
+            "name": "www.cookbook.dev",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.developerreport.com/",
+            "type": "directory",
+            "name": "www.developerreport.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.emergeinteractive.com/",
+            "type": "directory",
+            "name": "www.emergeinteractive.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.eqtylab.io/",
+            "type": "directory",
+            "name": "www.eqtylab.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.exiledracers.com/",
+            "type": "directory",
+            "name": "www.exiledracers.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.hbarfoundation.org/",
+            "type": "directory",
+            "name": "www.hbarfoundation.org",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/",
+            "type": "directory",
+            "name": "www.instagram.com",
+            "children": [
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/0xpolygon/",
+                "type": "directory",
+                "name": "0xpolygon",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/bnbchain/",
+                "type": "directory",
+                "name": "bnbchain",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/coingecko/",
+                "type": "directory",
+                "name": "coingecko",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/coinmarketcap/",
+                "type": "directory",
+                "name": "coinmarketcap",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/googlefordevs/",
+                "type": "directory",
+                "name": "googlefordevs",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/ledger/",
+                "type": "directory",
+                "name": "ledger",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/phantom/",
+                "type": "directory",
+                "name": "phantom",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/polkadotnetwork/",
+                "type": "directory",
+                "name": "polkadotnetwork",
+                "children": []
+              },
+              {
+                "path": "/crawls/brale.xyz_20241228_023257/www.instagram.com/teamcircle/",
+                "type": "directory",
+                "name": "teamcircle",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.jiffylabs.xyz/",
+            "type": "directory",
+            "name": "www.jiffylabs.xyz",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.netlify.com/",
+            "type": "directory",
+            "name": "www.netlify.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.pimlico.io/",
+            "type": "directory",
+            "name": "www.pimlico.io",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.towns.com/",
+            "type": "directory",
+            "name": "www.towns.com",
+            "children": []
+          },
+          {
+            "path": "/crawls/brale.xyz_20241228_023257/www.youtube.com/",
+            "type": "directory",
+            "name": "www.youtube.com",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/dakota.xyz/",
+    "type": "directory",
+    "name": "dakota.xyz",
+    "children": [
+      {
+        "path": "/dakota.xyz/_next/",
+        "type": "directory",
+        "name": "_next",
+        "children": [
+          {
+            "path": "/dakota.xyz/_next/static/",
+            "type": "directory",
+            "name": "static",
+            "children": [
+              {
+                "path": "/dakota.xyz/_next/static/LeSm2L3tSh6-p83YG36Tz/",
+                "type": "directory",
+                "name": "LeSm2L3tSh6-p83YG36Tz",
+                "children": []
+              },
+              {
+                "path": "/dakota.xyz/_next/static/chunks/",
+                "type": "directory",
+                "name": "chunks",
+                "children": [
+                  {
+                    "path": "/dakota.xyz/_next/static/chunks/pages/",
+                    "type": "directory",
+                    "name": "pages",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/dakota.xyz/_next/static/css/",
+                "type": "directory",
+                "name": "css",
+                "children": []
+              },
+              {
+                "path": "/dakota.xyz/_next/static/media/",
+                "type": "directory",
+                "name": "media",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/developers.fireblocks.com/",
+    "type": "directory",
+    "name": "developers.fireblocks.com",
+    "children": [
+      {
+        "path": "/developers.fireblocks.com/cdn-cgi/",
+        "type": "directory",
+        "name": "cdn-cgi",
+        "children": [
+          {
+            "path": "/developers.fireblocks.com/cdn-cgi/l/",
+            "type": "directory",
+            "name": "l",
+            "children": []
+          },
+          {
+            "path": "/developers.fireblocks.com/cdn-cgi/scripts/",
+            "type": "directory",
+            "name": "scripts",
+            "children": [
+              {
+                "path": "/developers.fireblocks.com/cdn-cgi/scripts/5c5dd728/",
+                "type": "directory",
+                "name": "5c5dd728",
+                "children": [
+                  {
+                    "path": "/developers.fireblocks.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/",
+                    "type": "directory",
+                    "name": "cloudflare-static",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/developers.fireblocks.com/changelog/",
+        "type": "directory",
+        "name": "changelog",
+        "children": []
+      },
+      {
+        "path": "/developers.fireblocks.com/docs/",
+        "type": "directory",
+        "name": "docs",
+        "children": []
+      },
+      {
+        "path": "/developers.fireblocks.com/edit/",
+        "type": "directory",
+        "name": "edit",
+        "children": []
+      },
+      {
+        "path": "/developers.fireblocks.com/reference/",
+        "type": "directory",
+        "name": "reference",
+        "children": []
+      }
+    ]
+  },
+  {
+    "path": "/digitalassets.franklintempleton.com/",
+    "type": "directory",
+    "name": "digitalassets.franklintempleton.com",
+    "children": [
+      {
+        "path": "/digitalassets.franklintempleton.com/contract/",
+        "type": "directory",
+        "name": "contract",
+        "children": [
+          {
+            "path": "/digitalassets.franklintempleton.com/contract/_print/",
+            "type": "directory",
+            "name": "_print",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/digitalassets.franklintempleton.com/favicons/",
+        "type": "directory",
+        "name": "favicons",
+        "children": []
+      },
+      {
+        "path": "/digitalassets.franklintempleton.com/js/",
+        "type": "directory",
+        "name": "js",
+        "children": []
+      },
+      {
+        "path": "/digitalassets.franklintempleton.com/scss/",
+        "type": "directory",
+        "name": "scss",
+        "children": []
+      },
+      {
+        "path": "/digitalassets.franklintempleton.com/webfonts/",
+        "type": "directory",
+        "name": "webfonts",
         "children": []
       }
     ]
@@ -1002,40 +2712,49 @@
   {
     "path": "/fern/",
     "type": "directory",
+    "name": "fern",
     "children": []
   },
   {
     "path": "/frec/",
     "type": "directory",
+    "name": "frec",
     "children": [
       {
         "path": "/frec/_next/",
         "type": "directory",
+        "name": "_next",
         "children": [
           {
             "path": "/frec/_next/static/",
             "type": "directory",
+            "name": "static",
             "children": [
               {
                 "path": "/frec/_next/static/1WNvhoF53FGxWyzKMDpTG/",
                 "type": "directory",
+                "name": "1WNvhoF53FGxWyzKMDpTG",
                 "children": []
               },
               {
                 "path": "/frec/_next/static/chunks/",
                 "type": "directory",
+                "name": "chunks",
                 "children": [
                   {
                     "path": "/frec/_next/static/chunks/pages/",
                     "type": "directory",
+                    "name": "pages",
                     "children": [
                       {
                         "path": "/frec/_next/static/chunks/pages/resources/",
                         "type": "directory",
+                        "name": "resources",
                         "children": [
                           {
                             "path": "/frec/_next/static/chunks/pages/resources/blog/",
                             "type": "directory",
+                            "name": "blog",
                             "children": []
                           }
                         ]
@@ -1047,6 +2766,7 @@
               {
                 "path": "/frec/_next/static/css/",
                 "type": "directory",
+                "name": "css",
                 "children": []
               }
             ]
@@ -1056,20 +2776,24 @@
       {
         "path": "/frec/app/",
         "type": "directory",
+        "name": "app",
         "children": []
       },
       {
         "path": "/frec/assets/",
         "type": "directory",
+        "name": "assets",
         "children": []
       },
       {
         "path": "/frec/fonts/",
         "type": "directory",
+        "name": "fonts",
         "children": [
           {
             "path": "/frec/fonts/abcWhyte/",
             "type": "directory",
+            "name": "abcWhyte",
             "children": []
           }
         ]
@@ -1077,20 +2801,24 @@
       {
         "path": "/frec/gtm/",
         "type": "directory",
+        "name": "gtm",
         "children": []
       },
       {
         "path": "/frec/images/",
         "type": "directory",
+        "name": "images",
         "children": []
       },
       {
         "path": "/frec/resources/",
         "type": "directory",
+        "name": "resources",
         "children": [
           {
             "path": "/frec/resources/blog/",
             "type": "directory",
+            "name": "blog",
             "children": []
           }
         ]
@@ -1098,19 +2826,23 @@
       {
         "path": "/frec/webstatic/",
         "type": "directory",
+        "name": "webstatic",
         "children": [
           {
             "path": "/frec/webstatic/fonts/",
             "type": "directory",
+            "name": "fonts",
             "children": [
               {
                 "path": "/frec/webstatic/fonts/abcWhyte/",
                 "type": "directory",
+                "name": "abcWhyte",
                 "children": []
               },
               {
                 "path": "/frec/webstatic/fonts/abcWhyteSemiMono/",
                 "type": "directory",
+                "name": "abcWhyteSemiMono",
                 "children": []
               }
             ]
@@ -1118,16 +2850,19 @@
           {
             "path": "/frec/webstatic/images/",
             "type": "directory",
+            "name": "images",
             "children": []
           },
           {
             "path": "/frec/webstatic/logo/",
             "type": "directory",
+            "name": "logo",
             "children": []
           },
           {
             "path": "/frec/webstatic/svg/",
             "type": "directory",
+            "name": "svg",
             "children": []
           }
         ]
@@ -1137,27 +2872,33 @@
   {
     "path": "/globalsettlement.com/",
     "type": "directory",
+    "name": "globalsettlement.com",
     "children": [
       {
         "path": "/globalsettlement.com/_next/",
         "type": "directory",
+        "name": "_next",
         "children": [
           {
             "path": "/globalsettlement.com/_next/static/",
             "type": "directory",
+            "name": "static",
             "children": [
               {
                 "path": "/globalsettlement.com/_next/static/_9lxHosmjDkgcLOGYA1i1/",
                 "type": "directory",
+                "name": "_9lxHosmjDkgcLOGYA1i1",
                 "children": []
               },
               {
                 "path": "/globalsettlement.com/_next/static/chunks/",
                 "type": "directory",
+                "name": "chunks",
                 "children": [
                   {
                     "path": "/globalsettlement.com/_next/static/chunks/pages/",
                     "type": "directory",
+                    "name": "pages",
                     "children": []
                   }
                 ]
@@ -1165,11 +2906,13 @@
               {
                 "path": "/globalsettlement.com/_next/static/css/",
                 "type": "directory",
+                "name": "css",
                 "children": []
               },
               {
                 "path": "/globalsettlement.com/_next/static/media/",
                 "type": "directory",
+                "name": "media",
                 "children": []
               }
             ]
@@ -1179,21 +2922,25 @@
       {
         "path": "/globalsettlement.com/drivingLiquidity/",
         "type": "directory",
+        "name": "drivingLiquidity",
         "children": []
       },
       {
         "path": "/globalsettlement.com/members/",
         "type": "directory",
+        "name": "members",
         "children": []
       },
       {
         "path": "/globalsettlement.com/partners/",
         "type": "directory",
+        "name": "partners",
         "children": []
       },
       {
         "path": "/globalsettlement.com/solution/",
         "type": "directory",
+        "name": "solution",
         "children": []
       }
     ]
@@ -1201,10 +2948,12 @@
   {
     "path": "/noble/",
     "type": "directory",
+    "name": "noble",
     "children": [
       {
         "path": "/noble/blog/",
         "type": "directory",
+        "name": "blog",
         "children": []
       }
     ]
@@ -1212,27 +2961,33 @@
   {
     "path": "/offramps.utopialabs.com/",
     "type": "directory",
+    "name": "offramps.utopialabs.com",
     "children": [
       {
         "path": "/offramps.utopialabs.com/_next/",
         "type": "directory",
+        "name": "_next",
         "children": [
           {
             "path": "/offramps.utopialabs.com/_next/static/",
             "type": "directory",
+            "name": "static",
             "children": [
               {
                 "path": "/offramps.utopialabs.com/_next/static/_GfCZtlOIQuSkAqf8V68G/",
                 "type": "directory",
+                "name": "_GfCZtlOIQuSkAqf8V68G",
                 "children": []
               },
               {
                 "path": "/offramps.utopialabs.com/_next/static/chunks/",
                 "type": "directory",
+                "name": "chunks",
                 "children": [
                   {
                     "path": "/offramps.utopialabs.com/_next/static/chunks/pages/",
                     "type": "directory",
+                    "name": "pages",
                     "children": []
                   }
                 ]
@@ -1240,11 +2995,13 @@
               {
                 "path": "/offramps.utopialabs.com/_next/static/css/",
                 "type": "directory",
+                "name": "css",
                 "children": []
               },
               {
                 "path": "/offramps.utopialabs.com/_next/static/media/",
                 "type": "directory",
+                "name": "media",
                 "children": []
               }
             ]
@@ -1254,45 +3011,61 @@
     ]
   },
   {
+    "path": "/worms/",
+    "type": "directory",
+    "name": "worms",
+    "children": []
+  },
+  {
     "path": "/www.denode.io/",
     "type": "directory",
+    "name": "www.denode.io",
     "children": [
       {
         "path": "/www.denode.io/_next/",
         "type": "directory",
+        "name": "_next",
         "children": [
           {
             "path": "/www.denode.io/_next/static/",
             "type": "directory",
+            "name": "static",
             "children": [
               {
                 "path": "/www.denode.io/_next/static/chunks/",
                 "type": "directory",
+                "name": "chunks",
                 "children": [
                   {
                     "path": "/www.denode.io/_next/static/chunks/app/",
                     "type": "directory",
+                    "name": "app",
                     "children": [
                       {
                         "path": "/www.denode.io/_next/static/chunks/app/[lang]/",
                         "type": "directory",
+                        "name": "[lang]",
                         "children": [
                           {
                             "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/",
                             "type": "directory",
+                            "name": "(public)",
                             "children": [
                               {
                                 "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(auth)/",
                                 "type": "directory",
+                                "name": "(auth)",
                                 "children": [
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(auth)/login/",
                                     "type": "directory",
+                                    "name": "login",
                                     "children": []
                                   },
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(auth)/register/",
                                     "type": "directory",
+                                    "name": "register",
                                     "children": []
                                   }
                                 ]
@@ -1300,24 +3073,29 @@
                               {
                                 "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/",
                                 "type": "directory",
+                                "name": "(layout)",
                                 "children": [
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/about-denode/",
                                     "type": "directory",
+                                    "name": "about-denode",
                                     "children": []
                                   },
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/asset-tokenization-launchpad/",
                                     "type": "directory",
+                                    "name": "asset-tokenization-launchpad",
                                     "children": []
                                   },
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/blog/",
                                     "type": "directory",
+                                    "name": "blog",
                                     "children": [
                                       {
                                         "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/blog/[slug]/",
                                         "type": "directory",
+                                        "name": "[slug]",
                                         "children": []
                                       }
                                     ]
@@ -1325,10 +3103,12 @@
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/faq/",
                                     "type": "directory",
+                                    "name": "faq",
                                     "children": [
                                       {
                                         "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/faq/[slug]/",
                                         "type": "directory",
+                                        "name": "[slug]",
                                         "children": []
                                       }
                                     ]
@@ -1336,16 +3116,19 @@
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/privacy-policy/",
                                     "type": "directory",
+                                    "name": "privacy-policy",
                                     "children": []
                                   },
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/security-policy/",
                                     "type": "directory",
+                                    "name": "security-policy",
                                     "children": []
                                   },
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(public)/(layout)/terms-of-service/",
                                     "type": "directory",
+                                    "name": "terms-of-service",
                                     "children": []
                                   }
                                 ]
@@ -1355,14 +3138,17 @@
                           {
                             "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/",
                             "type": "directory",
+                            "name": "(user)",
                             "children": [
                               {
                                 "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/(exchanges)/",
                                 "type": "directory",
+                                "name": "(exchanges)",
                                 "children": [
                                   {
                                     "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/(exchanges)/global-stocks/",
                                     "type": "directory",
+                                    "name": "global-stocks",
                                     "children": []
                                   }
                                 ]
@@ -1370,6 +3156,7 @@
                               {
                                 "path": "/www.denode.io/_next/static/chunks/app/[lang]/(user)/dashboard/",
                                 "type": "directory",
+                                "name": "dashboard",
                                 "children": []
                               }
                             ]
@@ -1383,11 +3170,13 @@
               {
                 "path": "/www.denode.io/_next/static/css/",
                 "type": "directory",
+                "name": "css",
                 "children": []
               },
               {
                 "path": "/www.denode.io/_next/static/media/",
                 "type": "directory",
+                "name": "media",
                 "children": []
               }
             ]
@@ -1397,14 +3186,17 @@
       {
         "path": "/www.denode.io/assets/",
         "type": "directory",
+        "name": "assets",
         "children": [
           {
             "path": "/www.denode.io/assets/home/",
             "type": "directory",
+            "name": "home",
             "children": [
               {
                 "path": "/www.denode.io/assets/home/about-us/",
                 "type": "directory",
+                "name": "about-us",
                 "children": []
               }
             ]
@@ -1414,15 +3206,77 @@
       {
         "path": "/www.denode.io/blog/",
         "type": "directory",
+        "name": "blog",
         "children": []
       },
       {
         "path": "/www.denode.io/en/",
         "type": "directory",
+        "name": "en",
         "children": [
           {
             "path": "/www.denode.io/en/faq/",
             "type": "directory",
+            "name": "faq",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/www.palantir.com/",
+    "type": "directory",
+    "name": "www.palantir.com",
+    "children": [
+      {
+        "path": "/www.palantir.com/_next/",
+        "type": "directory",
+        "name": "_next",
+        "children": [
+          {
+            "path": "/www.palantir.com/_next/static/",
+            "type": "directory",
+            "name": "static",
+            "children": [
+              {
+                "path": "/www.palantir.com/_next/static/1l6msZBfQ8elOl0oadKehz-g123/",
+                "type": "directory",
+                "name": "1l6msZBfQ8elOl0oadKehz-g123",
+                "children": []
+              },
+              {
+                "path": "/www.palantir.com/_next/static/chunks/",
+                "type": "directory",
+                "name": "chunks",
+                "children": [
+                  {
+                    "path": "/www.palantir.com/_next/static/chunks/pages/",
+                    "type": "directory",
+                    "name": "pages",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "path": "/www.palantir.com/_next/static/css/",
+                "type": "directory",
+                "name": "css",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/www.palantir.com/fonts/",
+        "type": "directory",
+        "name": "fonts",
+        "children": [
+          {
+            "path": "/www.palantir.com/fonts/Alliance/",
+            "type": "directory",
+            "name": "Alliance",
             "children": []
           }
         ]

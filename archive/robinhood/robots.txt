@@ -1,0 +1,25 @@
+#
+#       o     O
+#     __|_____|___
+#    |    --      |
+#    |  ( o )   ( o )
+#  { |        /   |
+#    |     [wwww]  < *Exterminate all humans.txt* )
+#    [____________|
+#       |   |              /Vvvv/
+#  _____|___|____          |___/
+# /______________\_________/   |
+# |              |             /
+# | ( / )  ( + ) |__|__|__|_|_/
+# |              |
+# | [ -vV--vV-]  |
+# |              |
+# |______________/
+#
+User-agent: *
+Allow: /applink/.well-known/
+Disallow: /referral/
+Disallow: /user/
+Disallow: /subscriptions/
+Disallow: /reset_password/
+Sitemap: https://robinhood.com/sitemap.xml

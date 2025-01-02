@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[region]\u002F[lang]\u002Fsupport\u002F[...levels]","\u002F[region]\u002F[lang]\u002Fsupport","\u002F[region]\u002F[lang]\u002Fsupport\u002Fsearch","\u002F[region]\u002F[lang]\u002Fsupport\u002F[_preview]\u002Farticles","\u002F[region]\u002F[lang]\u002Fsupport\u002Farticles\u002F[articleId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
