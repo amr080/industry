@@ -464,7 +464,2197 @@
     "path": "/archive/",
     "type": "directory",
     "name": "archive",
-    "children": []
+    "children": [
+      {
+        "path": "/archive/robinhood/",
+        "type": "directory",
+        "name": "robinhood",
+        "children": [
+          {
+            "path": "/archive/robinhood/account/",
+            "type": "directory",
+            "name": "account",
+            "children": []
+          },
+          {
+            "path": "/archive/robinhood/creditcard/",
+            "type": "directory",
+            "name": "creditcard",
+            "children": []
+          },
+          {
+            "path": "/archive/robinhood/crypto/",
+            "type": "directory",
+            "name": "crypto",
+            "children": []
+          },
+          {
+            "path": "/archive/robinhood/us/",
+            "type": "directory",
+            "name": "us",
+            "children": [
+              {
+                "path": "/archive/robinhood/us/en/",
+                "type": "directory",
+                "name": "en",
+                "children": [
+                  {
+                    "path": "/archive/robinhood/us/en/about/",
+                    "type": "directory",
+                    "name": "about",
+                    "children": [
+                      {
+                        "path": "/archive/robinhood/us/en/about/crypto/",
+                        "type": "directory",
+                        "name": "crypto",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/about/legal/",
+                        "type": "directory",
+                        "name": "legal",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/about/options/",
+                        "type": "directory",
+                        "name": "options",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/about/retirement/",
+                        "type": "directory",
+                        "name": "retirement",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/about-us/",
+                    "type": "directory",
+                    "name": "about-us",
+                    "children": [
+                      {
+                        "path": "/archive/robinhood/us/en/about-us/how-we-make-money/",
+                        "type": "directory",
+                        "name": "how-we-make-money",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/about-us/our-execution-quality/",
+                        "type": "directory",
+                        "name": "our-execution-quality",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/download/",
+                    "type": "directory",
+                    "name": "download",
+                    "children": []
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/gold/",
+                    "type": "directory",
+                    "name": "gold",
+                    "children": []
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/invest/",
+                    "type": "directory",
+                    "name": "invest",
+                    "children": []
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/legal/",
+                    "type": "directory",
+                    "name": "legal",
+                    "children": [
+                      {
+                        "path": "/archive/robinhood/us/en/legal/rhd-financial-disclosures/",
+                        "type": "directory",
+                        "name": "rhd-financial-disclosures",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/our-commitments/",
+                    "type": "directory",
+                    "name": "our-commitments",
+                    "children": []
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/our-customers/",
+                    "type": "directory",
+                    "name": "our-customers",
+                    "children": []
+                  },
+                  {
+                    "path": "/archive/robinhood/us/en/support/",
+                    "type": "directory",
+                    "name": "support",
+                    "children": [
+                      {
+                        "path": "/archive/robinhood/us/en/support/_next/",
+                        "type": "directory",
+                        "name": "_next",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/_next/static/",
+                            "type": "directory",
+                            "name": "static",
+                            "children": [
+                              {
+                                "path": "/archive/robinhood/us/en/support/_next/static/bf56f44e9dbd74a5c4c8d6392505dd243e1f1f0d/",
+                                "type": "directory",
+                                "name": "bf56f44e9dbd74a5c4c8d6392505dd243e1f1f0d",
+                                "children": []
+                              },
+                              {
+                                "path": "/archive/robinhood/us/en/support/_next/static/chunks/",
+                                "type": "directory",
+                                "name": "chunks",
+                                "children": [
+                                  {
+                                    "path": "/archive/robinhood/us/en/support/_next/static/chunks/pages/",
+                                    "type": "directory",
+                                    "name": "pages",
+                                    "children": [
+                                      {
+                                        "path": "/archive/robinhood/us/en/support/_next/static/chunks/pages/[region]/",
+                                        "type": "directory",
+                                        "name": "[region]",
+                                        "children": [
+                                          {
+                                            "path": "/archive/robinhood/us/en/support/_next/static/chunks/pages/[region]/[lang]/",
+                                            "type": "directory",
+                                            "name": "[lang]",
+                                            "children": [
+                                              {
+                                                "path": "/archive/robinhood/us/en/support/_next/static/chunks/pages/[region]/[lang]/support/",
+                                                "type": "directory",
+                                                "name": "support",
+                                                "children": [
+                                                  {
+                                                    "path": "/archive/robinhood/us/en/support/_next/static/chunks/pages/[region]/[lang]/support/articles/",
+                                                    "type": "directory",
+                                                    "name": "articles",
+                                                    "children": []
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "path": "/archive/robinhood/us/en/support/_next/static/fonts/",
+                                "type": "directory",
+                                "name": "fonts",
+                                "children": []
+                              },
+                              {
+                                "path": "/archive/robinhood/us/en/support/_next/static/images/",
+                                "type": "directory",
+                                "name": "images",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/articles/",
+                        "type": "directory",
+                        "name": "articles",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/24hour-market/",
+                            "type": "directory",
+                            "name": "24hour-market",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/2h7XuIXaT2kaE1oHYROWTE/",
+                            "type": "directory",
+                            "name": "2h7XuIXaT2kaE1oHYROWTE",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/Account-protection-with-SIPC/",
+                            "type": "directory",
+                            "name": "Account-protection-with-SIPC",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/NBBO/",
+                            "type": "directory",
+                            "name": "NBBO",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/T1-settlements/",
+                            "type": "directory",
+                            "name": "T1-settlements",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/Trade-or-price-adjustments-on-my-statement/",
+                            "type": "directory",
+                            "name": "Trade-or-price-adjustments-on-my-statement",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/about-instant-transfers/",
+                            "type": "directory",
+                            "name": "about-instant-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/about-robinhood-clearing/",
+                            "type": "directory",
+                            "name": "about-robinhood-clearing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/about-tax-documents/",
+                            "type": "directory",
+                            "name": "about-tax-documents",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/about-the-options-strategy-builder/",
+                            "type": "directory",
+                            "name": "about-the-options-strategy-builder",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/accessibility-options/",
+                            "type": "directory",
+                            "name": "accessibility-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/account-restrictions/",
+                            "type": "directory",
+                            "name": "account-restrictions",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/advanced-options-strategies/",
+                            "type": "directory",
+                            "name": "advanced-options-strategies",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/american-depositary-receipts/",
+                            "type": "directory",
+                            "name": "american-depositary-receipts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/apply-for-robinhood-credit-card/",
+                            "type": "directory",
+                            "name": "apply-for-robinhood-credit-card",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/are-there-fees-for-transfers/",
+                            "type": "directory",
+                            "name": "are-there-fees-for-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/average-cost/",
+                            "type": "directory",
+                            "name": "average-cost",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/avoid-scams/",
+                            "type": "directory",
+                            "name": "avoid-scams",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/backup-coverage/",
+                            "type": "directory",
+                            "name": "backup-coverage",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/basic-options-strategies/",
+                            "type": "directory",
+                            "name": "basic-options-strategies",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/beneficiaries/",
+                            "type": "directory",
+                            "name": "beneficiaries",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/best-practices/",
+                            "type": "directory",
+                            "name": "best-practices",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/bigger-instant-deposits/",
+                            "type": "directory",
+                            "name": "bigger-instant-deposits",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/browsers-support/",
+                            "type": "directory",
+                            "name": "browsers-support",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/buy-crypto-with-robinhood-connect/",
+                            "type": "directory",
+                            "name": "buy-crypto-with-robinhood-connect",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/buy-or-sell-crypto/",
+                            "type": "directory",
+                            "name": "buy-or-sell-crypto",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/buying-a-stock/",
+                            "type": "directory",
+                            "name": "buying-a-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cancel-a-pending-order/",
+                            "type": "directory",
+                            "name": "cancel-a-pending-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/canceling-a-pending-order/",
+                            "type": "directory",
+                            "name": "canceling-a-pending-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cardano-polygon-solana-update/",
+                            "type": "directory",
+                            "name": "cardano-polygon-solana-update",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cash-card-offers/",
+                            "type": "directory",
+                            "name": "cash-card-offers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cash-sweep-program-interest-rate/",
+                            "type": "directory",
+                            "name": "cash-sweep-program-interest-rate",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/change-your-password/",
+                            "type": "directory",
+                            "name": "change-your-password",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/close-my-account/",
+                            "type": "directory",
+                            "name": "close-my-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/coming-back-to-robinhood/",
+                            "type": "directory",
+                            "name": "coming-back-to-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/commission-free-cryptocurrency-investing/",
+                            "type": "directory",
+                            "name": "commission-free-cryptocurrency-investing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/connect-to-dapps/",
+                            "type": "directory",
+                            "name": "connect-to-dapps",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/corporate-actions-tracker/",
+                            "type": "directory",
+                            "name": "corporate-actions-tracker",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cost-basis/",
+                            "type": "directory",
+                            "name": "cost-basis",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-account-funding/",
+                            "type": "directory",
+                            "name": "crypto-account-funding",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-buying-and-selling/",
+                            "type": "directory",
+                            "name": "crypto-buying-and-selling",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-learn-and-earn/",
+                            "type": "directory",
+                            "name": "crypto-learn-and-earn",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-order-routing/",
+                            "type": "directory",
+                            "name": "crypto-order-routing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-price-alerts/",
+                            "type": "directory",
+                            "name": "crypto-price-alerts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-prices-differ/",
+                            "type": "directory",
+                            "name": "crypto-prices-differ",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-security/",
+                            "type": "directory",
+                            "name": "crypto-security",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-tax-FAQ/",
+                            "type": "directory",
+                            "name": "crypto-tax-FAQ",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/crypto-transfers/",
+                            "type": "directory",
+                            "name": "crypto-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cryptocurrency-hashrate/",
+                            "type": "directory",
+                            "name": "cryptocurrency-hashrate",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/cryptocurrency-investing/",
+                            "type": "directory",
+                            "name": "cryptocurrency-investing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/data-sharing-preferences/",
+                            "type": "directory",
+                            "name": "data-sharing-preferences",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/day-trade-calls/",
+                            "type": "directory",
+                            "name": "day-trade-calls",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/deposit-money-into-your-robinhood-account/",
+                            "type": "directory",
+                            "name": "deposit-money-into-your-robinhood-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/deposit-sweep-program/",
+                            "type": "directory",
+                            "name": "deposit-sweep-program",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/device-approvals/",
+                            "type": "directory",
+                            "name": "device-approvals",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/device-monitoring/",
+                            "type": "directory",
+                            "name": "device-monitoring",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/dividend-reinvestment/",
+                            "type": "directory",
+                            "name": "dividend-reinvestment",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/dividends/",
+                            "type": "directory",
+                            "name": "dividends",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/downgrading-from-gold/",
+                            "type": "directory",
+                            "name": "downgrading-from-gold",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/due-bill-process/",
+                            "type": "directory",
+                            "name": "due-bill-process",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/early-direct-deposit/",
+                            "type": "directory",
+                            "name": "early-direct-deposit",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/earnings-calls-and-shareholder-qas/",
+                            "type": "directory",
+                            "name": "earnings-calls-and-shareholder-qas",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/exchange-traded-funds-etfs/",
+                            "type": "directory",
+                            "name": "exchange-traded-funds-etfs",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/expiration-exercise-and-assignment/",
+                            "type": "directory",
+                            "name": "expiration-exercise-and-assignment",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/extendedhours-trading/",
+                            "type": "directory",
+                            "name": "extendedhours-trading",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/finding-your-account-documents/",
+                            "type": "directory",
+                            "name": "finding-your-account-documents",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/finding-your-reports-and-statements/",
+                            "type": "directory",
+                            "name": "finding-your-reports-and-statements",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/first-trade-recommendations/",
+                            "type": "directory",
+                            "name": "first-trade-recommendations",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/fractional-shares/",
+                            "type": "directory",
+                            "name": "fractional-shares",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/get-started-with-robinhood-spending/",
+                            "type": "directory",
+                            "name": "get-started-with-robinhood-spending",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/gold-overview/",
+                            "type": "directory",
+                            "name": "gold-overview",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/gold-subscription-and-cancellation/",
+                            "type": "directory",
+                            "name": "gold-subscription-and-cancellation",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/gopuff-partner/",
+                            "type": "directory",
+                            "name": "gopuff-partner",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-corporate-actions-affect-your-options/",
+                            "type": "directory",
+                            "name": "how-corporate-actions-affect-your-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-do-i-claim-my-reward-stock/",
+                            "type": "directory",
+                            "name": "how-do-i-claim-my-reward-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-robinhood-makes-money/",
+                            "type": "directory",
+                            "name": "how-robinhood-makes-money",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-access-your-tax-documents/",
+                            "type": "directory",
+                            "name": "how-to-access-your-tax-documents",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-cancel-a-transfer/",
+                            "type": "directory",
+                            "name": "how-to-cancel-a-transfer",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-contact-phone-support/",
+                            "type": "directory",
+                            "name": "how-to-contact-phone-support",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-contact-support/",
+                            "type": "directory",
+                            "name": "how-to-contact-support",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-correct-errors-on-your-1099/",
+                            "type": "directory",
+                            "name": "how-to-correct-errors-on-your-1099",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-correct-errors-on-your-tax-form/",
+                            "type": "directory",
+                            "name": "how-to-correct-errors-on-your-tax-form",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-ensure-a-successful-transfer/",
+                            "type": "directory",
+                            "name": "how-to-ensure-a-successful-transfer",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-identify-&-report-scams/",
+                            "type": "directory",
+                            "name": "how-to-identify-&-report-scams",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-identify-and-report-scams/",
+                            "type": "directory",
+                            "name": "how-to-identify-and-report-scams",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-import-your-1099-to-tax-provider/",
+                            "type": "directory",
+                            "name": "how-to-import-your-1099-to-tax-provider",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-import-your-1099-to-turbotax/",
+                            "type": "directory",
+                            "name": "how-to-import-your-1099-to-turbotax",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-prevent-bank-transfer-reversals/",
+                            "type": "directory",
+                            "name": "how-to-prevent-bank-transfer-reversals",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-read-your-1099/",
+                            "type": "directory",
+                            "name": "how-to-read-your-1099",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-read-your-1099-B/",
+                            "type": "directory",
+                            "name": "how-to-read-your-1099-B",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-read-your-1099R-and-5498/",
+                            "type": "directory",
+                            "name": "how-to-read-your-1099R-and-5498",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-request-ipo-shares/",
+                            "type": "directory",
+                            "name": "how-to-request-ipo-shares",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-send-in-documents/",
+                            "type": "directory",
+                            "name": "how-to-send-in-documents",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-sign-in-to-robinhood-from-a-new-device/",
+                            "type": "directory",
+                            "name": "how-to-sign-in-to-robinhood-from-a-new-device",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-to-sign-up-for-ipo-access/",
+                            "type": "directory",
+                            "name": "how-to-sign-up-for-ipo-access",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/how-youre-protected/",
+                            "type": "directory",
+                            "name": "how-youre-protected",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/increasing-your-margin-available/",
+                            "type": "directory",
+                            "name": "increasing-your-margin-available",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/info-labels/",
+                            "type": "directory",
+                            "name": "info-labels",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/instant-bank-transfers/",
+                            "type": "directory",
+                            "name": "instant-bank-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/instant-deposits/",
+                            "type": "directory",
+                            "name": "instant-deposits",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/instant-deposits-and-options/",
+                            "type": "directory",
+                            "name": "instant-deposits-and-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/investing-on-weekends/",
+                            "type": "directory",
+                            "name": "investing-on-weekends",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/investing-tools/",
+                            "type": "directory",
+                            "name": "investing-tools",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/investments-you-can-make-on-robinhood/",
+                            "type": "directory",
+                            "name": "investments-you-can-make-on-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/invite-friends-pick-stock/",
+                            "type": "directory",
+                            "name": "invite-friends-pick-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ios-widgets/",
+                            "type": "directory",
+                            "name": "ios-widgets",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ipo-access/",
+                            "type": "directory",
+                            "name": "ipo-access",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-adjustments/",
+                            "type": "directory",
+                            "name": "ira-adjustments",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-contributions/",
+                            "type": "directory",
+                            "name": "ira-contributions",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-gold-match-2024/",
+                            "type": "directory",
+                            "name": "ira-gold-match-2024",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-growth-potential/",
+                            "type": "directory",
+                            "name": "ira-growth-potential",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-match-faq/",
+                            "type": "directory",
+                            "name": "ira-match-faq",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-overview/",
+                            "type": "directory",
+                            "name": "ira-overview",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/ira-withdrawals/",
+                            "type": "directory",
+                            "name": "ira-withdrawals",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/keeping-your-crypto-safe/",
+                            "type": "directory",
+                            "name": "keeping-your-crypto-safe",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/level-ii-market-data/",
+                            "type": "directory",
+                            "name": "level-ii-market-data",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/limit-order/",
+                            "type": "directory",
+                            "name": "limit-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/limit-order-options/",
+                            "type": "directory",
+                            "name": "limit-order-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/link-your-accounts/",
+                            "type": "directory",
+                            "name": "link-your-accounts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/link-your-bank-account/",
+                            "type": "directory",
+                            "name": "link-your-bank-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/losing-loved-one/",
+                            "type": "directory",
+                            "name": "losing-loved-one",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/managing-your-personal-data/",
+                            "type": "directory",
+                            "name": "managing-your-personal-data",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/managing-your-snacks-preferences/",
+                            "type": "directory",
+                            "name": "managing-your-snacks-preferences",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/margin-calls/",
+                            "type": "directory",
+                            "name": "margin-calls",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/margin-maintenance/",
+                            "type": "directory",
+                            "name": "margin-maintenance",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/margin-overview/",
+                            "type": "directory",
+                            "name": "margin-overview",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/margin-rates/",
+                            "type": "directory",
+                            "name": "margin-rates",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/margin-withdrawal/",
+                            "type": "directory",
+                            "name": "margin-withdrawal",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/market-order/",
+                            "type": "directory",
+                            "name": "market-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/mergers-stock-splits-and-more/",
+                            "type": "directory",
+                            "name": "mergers-stock-splits-and-more",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/minimum-margin/",
+                            "type": "directory",
+                            "name": "minimum-margin",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/move-money/",
+                            "type": "directory",
+                            "name": "move-money",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/my-app-seems-frozen/",
+                            "type": "directory",
+                            "name": "my-app-seems-frozen",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/nfts/",
+                            "type": "directory",
+                            "name": "nfts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/no-commission-crypto/",
+                            "type": "directory",
+                            "name": "no-commission-crypto",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/no-commission-crypto-investing/",
+                            "type": "directory",
+                            "name": "no-commission-crypto-investing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/not-enough-shares-error/",
+                            "type": "directory",
+                            "name": "not-enough-shares-error",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/notifications-and-messages/",
+                            "type": "directory",
+                            "name": "notifications-and-messages",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/open-account-pick-your-stock/",
+                            "type": "directory",
+                            "name": "open-account-pick-your-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/open-my-account/",
+                            "type": "directory",
+                            "name": "open-my-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-alerts/",
+                            "type": "directory",
+                            "name": "options-alerts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-chain-metrics/",
+                            "type": "directory",
+                            "name": "options-chain-metrics",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-collateral/",
+                            "type": "directory",
+                            "name": "options-collateral",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-in-robinhood-retirement/",
+                            "type": "directory",
+                            "name": "options-in-robinhood-retirement",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-investing/",
+                            "type": "directory",
+                            "name": "options-investing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-knowledge-center/",
+                            "type": "directory",
+                            "name": "options-knowledge-center",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-rolling/",
+                            "type": "directory",
+                            "name": "options-rolling",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-trading-faq/",
+                            "type": "directory",
+                            "name": "options-trading-faq",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/options-trading-hours/",
+                            "type": "directory",
+                            "name": "options-trading-hours",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/order-types/",
+                            "type": "directory",
+                            "name": "order-types",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/partner-stock-program/",
+                            "type": "directory",
+                            "name": "partner-stock-program",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/passkeys/",
+                            "type": "directory",
+                            "name": "passkeys",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/pattern-day-trade-protection/",
+                            "type": "directory",
+                            "name": "pattern-day-trade-protection",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/pattern-day-trading/",
+                            "type": "directory",
+                            "name": "pattern-day-trading",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/pay-&-request/",
+                            "type": "directory",
+                            "name": "pay-&-request",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/pay-&-request-faq/",
+                            "type": "directory",
+                            "name": "pay-&-request-faq",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/pay-&-request-rewards/",
+                            "type": "directory",
+                            "name": "pay-&-request-rewards",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/pay-&-request-security-and-privacy/",
+                            "type": "directory",
+                            "name": "pay-&-request-security-and-privacy",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/paycheck-investments/",
+                            "type": "directory",
+                            "name": "paycheck-investments",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/paying-for-robinhood-gold/",
+                            "type": "directory",
+                            "name": "paying-for-robinhood-gold",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/placing-an-options-trade/",
+                            "type": "directory",
+                            "name": "placing-an-options-trade",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/preipo-trading/",
+                            "type": "directory",
+                            "name": "preipo-trading",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/price-alerts/",
+                            "type": "directory",
+                            "name": "price-alerts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/professional-research/",
+                            "type": "directory",
+                            "name": "professional-research",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/profile/",
+                            "type": "directory",
+                            "name": "profile",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/profit-loss-chart/",
+                            "type": "directory",
+                            "name": "profit-loss-chart",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/protect-your-wallet/",
+                            "type": "directory",
+                            "name": "protect-your-wallet",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/recurring-investments/",
+                            "type": "directory",
+                            "name": "recurring-investments",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/report-security-vulnerabilities/",
+                            "type": "directory",
+                            "name": "report-security-vulnerabilities",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/retirement-investing/",
+                            "type": "directory",
+                            "name": "retirement-investing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/retirement-recommendations/",
+                            "type": "directory",
+                            "name": "retirement-recommendations",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-accounts/",
+                            "type": "directory",
+                            "name": "robinhood-accounts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-app-use-standards/",
+                            "type": "directory",
+                            "name": "robinhood-app-use-standards",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-cash-card/",
+                            "type": "directory",
+                            "name": "robinhood-cash-card",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-connect/",
+                            "type": "directory",
+                            "name": "robinhood-connect",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-crypto-glossary/",
+                            "type": "directory",
+                            "name": "robinhood-crypto-glossary",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-glossary/",
+                            "type": "directory",
+                            "name": "robinhood-glossary",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-authorized-users/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-authorized-users",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-disputes/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-disputes",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-faq/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-faq",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-get-started/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-get-started",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-payments/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-payments",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-rewards/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-rewards",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-card-waitlist/",
+                            "type": "directory",
+                            "name": "robinhood-gold-card-waitlist",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-gold-deposit-boost/",
+                            "type": "directory",
+                            "name": "robinhood-gold-deposit-boost",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-non-custodial-privacy-policy/",
+                            "type": "directory",
+                            "name": "robinhood-non-custodial-privacy-policy",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-social-media/",
+                            "type": "directory",
+                            "name": "robinhood-social-media",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-wallet/",
+                            "type": "directory",
+                            "name": "robinhood-wallet",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/robinhood-wallet-faqs/",
+                            "type": "directory",
+                            "name": "robinhood-wallet-faqs",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/rollovers-and-transfers/",
+                            "type": "directory",
+                            "name": "rollovers-and-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/roth-conversions/",
+                            "type": "directory",
+                            "name": "roth-conversions",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/round-ups/",
+                            "type": "directory",
+                            "name": "round-ups",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/security-guarantee/",
+                            "type": "directory",
+                            "name": "security-guarantee",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/selling-a-stock/",
+                            "type": "directory",
+                            "name": "selling-a-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/send-receive-and-swap-crypto/",
+                            "type": "directory",
+                            "name": "send-receive-and-swap-crypto",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/settlement-and-buying-power/",
+                            "type": "directory",
+                            "name": "settlement-and-buying-power",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/shareholder-meetings-and-elections/",
+                            "type": "directory",
+                            "name": "shareholder-meetings-and-elections",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/sign-in-with-a-new-device/",
+                            "type": "directory",
+                            "name": "sign-in-with-a-new-device",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/simulated-returns/",
+                            "type": "directory",
+                            "name": "simulated-returns",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-account-security-features/",
+                            "type": "directory",
+                            "name": "spending-account-security-features",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-are-there-any-fees/",
+                            "type": "directory",
+                            "name": "spending-are-there-any-fees",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-atms/",
+                            "type": "directory",
+                            "name": "spending-atms",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-different-dispute-types/",
+                            "type": "directory",
+                            "name": "spending-different-dispute-types",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-direct-deposit/",
+                            "type": "directory",
+                            "name": "spending-direct-deposit",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-earning-interest/",
+                            "type": "directory",
+                            "name": "spending-earning-interest",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-how-can-i-make-my-dispute-go-faster/",
+                            "type": "directory",
+                            "name": "spending-how-can-i-make-my-dispute-go-faster",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-how-do-i-submit-a-dispute/",
+                            "type": "directory",
+                            "name": "spending-how-do-i-submit-a-dispute",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-how-long-do-i-have-to-file-a-dispute/",
+                            "type": "directory",
+                            "name": "spending-how-long-do-i-have-to-file-a-dispute",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-insurance/",
+                            "type": "directory",
+                            "name": "spending-insurance",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-limits/",
+                            "type": "directory",
+                            "name": "spending-limits",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-move-money/",
+                            "type": "directory",
+                            "name": "spending-move-money",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-transfers/",
+                            "type": "directory",
+                            "name": "spending-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/spending-what-is-the-lifecycle-of-a-dispute/",
+                            "type": "directory",
+                            "name": "spending-what-is-the-lifecycle-of-a-dispute",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stock-lending/",
+                            "type": "directory",
+                            "name": "stock-lending",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stock-order-routing/",
+                            "type": "directory",
+                            "name": "stock-order-routing",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stock-screeners/",
+                            "type": "directory",
+                            "name": "stock-screeners",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stock-trading-halts/",
+                            "type": "directory",
+                            "name": "stock-trading-halts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stocks-grayed-out/",
+                            "type": "directory",
+                            "name": "stocks-grayed-out",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stop-limit-order/",
+                            "type": "directory",
+                            "name": "stop-limit-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stop-limit-order-options/",
+                            "type": "directory",
+                            "name": "stop-limit-order-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stop-market-order-options/",
+                            "type": "directory",
+                            "name": "stop-market-order-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/stop-order/",
+                            "type": "directory",
+                            "name": "stop-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/taskrabbit-partner/",
+                            "type": "directory",
+                            "name": "taskrabbit-partner",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/tax-documents-FAQ/",
+                            "type": "directory",
+                            "name": "tax-documents-FAQ",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/taxes-and-forms/",
+                            "type": "directory",
+                            "name": "taxes-and-forms",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/third-party-connections/",
+                            "type": "directory",
+                            "name": "third-party-connections",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/trading-fees-on-robinhood/",
+                            "type": "directory",
+                            "name": "trading-fees-on-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/trading-halts/",
+                            "type": "directory",
+                            "name": "trading-halts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/trading-halts-on-individual-stocks/",
+                            "type": "directory",
+                            "name": "trading-halts-on-individual-stocks",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/trailing-stop-order/",
+                            "type": "directory",
+                            "name": "trailing-stop-order",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/transfer-stocks-out-of-your-robinhood-account/",
+                            "type": "directory",
+                            "name": "transfer-stocks-out-of-your-robinhood-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/transfer-your-assets-in/",
+                            "type": "directory",
+                            "name": "transfer-your-assets-in",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/transfer-your-assets-out/",
+                            "type": "directory",
+                            "name": "transfer-your-assets-out",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/transferring-your-assets-into-robinhood/",
+                            "type": "directory",
+                            "name": "transferring-your-assets-into-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/transfers-and-rollovers/",
+                            "type": "directory",
+                            "name": "transfers-and-rollovers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/traveling-with-robinhood/",
+                            "type": "directory",
+                            "name": "traveling-with-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/trusted-contact-person/",
+                            "type": "directory",
+                            "name": "trusted-contact-person",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/trusted-devices/",
+                            "type": "directory",
+                            "name": "trusted-devices",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/twofactor-authentication/",
+                            "type": "directory",
+                            "name": "twofactor-authentication",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/unlicensed-states/",
+                            "type": "directory",
+                            "name": "unlicensed-states",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/unlink-your-account/",
+                            "type": "directory",
+                            "name": "unlink-your-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/update-your-address/",
+                            "type": "directory",
+                            "name": "update-your-address",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/update-your-dependents/",
+                            "type": "directory",
+                            "name": "update-your-dependents",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/update-your-email-address/",
+                            "type": "directory",
+                            "name": "update-your-email-address",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/update-your-legal-name/",
+                            "type": "directory",
+                            "name": "update-your-legal-name",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/update-your-mailing-address/",
+                            "type": "directory",
+                            "name": "update-your-mailing-address",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/updating-your-notification-settings/",
+                            "type": "directory",
+                            "name": "updating-your-notification-settings",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/upgrading-to-gold/",
+                            "type": "directory",
+                            "name": "upgrading-to-gold",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/using-cash-versus-margin/",
+                            "type": "directory",
+                            "name": "using-cash-versus-margin",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/using-charts/",
+                            "type": "directory",
+                            "name": "using-charts",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/using-earnings/",
+                            "type": "directory",
+                            "name": "using-earnings",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/using-market-data/",
+                            "type": "directory",
+                            "name": "using-market-data",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/verifying-its-you/",
+                            "type": "directory",
+                            "name": "verifying-its-you",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/viewing-crypto/",
+                            "type": "directory",
+                            "name": "viewing-crypto",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/viewing-indicators/",
+                            "type": "directory",
+                            "name": "viewing-indicators",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/viewing-stock-detail-pages/",
+                            "type": "directory",
+                            "name": "viewing-stock-detail-pages",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/wash-sales/",
+                            "type": "directory",
+                            "name": "wash-sales",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/watchlist-and-cards/",
+                            "type": "directory",
+                            "name": "watchlist-and-cards",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-does-it-mean-to-earn-more-interest/",
+                            "type": "directory",
+                            "name": "what-does-it-mean-to-earn-more-interest",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-if-a-stock-is-delisted/",
+                            "type": "directory",
+                            "name": "what-if-a-stock-is-delisted",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-is-a-coin-event/",
+                            "type": "directory",
+                            "name": "what-is-a-coin-event",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-is-a-concentrated-maintenance-cm-call/",
+                            "type": "directory",
+                            "name": "what-is-a-concentrated-maintenance-cm-call",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-is-a-robinhood-spending-account/",
+                            "type": "directory",
+                            "name": "what-is-a-robinhood-spending-account",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-is-cash-management/",
+                            "type": "directory",
+                            "name": "what-is-cash-management",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-is-reg-t/",
+                            "type": "directory",
+                            "name": "what-is-reg-t",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/what-you-need-to-get-started/",
+                            "type": "directory",
+                            "name": "what-you-need-to-get-started",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/whats-a-directed-share-program/",
+                            "type": "directory",
+                            "name": "whats-a-directed-share-program",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/whats-an-untradable-stock/",
+                            "type": "directory",
+                            "name": "whats-an-untradable-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/when-can-i-get-cash-from-selling-reward-stock/",
+                            "type": "directory",
+                            "name": "when-can-i-get-cash-from-selling-reward-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/when-can-i-sell-reward-stock/",
+                            "type": "directory",
+                            "name": "when-can-i-sell-reward-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/when-will-my-money-be-available/",
+                            "type": "directory",
+                            "name": "when-will-my-money-be-available",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/wheres-my-referral-reward-stock/",
+                            "type": "directory",
+                            "name": "wheres-my-referral-reward-stock",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-cant-i-place-a-buy-order-on-a-cryptocurrency/",
+                            "type": "directory",
+                            "name": "why-cant-i-place-a-buy-order-on-a-cryptocurrency",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-cant-i-use-all-of-my-buying-power-to-buy-a-security/",
+                            "type": "directory",
+                            "name": "why-cant-i-use-all-of-my-buying-power-to-buy-a-security",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-cant-i-use-my-instant-deposit/",
+                            "type": "directory",
+                            "name": "why-cant-i-use-my-instant-deposit",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-cant-i-use-my-instant-deposits/",
+                            "type": "directory",
+                            "name": "why-cant-i-use-my-instant-deposits",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-didnt-i-get-the-ipo-shares-i-requested/",
+                            "type": "directory",
+                            "name": "why-didnt-i-get-the-ipo-shares-i-requested",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-didnt-i-get-the-requested-ipo-shares/",
+                            "type": "directory",
+                            "name": "why-didnt-i-get-the-requested-ipo-shares",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-do-i-have-an-account-deficit-margin/",
+                            "type": "directory",
+                            "name": "why-do-i-have-an-account-deficit-margin",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-do-i-have-an-account-deficit-no-margin/",
+                            "type": "directory",
+                            "name": "why-do-i-have-an-account-deficit-no-margin",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-do-i-keep-getting-account-statement-emails/",
+                            "type": "directory",
+                            "name": "why-do-i-keep-getting-account-statement-emails",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-dont-i-see-a-buy-button/",
+                            "type": "directory",
+                            "name": "why-dont-i-see-a-buy-button",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-dont-i-see-instant-transfers/",
+                            "type": "directory",
+                            "name": "why-dont-i-see-instant-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-hasnt-my-cryptocurrency-order-filled/",
+                            "type": "directory",
+                            "name": "why-hasnt-my-cryptocurrency-order-filled",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-hasnt-my-order-been-filled/",
+                            "type": "directory",
+                            "name": "why-hasnt-my-order-been-filled",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-is-transferred-money-unavailable/",
+                            "type": "directory",
+                            "name": "why-is-transferred-money-unavailable",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/why-was-my-order-rejected/",
+                            "type": "directory",
+                            "name": "why-was-my-order-rejected",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/wire-transfers/",
+                            "type": "directory",
+                            "name": "wire-transfers",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/withdraw-money-from-robinhood/",
+                            "type": "directory",
+                            "name": "withdraw-money-from-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/your-investor-profile/",
+                            "type": "directory",
+                            "name": "your-investor-profile",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/articles/your-username/",
+                            "type": "directory",
+                            "name": "your-username",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/bank-transfers-and-linking/",
+                        "type": "directory",
+                        "name": "bank-transfers-and-linking",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/bank-transfers-and-linking/instant-transfers-common-concerns/",
+                            "type": "directory",
+                            "name": "instant-transfers-common-concerns",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/documents-and-taxes/",
+                        "type": "directory",
+                        "name": "documents-and-taxes",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/general-questions/",
+                        "type": "directory",
+                        "name": "general-questions",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/general-questions/check-asset-details/",
+                            "type": "directory",
+                            "name": "check-asset-details",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/general-questions/check-your-portfolio/",
+                            "type": "directory",
+                            "name": "check-your-portfolio",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/general-questions/robinhood-referral-program/",
+                            "type": "directory",
+                            "name": "robinhood-referral-program",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/general-questions/troubleshoot-your-app/",
+                            "type": "directory",
+                            "name": "troubleshoot-your-app",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/getting-started/",
+                        "type": "directory",
+                        "name": "getting-started",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/getting-started/explore-products-and-features/",
+                            "type": "directory",
+                            "name": "explore-products-and-features",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/investing/",
+                        "type": "directory",
+                        "name": "investing",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/investing-with-margin/",
+                            "type": "directory",
+                            "name": "investing-with-margin",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/investing-with-options/",
+                            "type": "directory",
+                            "name": "investing-with-options",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/investing-with-stocks-special-cases/",
+                            "type": "directory",
+                            "name": "investing-with-stocks-special-cases",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/investing-with-stocks-the-basics/",
+                            "type": "directory",
+                            "name": "investing-with-stocks-the-basics",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/ipo-access/",
+                            "type": "directory",
+                            "name": "ipo-access",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/stocks-common-concerns/",
+                            "type": "directory",
+                            "name": "stocks-common-concerns",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/investing/your-investments/",
+                            "type": "directory",
+                            "name": "your-investments",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/my-account-and-login/",
+                        "type": "directory",
+                        "name": "my-account-and-login",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/my-account-and-login/account-security/",
+                            "type": "directory",
+                            "name": "account-security",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/my-account-and-login/transferring-assets-in-and-out-of-robinhood/",
+                            "type": "directory",
+                            "name": "transferring-assets-in-and-out-of-robinhood",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/my-account-and-login/your-information/",
+                            "type": "directory",
+                            "name": "your-information",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/retirement/",
+                        "type": "directory",
+                        "name": "retirement",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/retirement/1099-partnerships/",
+                            "type": "directory",
+                            "name": "1099-partnerships",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/robinhood-crypto/",
+                        "type": "directory",
+                        "name": "robinhood-crypto",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/robinhood-crypto/buying-and-selling-crypto/",
+                            "type": "directory",
+                            "name": "buying-and-selling-crypto",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/robinhood-crypto/crypto-education/",
+                            "type": "directory",
+                            "name": "crypto-education",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/robinhood-crypto/robinhood-connect/",
+                            "type": "directory",
+                            "name": "robinhood-connect",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/robinhood-crypto/robinhood-crypto-common-concerns/",
+                            "type": "directory",
+                            "name": "robinhood-crypto-common-concerns",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/robinhood-gold/",
+                        "type": "directory",
+                        "name": "robinhood-gold",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/robinhood-gold-card/",
+                        "type": "directory",
+                        "name": "robinhood-gold-card",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/robinhood-wallet-home/",
+                        "type": "directory",
+                        "name": "robinhood-wallet-home",
+                        "children": []
+                      },
+                      {
+                        "path": "/archive/robinhood/us/en/support/spending/",
+                        "type": "directory",
+                        "name": "spending",
+                        "children": [
+                          {
+                            "path": "/archive/robinhood/us/en/support/spending/disputes/",
+                            "type": "directory",
+                            "name": "disputes",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/spending/getting-started/",
+                            "type": "directory",
+                            "name": "getting-started",
+                            "children": []
+                          },
+                          {
+                            "path": "/archive/robinhood/us/en/support/spending/pay-&-request/",
+                            "type": "directory",
+                            "name": "pay-&-request",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "path": "/bastion/",
