@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XFT-INDUSTRY :: SCANNER</title>
+    <title>XFT-INDUSTRY :: DIRECTORY SCANNER</title>
     <style>
         :root {
             --neon-green: #0f0;
-            --dark-bg: #000;
+            --terminal-green: #00ff00;
             --cyber-blue: #00ffff;
+            --dark-bg: #000;
         }
 
         body {
-            background: var(--dark-bg);
-            color: var(--neon-green);
+            background-color: var(--dark-bg);
+            color: var(--terminal-green);
             font-family: 'Courier New', monospace;
             margin: 0;
             padding: 20px;
@@ -25,9 +26,10 @@
         }
 
         .header {
-            border: 1px solid var(--neon-green);
+            border: 1px solid var(--terminal-green);
             padding: 20px;
             margin-bottom: 20px;
+            background: rgba(0, 15, 0, 0.9);
         }
 
         .directory-list {
@@ -39,7 +41,7 @@
             background: rgba(0, 20, 0, 0.8);
             margin: 8px 0;
             padding: 15px;
-            border: 1px solid var(--neon-green);
+            border: 1px solid var(--terminal-green);
             cursor: pointer;
         }
 
@@ -48,14 +50,20 @@
             border-color: var(--cyber-blue);
         }
 
-        #status-bar {
+        .status-bar {
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
             background: rgba(0, 20, 0, 0.9);
-            padding: 5px;
-            border-top: 1px solid var(--neon-green);
+            padding: 10px;
+            border-top: 1px solid var(--terminal-green);
+        }
+
+        #path-display {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid var(--terminal-green);
         }
     </style>
 </head>
@@ -64,67 +72,74 @@
         <div class="header">
             <h1>XFT Industry Scanner</h1>
         </div>
-        <div id="breadcrumb-nav"></div>
+        <div id="path-display">/</div>
         <ul class="directory-list" id="directory-list"></ul>
     </div>
-    <div id="status-bar"></div>
+    <div class="status-bar" id="status-bar">
+        [SYSTEM]: Ready | Security protocol: ACTIVE
+    </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const directoryList = document.getElementById('directory-list');
-            const statusBar = document.getElementById('status-bar');
+        const dirList = document.getElementById('directory-list');
+        const pathDisplay = document.getElementById('path-display');
+        const statusBar = document.getElementById('status-bar');
+        let currentDirHandle = null;
+
+        async function initializeScanner() {
+            try {
+                const dirHandle = await window.showDirectoryPicker();
+                currentDirHandle = dirHandle;
+                await scanDirectory(dirHandle);
+            } catch (error) {
+                updateStatus('Access denied or not supported');
+            }
+        }
+
+        async function scanDirectory(dirHandle) {
+            dirList.innerHTML = '';
             
-            // Using fetch to get directory listing
-            async function scanDirectory() {
-                try {
-                    const response = await fetch('.');
-                    const text = await response.text();
+            try {
+                for await (const entry of dirHandle.values()) {
+                    const item = document.createElement('li');
+                    item.className = 'directory-item';
+                    item.textContent = `${entry.kind === 'directory' ? '[DIR] ' : '[FILE] '} ${entry.name}`;
                     
-                    // Parse directory listing from response
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(text, 'text/html');
-                    const links = Array.from(doc.getElementsByTagName('a'));
+                    if (entry.kind === 'directory') {
+                        item.addEventListener('click', async () => {
+                            try {
+                                const newHandle = await dirHandle.getDirectoryHandle(entry.name);
+                                currentDirHandle = newHandle;
+                                updatePath(entry.name);
+                                await scanDirectory(newHandle);
+                            } catch (error) {
+                                updateStatus('Error accessing directory');
+                            }
+                        });
+                    }
                     
-                    // Filter for directories
-                    const directories = links
-                        .map(link => link.getAttribute('href'))
-                        .filter(href => href.endsWith('/'))
-                        .map(href => href.slice(0, -1));
-                    
-                    displayDirectories(directories);
-                    updateStatus('Directory scan complete');
-                } catch (e) {
-                    updateStatus('Error scanning directory');
-                    console.error(e);
+                    dirList.appendChild(item);
                 }
+                updateStatus('Directory scanned successfully');
+            } catch (error) {
+                updateStatus('Error scanning directory');
             }
+        }
 
-            function displayDirectories(dirs) {
-                directoryList.innerHTML = '';
-                dirs.forEach(dir => {
-                    const li = document.createElement('li');
-                    li.className = 'directory-item';
-                    li.textContent = dir;
-                    li.onclick = () => navigateToDirectory(dir);
-                    directoryList.appendChild(li);
-                });
-            }
+        function updatePath(newPath) {
+            const currentPath = pathDisplay.textContent;
+            pathDisplay.textContent = currentPath === '/' ? 
+                `/${newPath}` : 
+                `${currentPath}/${newPath}`;
+        }
 
-            function navigateToDirectory(dir) {
-                window.location.href = `./${dir}`;
-            }
+        function updateStatus(message) {
+            statusBar.textContent = `[SYSTEM]: ${message} | ${new Date().toLocaleTimeString()}`;
+        }
 
-            function updateStatus(message) {
-                statusBar.innerHTML = `[SYSTEM]: ${message} | ${new Date().toLocaleTimeString()}`;
-            }
-
-            // Initial scan
-            scanDirectory();
-            
-            // Update status bar periodically
-            setInterval(() => {
-                updateStatus('System active');
-            }, 1000);
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            document.addEventListener('click', initializeScanner, { once: true });
+            updateStatus('Click anywhere to select directory');
         });
     </script>
 </body>
