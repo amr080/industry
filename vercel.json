@@ -1,6 +1,20 @@
 {
   "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "node build.js"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/directory-list.json",
+      "headers": {
+        "cache-control": "s-maxage=1, stale-while-revalidate"
+      }
+    }
   ]
 }
