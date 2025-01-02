@@ -1,0 +1,9 @@
+{
+  "name": "xft-industry",
+  "version": "1.0.0",
+  "description": "XFT Industry Directory",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js"
+  }
+}
