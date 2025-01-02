@@ -1,0 +1,2073 @@
+openapi: 3.0.3
+info:
+  title: ''
+  version: 0.0.1
+paths:
+  /v1/account:
+    get:
+      tags:
+        - Accounts
+      summary: GetAccount
+      operationId: Accounts_GetAccount
+      parameters:
+        - name: accountId
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/account?accountId=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/account?accountId=string"
+            response = requests.get(url)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/account?accountId=string")
+              fmt.Println(resp)
+            }
+                
+    post:
+      tags:
+        - Accounts
+      summary: CreateAccount
+      description: Create an on-chain EVM account in your application.
+      operationId: Accounts_CreateAccount
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateAccountRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/account" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "customerId": "string",
+                "chain": "string",
+                "address": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/account"
+            payload = {
+                "customerId": "string",
+                "chain": "string",
+                "address": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "customerId": "string",
+                "chain": "string",
+                "address": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/account", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/accounts:
+    get:
+      tags:
+        - Accounts
+      summary: ListAccounts
+      operationId: Accounts_ListAccounts
+      parameters:
+        - name: customerIds
+          in: query
+          description: '**Optional**: The customer ids to filter for.'
+          schema:
+            type: array
+            items:
+              type: string
+        - name: chains
+          in: query
+          description: '**Optional**: The blockchain networks to filter for.'
+          schema:
+            type: array
+            items:
+              enum:
+                - ETHEREUM
+                - OPTIMISM
+                - BSC
+                - POLYGON
+                - FANTOM
+                - ROLLUX
+                - BASE
+                - ARBITRUM
+                - AVALANCHE
+                - ETHEREUM_SEPOLIA
+                - BASE_SEPOLIA
+                - ARBITRUM_SEPOLIA
+                - OPTIMISM_SEPOLIA
+              type: string
+              format: enum
+        - name: addresses
+          in: query
+          description: '**Optional**: The EOA addresses to filter for.'
+          schema:
+            type: array
+            items:
+              type: string
+        - name: types
+          in: query
+          description: '**Optional**: The account types to filter for.'
+          schema:
+            type: array
+            items:
+              enum:
+                - EOA
+                - MANAGED_EOA
+              type: string
+              format: enum
+        - name: statuses
+          in: query
+          description: '**Optional**: The account statuses to filter for.'
+          schema:
+            type: array
+            items:
+              enum:
+                - ACTIVE
+                - INACTIVE
+              type: string
+              format: enum
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListAccountsResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/accounts?customerIds=string&chains=string&addresses=string&types=string&statuses=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: >-
+
+            import requests
+
+
+            url =
+            "https://api.deflux.org/v1/accounts?customerIds=string&chains=string&addresses=string&types=string&statuses=string"
+
+            response = requests.get(url)
+
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/accounts?customerIds=string&chains=string&addresses=string&types=string&statuses=string")
+              fmt.Println(resp)
+            }
+                
+    post:
+      tags:
+        - Accounts
+      summary: BatchCreateAccounts
+      description: Create a batch of on-chain EVM accounts in your application.
+      operationId: Accounts_BatchCreateAccounts
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchCreateAccountsRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchCreateAccountsResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/accounts" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "customerId": "string",
+                "evmAccounts": []
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/accounts"
+            payload = {
+                "customerId": "string",
+                "evmAccounts": []
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "customerId": "string",
+                "evmAccounts": []
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/accounts", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/accounts/resolve:
+    get:
+      tags:
+        - Accounts
+      summary: ResolveAccounts
+      operationId: Accounts_ResolveAccounts
+      parameters:
+        - name: accountIds
+          in: query
+          description: The accounts to resolve.
+          schema:
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ResolveAccountsResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/accounts/resolve?accountIds=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/accounts/resolve?accountIds=string"
+            response = requests.get(url)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/accounts/resolve?accountIds=string")
+              fmt.Println(resp)
+            }
+                
+  /v1/enterprise/customer:
+    get:
+      tags:
+        - Enterprise
+      summary: GetCustomer
+      description: Retrieve a Customer using the customer's unique identifiers.
+      operationId: Enterprise_GetCustomer
+      parameters:
+        - name: customerId
+          in: query
+          description: '**Optional**: The DeFlux generated UUID for the customer.'
+          schema:
+            type: string
+        - name: clientId
+          in: query
+          description: >-
+            **Optional**: The unique identifier of the customer, assigned by the
+            client.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/enterprise/customer?customerId=string&clientId=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: >-
+
+            import requests
+
+
+            url =
+            "https://api.deflux.org/v1/enterprise/customer?customerId=string&clientId=string"
+
+            response = requests.get(url)
+
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/enterprise/customer?customerId=string&clientId=string")
+              fmt.Println(resp)
+            }
+                
+    post:
+      tags:
+        - Enterprise
+      summary: CreateCustomer
+      description: Create a new customer for your application.
+      operationId: Enterprise_CreateCustomer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateCustomerRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/enterprise/customer" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "firstName": "string",
+                "lastName": "string",
+                "clientId": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/enterprise/customer"
+            payload = {
+                "firstName": "string",
+                "lastName": "string",
+                "clientId": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "firstName": "string",
+                "lastName": "string",
+                "clientId": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/enterprise/customer", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/enterprise/customers:
+    get:
+      tags:
+        - Enterprise
+      summary: ListCustomers
+      description: List Customer using filters.
+      operationId: Enterprise_ListCustomers
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListCustomersResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/enterprise/customers?" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/enterprise/customers?"
+            response = requests.get(url)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/enterprise/customers?")
+              fmt.Println(resp)
+            }
+                
+  /v1/evm-payments/deposit:
+    post:
+      tags:
+        - EvmPayments
+      summary: CreateDeposit
+      operationId: EvmPayments_CreateDeposit
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateDepositRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateDepositResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/evm-payments/deposit" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "id": "string",
+                "accountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "fromAddress": "string",
+                "fromVenueId": "string",
+                "reference": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/evm-payments/deposit"
+            payload = {
+                "id": "string",
+                "accountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "fromAddress": "string",
+                "fromVenueId": "string",
+                "reference": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "id": "string",
+                "accountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "fromAddress": "string",
+                "fromVenueId": "string",
+                "reference": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/evm-payments/deposit", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/evm-payments/payments:
+    get:
+      tags:
+        - EvmPayments
+      summary: ListPayments
+      operationId: EvmPayments_ListPayments
+      parameters:
+        - name: venueIds
+          in: query
+          description: The Venue IDs to filter for.
+          schema:
+            type: array
+            items:
+              type: string
+        - name: tokenIds
+          in: query
+          description: The Token IDs to filter for.
+          schema:
+            type: array
+            items:
+              type: string
+        - name: accountIds
+          in: query
+          description: The Account IDs to filter for.
+          schema:
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListPaymentsResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/evm-payments/payments?venueIds=string&tokenIds=string&accountIds=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: >-
+
+            import requests
+
+
+            url =
+            "https://api.deflux.org/v1/evm-payments/payments?venueIds=string&tokenIds=string&accountIds=string"
+
+            response = requests.get(url)
+
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/evm-payments/payments?venueIds=string&tokenIds=string&accountIds=string")
+              fmt.Println(resp)
+            }
+                
+  /v1/evm-payments/transfer:
+    post:
+      tags:
+        - EvmPayments
+      summary: CreateTransfer
+      operationId: EvmPayments_CreateTransfer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateTransferRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateTransferResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/evm-payments/transfer" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "id": "string",
+                "sourceAccountId": "string",
+                "targetAccountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "reference": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/evm-payments/transfer"
+            payload = {
+                "id": "string",
+                "sourceAccountId": "string",
+                "targetAccountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "reference": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "id": "string",
+                "sourceAccountId": "string",
+                "targetAccountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "reference": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/evm-payments/transfer", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/evm-payments/withdrawal:
+    post:
+      tags:
+        - EvmPayments
+      summary: CreateWithdrawal
+      operationId: EvmPayments_CreateWithdrawal
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateWithdrawalRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateWithdrawalResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/evm-payments/withdrawal" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "id": "string",
+                "accountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "toAddress": "string",
+                "toVenueId": "string",
+                "reference": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/evm-payments/withdrawal"
+            payload = {
+                "id": "string",
+                "accountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "toAddress": "string",
+                "toVenueId": "string",
+                "reference": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "id": "string",
+                "accountId": "string",
+                "tokenId": "string",
+                "amount": "string",
+                "toAddress": "string",
+                "toVenueId": "string",
+                "reference": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/evm-payments/withdrawal", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/fiat-payments/auth-bank-account:
+    post:
+      tags:
+        - FiatPayments
+      summary: AuthBankAccount
+      description: >-
+        Initiates the authorisation process by directing the user to the login
+        screen of their financial institution in order to give consent to access
+        bank account data.
+      operationId: FiatPayments_AuthBankAccount
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthBankAccountRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthBankAccountResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/fiat-payments/auth-bank-account" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "customerId": "string",
+                "bankId": "string",
+                "callbackUrl": "string",
+                "redirectUrl": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/fiat-payments/auth-bank-account"
+            payload = {
+                "customerId": "string",
+                "bankId": "string",
+                "callbackUrl": "string",
+                "redirectUrl": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "customerId": "string",
+                "bankId": "string",
+                "callbackUrl": "string",
+                "redirectUrl": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/fiat-payments/auth-bank-account", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/fiat-payments/bank-accounts:
+    get:
+      tags:
+        - FiatPayments
+      summary: ListBankAccounts
+      description: >-
+        Retrieves all the bank accounts that have previously been linked to a
+        customer via the LinkBankAccount.
+      operationId: FiatPayments_ListBankAccounts
+      parameters:
+        - name: customerId
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListBankAccountsResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/fiat-payments/bank-accounts?customerId=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: >-
+
+            import requests
+
+
+            url =
+            "https://api.deflux.org/v1/fiat-payments/bank-accounts?customerId=string"
+
+            response = requests.get(url)
+
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/fiat-payments/bank-accounts?customerId=string")
+              fmt.Println(resp)
+            }
+                
+  /v1/fiat-payments/banks:
+    get:
+      tags:
+        - FiatPayments
+      summary: ListBanks
+      operationId: FiatPayments_ListBanks
+      parameters:
+        - name: bankIds
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListBanksResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/fiat-payments/banks?bankIds=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/fiat-payments/banks?bankIds=string"
+            response = requests.get(url)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/fiat-payments/banks?bankIds=string")
+              fmt.Println(resp)
+            }
+                
+  /v1/fiat-payments/deposit:
+    post:
+      tags:
+        - FiatPayments
+      summary: CreateFiatDeposit
+      description: >-
+        Used to direct the user to the login screen of their financial
+        institution in order to give consent for a single payment initiation.
+      operationId: FiatPayments_CreateFiatDeposit
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateFiatDepositRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateFiatDepositResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/fiat-payments/deposit" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "requestId": "string",
+                "amount": "string",
+                "currency": "string",
+                "reference": "string",
+                "callbackUrl": "string",
+                "redirectUrl": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/fiat-payments/deposit"
+            payload = {
+                "requestId": "string",
+                "amount": "string",
+                "currency": "string",
+                "reference": "string",
+                "callbackUrl": "string",
+                "redirectUrl": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "requestId": "string",
+                "amount": "string",
+                "currency": "string",
+                "reference": "string",
+                "callbackUrl": "string",
+                "redirectUrl": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/fiat-payments/deposit", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/fiat-payments/verify-payment:
+    post:
+      tags:
+        - FiatPayments
+      summary: VerifyFiatPayment
+      operationId: FiatPayments_VerifyFiatPayment
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerifyFiatPaymentRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerifyFiatPaymentResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X POST \
+              "https://api.deflux.org/v1/fiat-payments/verify-payment" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "paymentId": "string",
+                "consentToken": "string"
+            }'
+                
+        - lang: Python
+          source: |-
+
+            import requests
+
+            url = "https://api.deflux.org/v1/fiat-payments/verify-payment"
+            payload = {
+                "paymentId": "string",
+                "consentToken": "string"
+            }
+            response = requests.post(url, json=payload)
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "bytes"
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              jsonStr := []byte(`{
+                "paymentId": "string",
+                "consentToken": "string"
+            }`)
+              req, _ := http.NewRequest("POST", "https://api.deflux.org/v1/fiat-payments/verify-payment", bytes.NewBuffer(jsonStr))
+              req.Header.Set("Content-Type", "application/json")
+              client := &http.Client{}
+              resp, _ := client.Do(req)
+              fmt.Println(resp)
+            }
+                
+  /v1/private/aggregate-accounts:
+    get:
+      tags:
+        - Accounts
+      summary: GetAggregateAccount
+      operationId: Accounts_GetAggregateAccount
+      parameters:
+        - name: id
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AggregateAccount'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/private/aggregate-accounts?id=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: >-
+
+            import requests
+
+
+            url =
+            "https://api.deflux.org/v1/private/aggregate-accounts?id=string"
+
+            response = requests.get(url)
+
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/private/aggregate-accounts?id=string")
+              fmt.Println(resp)
+            }
+                
+  /v1/private/aggregate-accounts/list:
+    get:
+      tags:
+        - Accounts
+      summary: ListAggregateAccounts
+      operationId: Accounts_ListAggregateAccounts
+      parameters:
+        - name: ids
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+        - name: groupNames
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListAggregateAccountsResponse'
+        default:
+          description: Default error response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Status'
+      x-codeSamples:
+        - lang: cURL
+          source: |-
+
+            curl -X GET \
+              "https://api.deflux.org/v1/private/aggregate-accounts/list?ids=string&groupNames=string" \
+              -H "accept: application/json"
+                
+        - lang: Python
+          source: >-
+
+            import requests
+
+
+            url =
+            "https://api.deflux.org/v1/private/aggregate-accounts/list?ids=string&groupNames=string"
+
+            response = requests.get(url)
+
+            print(response.json())
+                
+        - lang: Go
+          source: |-
+
+            package main
+            import (
+              "fmt"
+              "net/http"
+            )
+            func main() {
+              resp, _ := http.Get("https://api.deflux.org/v1/private/aggregate-accounts/list?ids=string&groupNames=string")
+              fmt.Println(resp)
+            }
+                
+components:
+  schemas:
+    Account:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Uniquely identifies this Account.
+        chain:
+          enum:
+            - ETHEREUM
+            - OPTIMISM
+            - BSC
+            - POLYGON
+            - FANTOM
+            - ROLLUX
+            - BASE
+            - ARBITRUM
+            - AVALANCHE
+            - ETHEREUM_SEPOLIA
+            - BASE_SEPOLIA
+            - ARBITRUM_SEPOLIA
+            - OPTIMISM_SEPOLIA
+          type: string
+          description: The blockchain network this account is on.
+          format: enum
+        address:
+          type: string
+          description: The address of this account.
+        type:
+          enum:
+            - EOA
+            - MANAGED_EOA
+          type: string
+          description: Type of account.
+          format: enum
+        status:
+          enum:
+            - ACTIVE
+            - INACTIVE
+          type: string
+          description: Status of account i.e. Active / Inactive.
+          format: enum
+        accountBalance:
+          $ref: '#/components/schemas/AccountBalance'
+        productId:
+          type: string
+          description: The product id of the account.
+    AccountBalance:
+      type: object
+      properties:
+        accountId:
+          type: string
+          description: A unique identifier for this account.
+        venue:
+          type: string
+          description: >-
+            The venue which owns this account. If empty, this is an aggregate
+            account.
+        accountName:
+          type: string
+          description: The name of this account.
+        tokenBalances:
+          type: array
+          items:
+            $ref: '#/components/schemas/TokenBalance'
+          description: The tokens held in this account.
+    AccountInfo:
+      type: object
+      properties:
+        accountId:
+          type: string
+          description: Globally unique identifier of this Account.
+        productId:
+          type: string
+          description: Product id that that this accountInfo is tied to..
+        tSide:
+          enum:
+            - TSIDE_UNKNOWN
+            - TSIDE_ASSET
+            - TSIDE_LIABILITY
+          type: string
+          description: The tside of this account
+          format: enum
+        denominations:
+          type: array
+          items:
+            type: string
+          description: The accepted denominations of this account
+        isInternal:
+          type: boolean
+          description: Denotes whether this is an internal account.
+        address:
+          type: string
+          description: The address of this account. (eg. DEFAULT)
+        asset:
+          type: string
+          description: The asset of this account . (eg. CASH)
+        venueId:
+          type: string
+          description: The venue id of the account.
+    AggregateAccount:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Globally unique identifier of this Account. Output Only.
+        groupName:
+          type: string
+          description: Name of this aggregate account group.
+        parentAccount:
+          $ref: '#/components/schemas/Account'
+        accountIdToAccount:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/Account'
+          description: Accounts in this aggregate group.
+        stream:
+          type: boolean
+          description: Flag for inventory tracking streaming.
+        creationTimestamp:
+          type: integer
+          description: Timestamp this aggregate account was created.
+          format: int64
+        metadata:
+          type: object
+          additionalProperties:
+            type: string
+          description: Metadata for this aggregate account.
+        userId:
+          type: string
+          description: User id that owns this resource if applicable.
+        accountBalance:
+          $ref: '#/components/schemas/AccountBalance'
+        type:
+          enum:
+            - AGGREGATE_ACCOUNT_TYPE_UNKNOWN
+            - AGGREGATE_ACCOUNT_TYPE_CHECKING
+            - AGGREGATE_ACCOUNT_TYPE_SAVINGS
+            - AGGREGATE_ACCOUNT_TYPE_LOAN
+          type: string
+          description: The type of the aggregate account.
+          format: enum
+    AuthBankAccountRequest:
+      type: object
+      properties:
+        customerId:
+          type: string
+          description: '**Required**: Uniquely identifies a customer.'
+        bankId:
+          type: string
+          description: >-
+            **Required**: The identifier for the bank with which the user will
+            authenticate.
+        callbackUrl:
+          type: string
+          description: >-
+            **Required**: The URL to direct the user to after they complete the
+            authorisation at their bank.
+        redirectUrl:
+          type: string
+          description: >-
+            **Optional**: Defaults to:
+            https://auth.deflux.org/verify-bank-account Should redirect to the
+            callback url after verifying the authorisation.
+    AuthBankAccountResponse:
+      type: object
+      properties:
+        authId:
+          type: string
+          description: The unique identifier for this bank account authorisation.
+        authorisationUrl:
+          type: string
+          description: >-
+            The authorisation URL that redirects the user to their bank's login
+            screen.
+    Bank:
+      type: object
+      properties:
+        id:
+          type: string
+        institutionId:
+          type: string
+        name:
+          type: string
+        environmentType:
+          enum:
+            - SANDBOX
+            - PRODUCTION
+          type: string
+          format: enum
+        countries:
+          type: array
+          items:
+            $ref: '#/components/schemas/Country'
+        iconUrl:
+          type: string
+    BankAccount:
+      type: object
+      properties:
+        id:
+          type: string
+        customerId:
+          type: string
+        displayName:
+          type: string
+        currency:
+          type: string
+        bankId:
+          type: string
+      description: Add more fields as needed. Keeping lightweight for future api changes.
+    BatchCreateAccountsRequest:
+      type: object
+      properties:
+        customerId:
+          type: string
+          description: '**Required**: The UUID of a customer.'
+        evmAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/EvmAccount'
+          description: '**Required**: The EVM accounts to create or link.'
+    BatchCreateAccountsResponse:
+      type: object
+      properties:
+        evmAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/Account'
+          description: The EVM accounts linked to the customer.
+    Country:
+      type: object
+      properties:
+        name:
+          type: string
+        code:
+          type: string
+    CrEvmAccount:
+      type: object
+      properties:
+        chain:
+          enum:
+            - ETHEREUM
+            - OPTIMISM
+            - BSC
+            - POLYGON
+            - FANTOM
+            - ROLLUX
+            - BASE
+            - ARBITRUM
+            - AVALANCHE
+            - ETHEREUM_SEPOLIA
+            - BASE_SEPOLIA
+            - ARBITRUM_SEPOLIA
+            - OPTIMISM_SEPOLIA
+          type: string
+          description: >-
+            **Required**: The blockchain network to which the funds will be
+            routed.
+          format: enum
+        accountAddress:
+          type: string
+          description: >-
+            **Required**: The on-chain EVM account address that will receive the
+            funds.
+        tokenAddress:
+          type: string
+          description: >-
+            **Required**: The stablecoin token address in which the received
+            funds are denominated.
+    CreateAccountRequest:
+      type: object
+      properties:
+        customerId:
+          type: string
+          description: '**Required**: The UUID of a customer.'
+        chain:
+          enum:
+            - ETHEREUM
+            - OPTIMISM
+            - BSC
+            - POLYGON
+            - FANTOM
+            - ROLLUX
+            - BASE
+            - ARBITRUM
+            - AVALANCHE
+            - ETHEREUM_SEPOLIA
+            - BASE_SEPOLIA
+            - ARBITRUM_SEPOLIA
+            - OPTIMISM_SEPOLIA
+          type: string
+          description: >-
+            **Required**: The blockchain network on which the account will be
+            created.
+          format: enum
+        address:
+          type: string
+          description: >-
+            **Optional**: A valid Externally Owned Account (EOA) address to
+            associate with this account. The address must match the pattern
+            `^0x[a-f0-9]{40}$`. If ommitted, a new `Managed EOA` account will be
+            generated with its address returned in the response, and its private
+            key will be managed by DeFlux. If provided, a new `EOA` account will
+            be linked to an existing address. In this case, you are responsible
+            for managing the private key.
+    CreateCustomerRequest:
+      type: object
+      properties:
+        firstName:
+          type: string
+          description: '**Required**: The forename of the customer.'
+        lastName:
+          type: string
+          description: '**Required**: The surname of the customer.'
+        clientId:
+          type: string
+          description: >-
+            **Optional**: A unique identifier for the customer, assigned by the
+            client.
+    CreateDepositRequest:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique request identifier for idempotency.
+        accountId:
+          type: string
+          description: The account we want to deposit into.
+        tokenId:
+          type: string
+          description: The id of the token of this transaction.
+        amount:
+          type: string
+          description: Transaction amount.
+        fromAddress:
+          type: string
+          description: The address to take funds from.
+        fromVenueId:
+          type: string
+          description: The venue from send the funds from.
+        reference:
+          type: string
+          description: The reference for this payment.
+    CreateDepositResponse:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          description: The id of the transaction that was created..
+    CreateFiatDepositRequest:
+      type: object
+      properties:
+        requestId:
+          type: string
+          description: >-
+            **Required**: Unique request identifier for idempotency. Must be a
+            UUID.
+        amount:
+          type: string
+          description: '**Required**: The amount to be transferred from the bank account.'
+        currency:
+          type: string
+          description: '**Required**: The currency to initiate a payment in from the bank.'
+        reference:
+          type: string
+          description: '**Optional**: The payment reference'
+        bankAccount:
+          $ref: '#/components/schemas/DrBankAccount'
+        evmAccount:
+          $ref: '#/components/schemas/CrEvmAccount'
+        callbackUrl:
+          type: string
+          description: >-
+            **Required**: The URL to direct the user to after they complete the
+            authorisation at their bank.
+        redirectUrl:
+          type: string
+          description: >-
+            **Optional**: Defaults to: https://auth.deflux.org/verify-payment.
+            Should redirect to the callback url after verifying the payment.
+    CreateFiatDepositResponse:
+      type: object
+      properties:
+        paymentId:
+          type: string
+          description: The unique identifier for this payment authorisation.
+        authorisationUrl:
+          type: string
+          description: >-
+            The authorisation URL that redirects the user to their bank's login
+            screen.
+    CreateTransferRequest:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique request identifier for idempotency.
+        sourceAccountId:
+          type: string
+          description: The account we want to transfer from.
+        targetAccountId:
+          type: string
+          description: The account we want to transfer to.
+        tokenId:
+          type: string
+          description: The id of the token of this transaction.
+        amount:
+          type: string
+          description: Transaction amount.
+        reference:
+          type: string
+          description: The reference for this payment.
+    CreateTransferResponse:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          description: The id of the transaction that was created..
+    CreateWithdrawalRequest:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique request identifier for idempotency.
+        accountId:
+          type: string
+          description: The account we want to withdrawal into.
+        tokenId:
+          type: string
+          description: The id of the token of this transaction.
+        amount:
+          type: string
+          description: Transaction amount.
+        toAddress:
+          type: string
+          description: The address to take funds from.
+        toVenueId:
+          type: string
+          description: The venue to send the funds to.
+        reference:
+          type: string
+          description: The reference for this payment.
+    CreateWithdrawalResponse:
+      type: object
+      properties:
+        transactionId:
+          type: string
+          description: The id of the transaction that was created..
+    Customer:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Globally unique identifier of this Account. Output Only.
+        clientId:
+          type: string
+          description: Optional client supplied id that can be used for retrievel.
+        status:
+          enum:
+            - CUSTOMER_STATUS_UNKNOWN
+            - CUSTOMER_STATUS_ACTIVE
+            - CUSTOMER_STATUS_INACTIVE
+          type: string
+          description: The status of this customer.
+          format: enum
+        firstName:
+          type: string
+          description: The name of the customer.
+        lastName:
+          type: string
+          description: The name of the customer.
+        creationTimestamp:
+          type: string
+          description: Timestamp this aggregate account was created.
+          format: date-time
+    DrBankAccount:
+      type: object
+      properties:
+        id:
+          type: string
+          description: '**Required**: The unique identifier of this bank account.'
+        bankId:
+          type: string
+          description: '**Required**: The identifier for the bank initiating the transfer.'
+    EvmAccount:
+      type: object
+      properties:
+        chain:
+          enum:
+            - ETHEREUM
+            - OPTIMISM
+            - BSC
+            - POLYGON
+            - FANTOM
+            - ROLLUX
+            - BASE
+            - ARBITRUM
+            - AVALANCHE
+            - ETHEREUM_SEPOLIA
+            - BASE_SEPOLIA
+            - ARBITRUM_SEPOLIA
+            - OPTIMISM_SEPOLIA
+          type: string
+          description: >-
+            **Required**: The blockchain network on which the account will be
+            created.
+          format: enum
+        address:
+          type: string
+          description: >-
+            **Optional**: A valid Externally Owned Account (EOA) address to
+            associate with this account. The address must match the pattern
+            `^0x[a-f0-9]{40}$`. If ommitted, a new `Managed EOA` account will be
+            generated with its address returned in the response, and its private
+            key will be managed by DeFlux. If provided, a new `EOA` account will
+            be linked to an existing address. In this case, you are responsible
+            for managing the private key.
+      description: '**Required**: The EVM accounts to create or link.'
+    GoogleProtobufAny:
+      type: object
+      properties:
+        '@type':
+          type: string
+          description: The type of the serialized message.
+      additionalProperties: true
+      description: >-
+        Contains an arbitrary serialized message along with a @type that
+        describes the type of the serialized message.
+    ListAccountsResponse:
+      type: object
+      properties:
+        accounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/Account'
+    ListAggregateAccountsResponse:
+      type: object
+      properties:
+        aggregateAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/AggregateAccount'
+    ListBankAccountsResponse:
+      type: object
+      properties:
+        bankAccounts:
+          type: array
+          items:
+            $ref: '#/components/schemas/BankAccount'
+    ListBanksResponse:
+      type: object
+      properties:
+        banks:
+          type: array
+          items:
+            $ref: '#/components/schemas/Bank'
+    ListCustomersResponse:
+      type: object
+      properties:
+        customers:
+          type: array
+          items:
+            $ref: '#/components/schemas/Customer'
+    ListPaymentsResponse:
+      type: object
+      properties:
+        payments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Payment'
+    Payment:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Globally unique identifier of this Payment. Output Only.
+        accountId:
+          type: string
+          description: ID of the account this payment is on.
+        venueId:
+          type: string
+          description: ID of the venue this payment is on.
+        tokenId:
+          type: string
+          description: ID of the venue this payment is on.
+        type:
+          enum:
+            - PAYMENT_TYPE_UNKNOWN
+            - PAYMENT_TYPE_DEPOSIT
+            - PAYMENT_TYPE_WITHDRAWAL
+          type: string
+          description: The type of the payment.
+          format: enum
+        status:
+          enum:
+            - PAYMENT_STATUS_UNKNOWN
+            - PAYMENT_STATUS_PROCESSING
+            - PAYMENT_STATUS_COMPLETED
+            - PAYMENT_STATUS_FAILED
+          type: string
+          description: The status of the payment.
+          format: enum
+        amount:
+          type: string
+          description: The amount paymented
+        creationTimestamp:
+          type: integer
+          description: The creation timestamp of this payment
+          format: int64
+        reference:
+          type: string
+          description: Description of this payment.
+    ResolveAccountsResponse:
+      type: object
+      properties:
+        accountIdToAccountInfo:
+          type: object
+          additionalProperties:
+            $ref: '#/components/schemas/AccountInfo'
+          description: The resolved account intormationx.
+        productIdToInternalAccountId:
+          type: object
+          additionalProperties:
+            type: string
+          description: The mapping of product id to internal account id.
+    Status:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: >-
+            The status code, which should be an enum value of
+            [google.rpc.Code][google.rpc.Code].
+          format: int32
+        message:
+          type: string
+          description: >-
+            A developer-facing error message, which should be in English. Any
+            user-facing error message should be localized and sent in the
+            [google.rpc.Status.details][google.rpc.Status.details] field, or
+            localized by the client.
+        details:
+          type: array
+          items:
+            $ref: '#/components/schemas/GoogleProtobufAny'
+          description: >-
+            A list of messages that carry the error details.  There is a common
+            set of message types for APIs to use.
+      description: >-
+        The `Status` type defines a logical error model that is suitable for
+        different programming environments, including REST APIs and RPC APIs. It
+        is used by [gRPC](https://github.com/grpc). Each `Status` message
+        contains three pieces of data: error code, error message, and error
+        details. You can find out more about this error model and how to work
+        with it in the [API Design
+        Guide](https://cloud.google.com/apis/design/errors).
+    TokenBalance:
+      type: object
+      properties:
+        symbol:
+          type: string
+          description: The symbol of this token. For example ETH, or WAVAX.
+        balance:
+          type: string
+          description: The real balance of this token held within the account.
+        effectiveBalance:
+          type: string
+          description: >-
+            Balance of this token held within the account accounting for
+            unsettled transfers.
+        snapshotTimestamp:
+          type: integer
+          description: Timestamp of the last time the balance was snapshotted.
+          format: uint64
+      description: Represents a token traded on some venue.
+    VerifyFiatPaymentRequest:
+      type: object
+      properties:
+        paymentId:
+          type: string
+        consentToken:
+          type: string
+    VerifyFiatPaymentResponse:
+      type: object
+      properties: {}
+tags:
+  - name: Accounts
+  - name: Enterprise
+    description: >-
+      The Enterprise endpoints are used to manage resources belonging to your
+      Organisation.
+       
+       Resources:
+       - **Customer**: A customer of your organisation. Also known as a Payment Service User (PSU). A natural or legal person making use of a payment service as a payee, payer or both.
+  - name: EvmPayments
+    description: >-
+      Evm Payments endpoints are for initiating deposits, withdrawals and
+      transfers for on-chain accounts and smart contracts.
+  - name: FiatPayments

@@ -1,0 +1,34 @@
+<svg width="359" height="359" viewBox="0 0 359 359" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_163_1304)">
+<rect x="0.124878" y="179.125" width="253.321" height="253.321" rx="126.66" transform="rotate(-45 0.124878 179.125)" fill="#080316"/>
+<g filter="url(#filter0_f_163_1304)">
+<ellipse cx="161.606" cy="161.481" rx="117.034" ry="112.854" transform="rotate(-45 161.606 161.481)" fill="#1730AD"/>
+</g>
+<g filter="url(#filter1_f_163_1304)">
+<ellipse cx="134.74" cy="163.722" rx="109.111" ry="84.1394" transform="rotate(-60.1661 134.74 163.722)" fill="#626CB5"/>
+</g>
+<g filter="url(#filter2_f_163_1304)">
+<ellipse cx="83.5007" cy="164.221" rx="100.007" ry="71.509" transform="rotate(-45 83.5007 164.221)" fill="#FCF695"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_163_1304" x="-3.35742" y="-3.48242" width="329.927" height="329.927" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_163_1304"/>
+</filter>
+<filter id="filter1_f_163_1304" x="-6.22607" y="10.2031" width="281.932" height="307.038" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_163_1304"/>
+</filter>
+<filter id="filter2_f_163_1304" x="-53.4396" y="27.281" width="273.881" height="273.881" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_163_1304"/>
+</filter>
+<clipPath id="clip0_163_1304">
+<rect x="0.124878" y="179.125" width="253.321" height="253.321" rx="126.66" transform="rotate(-45 0.124878 179.125)" fill="white"/>
+</clipPath>
+</defs>
+</svg>

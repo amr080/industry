@@ -1,9 +1,12 @@
 {
-  "name": "xft-industry",
+  "name": "xft-cyber",
   "version": "1.0.0",
-  "description": "XFT Industry Directory",
+  "description": "XFT INDUSTRY STRESS TESTING",
   "main": "index.html",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js && node sitemap-builder.js"
+  },
+  "dependencies": {
+    "sitemap": "^8.0.0"
   }
 }
