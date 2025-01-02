@@ -15,6 +15,12 @@
         "type": "directory",
         "name": "blindpay",
         "children": []
+      },
+      {
+        "path": "/api_specs/deflux/",
+        "type": "directory",
+        "name": "deflux",
+        "children": []
       }
     ]
   },
@@ -1819,6 +1825,12 @@
             "children": []
           }
         ]
+      },
+      {
+        "path": "/archive/chatgpt/",
+        "type": "directory",
+        "name": "chatgpt",
+        "children": []
       },
       {
         "path": "/archive/robinhood/",
@@ -4979,18 +4991,6 @@
     ]
   },
   {
-    "path": "/chatgpt/",
-    "type": "directory",
-    "name": "chatgpt",
-    "children": []
-  },
-  {
-    "path": "/crawls/",
-    "type": "directory",
-    "name": "crawls",
-    "children": []
-  },
-  {
     "path": "/dakota.xyz/",
     "type": "directory",
     "name": "dakota.xyz",
@@ -5037,6 +5037,113 @@
                 "children": []
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/developers.bankfrick.li/",
+    "type": "directory",
+    "name": "developers.bankfrick.li",
+    "children": [
+      {
+        "path": "/developers.bankfrick.li/api_docs/",
+        "type": "directory",
+        "name": "api_docs",
+        "children": [
+          {
+            "path": "/developers.bankfrick.li/api_docs/fonts/",
+            "type": "directory",
+            "name": "fonts",
+            "children": []
+          },
+          {
+            "path": "/developers.bankfrick.li/api_docs/images/",
+            "type": "directory",
+            "name": "images",
+            "children": [
+              {
+                "path": "/developers.bankfrick.li/api_docs/images/documentation/",
+                "type": "directory",
+                "name": "documentation",
+                "children": []
+              },
+              {
+                "path": "/developers.bankfrick.li/api_docs/images/favicons/",
+                "type": "directory",
+                "name": "favicons",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/developers.bankfrick.li/api_docs/javascripts/",
+            "type": "directory",
+            "name": "javascripts",
+            "children": []
+          },
+          {
+            "path": "/developers.bankfrick.li/api_docs/stylesheets/",
+            "type": "directory",
+            "name": "stylesheets",
+            "children": []
+          }
+        ]
+      },
+      {
+        "path": "/developers.bankfrick.li/assets/",
+        "type": "directory",
+        "name": "assets",
+        "children": [
+          {
+            "path": "/developers.bankfrick.li/assets/css/",
+            "type": "directory",
+            "name": "css",
+            "children": []
+          },
+          {
+            "path": "/developers.bankfrick.li/assets/fonts/",
+            "type": "directory",
+            "name": "fonts",
+            "children": []
+          },
+          {
+            "path": "/developers.bankfrick.li/assets/img/",
+            "type": "directory",
+            "name": "img",
+            "children": [
+              {
+                "path": "/developers.bankfrick.li/assets/img/bg/",
+                "type": "directory",
+                "name": "bg",
+                "children": []
+              },
+              {
+                "path": "/developers.bankfrick.li/assets/img/favicons/",
+                "type": "directory",
+                "name": "favicons",
+                "children": []
+              },
+              {
+                "path": "/developers.bankfrick.li/assets/img/icons/",
+                "type": "directory",
+                "name": "icons",
+                "children": []
+              },
+              {
+                "path": "/developers.bankfrick.li/assets/img/logo/",
+                "type": "directory",
+                "name": "logo",
+                "children": []
+              }
+            ]
+          },
+          {
+            "path": "/developers.bankfrick.li/assets/js/",
+            "type": "directory",
+            "name": "js",
+            "children": []
           }
         ]
       }
@@ -5450,6 +5557,12 @@
         ]
       }
     ]
+  },
+  {
+    "path": "/public/",
+    "type": "directory",
+    "name": "public",
+    "children": []
   },
   {
     "path": "/public.com/",
@@ -6338,6 +6451,78 @@
             "children": []
           }
         ]
+      }
+    ]
+  },
+  {
+    "path": "/www.stvol.io/",
+    "type": "directory",
+    "name": "www.stvol.io",
+    "children": [
+      {
+        "path": "/www.stvol.io/_next/",
+        "type": "directory",
+        "name": "_next",
+        "children": [
+          {
+            "path": "/www.stvol.io/_next/static/",
+            "type": "directory",
+            "name": "static",
+            "children": [
+              {
+                "path": "/www.stvol.io/_next/static/chunks/",
+                "type": "directory",
+                "name": "chunks",
+                "children": [
+                  {
+                    "path": "/www.stvol.io/_next/static/chunks/app/",
+                    "type": "directory",
+                    "name": "app",
+                    "children": [
+                      {
+                        "path": "/www.stvol.io/_next/static/chunks/app/dashboard/",
+                        "type": "directory",
+                        "name": "dashboard",
+                        "children": []
+                      },
+                      {
+                        "path": "/www.stvol.io/_next/static/chunks/app/hourly/",
+                        "type": "directory",
+                        "name": "hourly",
+                        "children": [
+                          {
+                            "path": "/www.stvol.io/_next/static/chunks/app/hourly/lite/",
+                            "type": "directory",
+                            "name": "lite",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "path": "/www.stvol.io/_next/static/css/",
+                "type": "directory",
+                "name": "css",
+                "children": []
+              },
+              {
+                "path": "/www.stvol.io/_next/static/media/",
+                "type": "directory",
+                "name": "media",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "path": "/www.stvol.io/hourly/",
+        "type": "directory",
+        "name": "hourly",
+        "children": []
       }
     ]
   }
