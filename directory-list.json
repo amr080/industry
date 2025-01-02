@@ -6,6 +6,19 @@
     "children": []
   },
   {
+    "path": "/api_specs/",
+    "type": "directory",
+    "name": "api_specs",
+    "children": [
+      {
+        "path": "/api_specs/blindpay/",
+        "type": "directory",
+        "name": "blindpay",
+        "children": []
+      }
+    ]
+  },
+  {
     "path": "/apidocs.bridge.xyz/",
     "type": "directory",
     "name": "apidocs.bridge.xyz",
