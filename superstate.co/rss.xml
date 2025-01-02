@@ -1,0 +1,106 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+			<channel>
+				<title>Superstate</title>
+				<description>Superstate is modernizing investing through tokenized financial products</description>
+				<link>https://superstate.co/</link>
+				<atom:link href="https://superstate.co//rss.xml" rel="self" type="application/rss+xml"/>
+				
+						<item>
+							<title>Introducing Protocol Mint and Redeem for USTB</title>
+							<description>Protocol Mint and Redeem are composable functions on Ethereum, built for developers.</description>
+							<link>https://superstate.co//introducing-protocol-mint-and-redeem</link>
+							<guid isPermaLink="true">https://superstate.co//introducing-protocol-mint-and-redeem</guid>
+							<pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Introducing Continuous Pricing, Offering 24/7/365 Fund Management</title>
+							<description>Superstate’s USTB fund now offers continuous pricing, providing 24/7/365 interest accrual and immediate NAV updates, setting a new standard for digital finance.</description>
+							<link>https://superstate.co//introducing-continuous-pricing</link>
+							<guid isPermaLink="true">https://superstate.co//introducing-continuous-pricing</guid>
+							<pubDate>Thu, 31 Oct 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Superstate Industry Council Welcomes Second Cohort of Leading Institutions</title>
+							<description>Superstate introduces the second cohort of Superstate Industry Council (SIC), a collective of top traditional and digital asset institutions committed to shaping Superstate’s product roadmap and advancing the adoption of tokenization within financial capital markets.</description>
+							<link>https://superstate.co//superstate-industry-council-welcomes-second-cohort</link>
+							<guid isPermaLink="true">https://superstate.co//superstate-industry-council-welcomes-second-cohort</guid>
+							<pubDate>Tue, 20 Aug 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Introducing the Superstate Crypto Carry Fund (USCC)</title>
+							<description>Superstate introduces USCC, a private, tokenized fund designed to provide institutional investors compliant and convenient exposure to the crypto basis trade.</description>
+							<link>https://superstate.co//introducing-superstate-crypto-carry-fund-uscc</link>
+							<guid isPermaLink="true">https://superstate.co//introducing-superstate-crypto-carry-fund-uscc</guid>
+							<pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Mapping the Blockchains Driving Asset Tokenization</title>
+							<description>In Chapter 3 of the Book on Tokenization, we learn more about the blockchains where tokenization projects are developing their solutions.</description>
+							<link>https://superstate.co//mapping-blockchains-driving-asset-tokenization</link>
+							<guid isPermaLink="true">https://superstate.co//mapping-blockchains-driving-asset-tokenization</guid>
+							<pubDate>Wed, 26 Jun 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>RWA Summit 2024: Tokenization Insights, Innovations, and Future Considerations Take Center Stage
+</title>
+							<description>The RWA Summit in Austin, TX was a pinnacle event showcasing industry leaders sharing their insights, experiences, and visions for the future of asset tokenization.</description>
+							<link>https://superstate.co//rwa-summit-consensus-2024-recap</link>
+							<guid isPermaLink="true">https://superstate.co//rwa-summit-consensus-2024-recap</guid>
+							<pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Mapping the Leading Jurisdictions for Tokenization of Assets Today</title>
+							<description>Exploring the jurisdictions driving global asset tokenization and the key factors enabling adoption.</description>
+							<link>https://superstate.co//mapping-leading-jurisdictions-for-asset-tokenization-today</link>
+							<guid isPermaLink="true">https://superstate.co//mapping-leading-jurisdictions-for-asset-tokenization-today</guid>
+							<pubDate>Tue, 21 May 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>USTB now Enabled for Peer-to-Peer Transfers</title>
+							<description>Superstate has enabled the USTB token contract to allow for onchain, peer-to-peer transfers of USTB.</description>
+							<link>https://superstate.co//ustb-now-enabled-for-peer-to-peer-transfers</link>
+							<guid isPermaLink="true">https://superstate.co//ustb-now-enabled-for-peer-to-peer-transfers</guid>
+							<pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>How Tokenization Upgrades the Utility of $650T in Traditional Assets</title>
+							<description>Superstate looks at what assets can be tokenized and the advantages of blockchain tokenization of real-world assets.</description>
+							<link>https://superstate.co//how-tokenization-upgrades-utility-of-$650t-in-traditional-assets</link>
+							<guid isPermaLink="true">https://superstate.co//how-tokenization-upgrades-utility-of-$650t-in-traditional-assets</guid>
+							<pubDate>Wed, 17 Apr 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Introducing the Superstate Industry Council (SIC)</title>
+							<description>Superstate introduces the Superstate Industry Council (SIC), a collective of top traditional and digital asset investment institutions committed to shaping Superstate’s product roadmap and advancing the adoption of tokenization within traditional financial services and capital markets.</description>
+							<link>https://superstate.co//Introducing-Superstate-Industry-Council-sic</link>
+							<guid isPermaLink="true">https://superstate.co//Introducing-Superstate-Industry-Council-sic</guid>
+							<pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Introducing the Superstate Short Duration U.S. Government Securities Fund (USTB)</title>
+							<description>Superstate reveals its first tokenized fund, Superstate Short Duration U.S. Government Securities Fund (USTB).</description>
+							<link>https://superstate.co//introducing-superstate-short-duration-us-government-securities-fund-ustb</link>
+							<guid isPermaLink="true">https://superstate.co//introducing-superstate-short-duration-us-government-securities-fund-ustb</guid>
+							<pubDate>Thu, 01 Feb 2024 00:00:00 GMT</pubDate>
+						</item>
+					
+						<item>
+							<title>Superstate Announces $14m Series A Financing to Develop Tokenized Funds</title>
+							<description>Superstate has secured $14 million in Series A financing to develop regulated tokenized funds, bridging traditional finance with blockchain technology.</description>
+							<link>https://superstate.co//superstate-announces-series-a-financing</link>
+							<guid isPermaLink="true">https://superstate.co//superstate-announces-series-a-financing</guid>
+							<pubDate>Wed, 15 Nov 2023 00:00:00 GMT</pubDate>
+						</item>
+					
+			</channel>
+		</rss>
